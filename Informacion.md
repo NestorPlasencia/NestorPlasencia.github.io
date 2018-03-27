@@ -102,14 +102,25 @@ Organizacion que ofrece conocimientos y habilidades en Tecnologías de Informaci
 
 Etiquetas
 
-- Videotutorial
-- Aplicación
-- aplicación móvil
-- Tutorial
-- Dashboard
-- Proyecto
-- Articulo
-- Landing
+- Videotutorial    	youtube
+- Aplicación 		codepen
+- Aplicación móvil  android
+- Tutorial 			code  
+- dashboard 		chart-line
+- Proyecto 			steam-symbol
+- Articulo			book
+- Landing			rocket
+- Repositorio		github
+
+js
+css3-alt
+html5
+node-js
+react
+vuejs
+
+jquery
+mongo-db
 
 #### Frontend
 
@@ -118,8 +129,12 @@ Etiquetas
 - Single Page App con Vue.JS (Aplicación)
 - Maquetacion de un blog con Materialize (Landing)
 - Animación con Canvas de HTML5 (Tutorial y Aplicación) 
+
 - Animación de Star Wars con CSS3 y JavaScript (Tutorial y Aplicación) 
+
 - Background animado de copos de nieve JavaScript (Tutorial y Aplicación)
+
+
 - Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 - Efectos Fantasmales con jQuery (Tutorial y Aplicación)
 - Filtros de Instagram con CSS (Tutorial y Aplicación)
