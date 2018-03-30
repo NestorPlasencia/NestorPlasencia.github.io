@@ -125,7 +125,7 @@
 			"locacion" : "Trujillo - Perú"
 		},
 		{
-			"empresa": "Cisco Networking Academy \"El Porvenir\"",
+			"empresa": "Cisco Networking Academy <br> \"El Porvenir\"",
 			"url" : "https://www.netacad.com/es/",
 			"img" : "cisco.png",
 			"cargo" : "Instructor de curso \"Get Connected\"",
@@ -160,7 +160,8 @@
 				}
 			],
 			"img" : "pikachu.gif",
-			"gif" : "pikachu.png",
+			"gif" : "pikachu.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/11/21"
 		},
 		{
@@ -183,6 +184,7 @@
 			],
 			"img" : "starwars.gif",
 			"gif" : "starwars.png",
+			"categoria" : "frontend",
 			"fecha" : "2016/12/13"
 		},
 		{
@@ -204,7 +206,8 @@
 				}
 			],
 			"img" : "copos.gif",
-			"gif" : "copos.png",
+			"gif" : "copos.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/12/02"
 		},
 		{
@@ -226,7 +229,8 @@
 				}
 			],
 			"img" : "cubo3d.gif",
-			"gif" : "cubo3d.png",
+			"gif" : "cubo3d.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/11/09"
 		},
 		{
@@ -248,7 +252,8 @@
 				}
 			],
 			"img" : "corazones.gif",
-			"gif" : "corazones.png",
+			"gif" : "corazones.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2017/02/08"
 		},
 		{
@@ -270,7 +275,8 @@
 				}
 			],
 			"img" : "xilofono.gif",
-			"gif" : "xilofono.png",
+			"gif" : "xilofono.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/12/24"
 		}
 	],
@@ -360,7 +366,7 @@
 				},
 				{
 					"nombre" : "PHP",
-					"img" : "PHP.png" ,
+					"img" : "php.png" ,
 					"nivel" : 2
 				}
 			]

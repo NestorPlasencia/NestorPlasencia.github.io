@@ -30,6 +30,16 @@
 					</a>
 				</li>
 				<li class="bold">
+					<a href="#projects" class="waves-effect waves-dark indigo-text">
+						<i class="fa fa-columns"></i><span>Portafolio</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#skills" class="waves-effect waves-dark purple-text">
+						<i class="fa fa-code"></i><span>Habilidades</span>
+					</a>
+				</li>
+				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark orange-text">
 						<i class="fa fa-graduation-cap"></i><span>Educación</span>
 					</a>
@@ -42,16 +52,6 @@
 				<li class="bold">
 					<a href="#actvities" class="waves-effect waves-dark lime-text ">
 						<i class="fa fa-users"></i><span>Actividades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark indigo-text">
-						<i class="fa fa-columns"></i><span>Portafolio</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark purple-text">
-						<i class="fa fa-code"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
@@ -83,6 +83,16 @@
 					</a>
 				</li>
 				<li class="bold">
+					<a href="#projects" class="waves-effect waves-dark lime-text">
+						<i class="fa fa-columns icon-menu-sm" ></i><span>Portafolio</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#skills" class="waves-effect waves-dark purple-text">
+						<i class="fa fa-code icon-menu-sm" ></i><span>Habilidades</span>
+					</a>
+				</li>
+				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark orange-text">
 						<i class="fa fa-graduation-cap icon-menu-sm" ></i><span>Educación</span>
 					</a>
@@ -95,16 +105,6 @@
 				<li class="bold">
 					<a href="#actvities" class="waves-effect waves-dark cyan-text ">
 						<i class="fa fa-users icon-menu-sm" ></i><span>Actividades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark lime-text">
-						<i class="fa fa-columns icon-menu-sm" ></i><span>Portafolio</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark purple-text">
-						<i class="fa fa-code icon-menu-sm" ></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
@@ -133,6 +133,89 @@
 						<h2>{{info.sobremi_titulo}}</h2>
 					</blockquote>
 					{{info.sobremi_descripcion|safe}}
+				</div>
+			</section>
+			<section id="projects" class="section scrollspy">
+				<h3 class="page-title white-text teal page-title-projects">Portafolio</h3>
+				<div class="nav-content filter-des">
+			      <ul class="tabs tabs-transparent ">
+			        <li class="tab"><a class="active" href="" onclick="changecategory(this)" >Todos</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">Frontend</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">Backend</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">Mobile</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">Robotica</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">IoT</a></li>
+			        <li class="tab"><a href="" onclick="changecategory(this)">Diseño</i></a></li>
+			      </ul>
+			    </div>
+				<div id="items" class="container">
+					 <div class="input-field">
+						<input id="search" type="search" onkeyup="buscar(this)" required>
+			        	<label class="label-icon blue-text darken-2 " for="search"><i class="fa fa-search"></i></label>
+					 </div>
+					<div class="flex list">						
+						{% for item in info.portafolio %}
+						<div class="card medium" data-cat="{{item.categoria}}" data-id="{{ loop.index }}" data-title="{{item.original}}">
+							<div class="card-image waves-effect waves-block waves-light">
+								<a href="{{item.link}}" target="_blank">
+									<img alt="" src="img/{{item.img}}" class="item_img activator">	
+									<img alt="" src="img/{{item.gif}}" class="desaparece item_gif activator">
+								</a>									
+							</div>
+							<div class="card-content">
+								<span class="card-title activator teal-text hoverline item_title">
+									<span>{{item.nombre|safe}}</span>
+									<i class="fa fa-chevron-circle-up right"></i>
+								</span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title blue-text text-darken-4">Descripción<i class="fa fa-chevron-circle-down right"></i></span>
+								<p class="descripcion">{{item.descripcion}}</p>
+								<div>
+									{% for tag in item.etiquetas %}	
+									<i class="{{tag}} tag"></i>
+									{% endfor %}
+								</div>
+								<div class="card-action">
+									{% for ext in item.externos %}	
+									<a href="{{ext.link}}" target="_blank" data-position="top" class="btn-floating blue darken-2 ">
+										<i class="{{ext.icon}}"></i>
+									</a>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+					<div class="vermas center">
+						<a data-position="top" class="btn-floating blue darken-2" onclick="vermas()">
+							<i class="fa fa-chevron-down "></i>
+						</a>						
+					</div>
+					<div class="vermenos center no_display">
+						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
+							<i class="fa fa-chevron-up "></i>
+						</a>						
+					</div>
+				</div>
+			</section>
+			<section id="skills" class="section scrollspy">
+				<h3 class="page-title white-text teal">Habilidades</h3>
+				<div class="container">
+					{% for habilidades in info.habilidades %}
+					<div class="card">
+						<div class="card-content">
+							<h4 class="blue-text text-darken-4 liht">{{habilidades.categoria}}</h4>
+							<div class="skill-group ">
+								{% for elm in habilidades.elementos %}
+								<div class="img-skill-content progreso progreso-{{elm.nivel}}">
+									<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+					{% endfor %}
 				</div>
 			</section>
 			<section id="education" class="section scrollspy">
@@ -226,64 +309,6 @@
 					{% endfor %}
 				</div>
 			</section>
-			<section id="projects" class="section scrollspy">
-				<h3 class="page-title white-text teal">Portafolio</h3>
-				<div class="container">
-					<div class="row flex">						
-						{% for item in info.portafolio %}
-						<div class="card medium">
-							<div class="card-image waves-effect waves-block waves-light">
-								<a href="{{item.link}}" target="_blank">
-									<img alt="" src="img/{{item.img}}" class="item_img activator">	
-									<img alt="" src="img/{{item.gif}}" class="desaparece item_gif activator">
-								</a>									
-							</div>
-							<div class="card-content">
-								<span class="card-title activator teal-text hoverline item_title">
-									<span>{{item.nombre|safe}}</span>
-									<i class="fa fa-chevron-circle-up right"></i>
-								</span>
-							</div>
-							<div class="card-reveal">
-								<span class="card-title blue-text text-darken-4">Descripción<i class="fa fa-chevron-circle-down right"></i></span>
-								<p>{{item.descripcion}}</p>
-								<div>
-									{% for tag in item.etiquetas %}	
-									<i class="{{tag}} tag"></i>
-									{% endfor %}
-								</div>
-								<div class="card-action">
-									{% for ext in item.externos %}	
-									<a href="{{ext.link}}" target="_blank" data-position="top" class="btn-floating blue darken-2 ">
-										<i class="{{ext.icon}}"></i>
-									</a>
-									{% endfor %}
-								</div>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-			</section>
-			<section id="skills" class="section scrollspy">
-				<h3 class="page-title white-text teal">Habilidades</h3>
-				<div class="container">
-					{% for habilidades in info.habilidades %}
-					<div class="card">
-						<div class="card-content">
-							<h4 class="blue-text text-darken-4 liht">{{habilidades.categoria}}</h4>
-							<div class="row skill-group ">
-								{% for elm in habilidades.elementos %}
-								<div class="img-skill-content progreso progreso-{{elm.nivel}}">
-									<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
-								</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-					{% endfor %}
-				</div>
-			</section>
 			<section id="contact" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Contacto</h3>
 				<div class="container">
@@ -302,6 +327,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Materialize-->
 		<script src="js/materialize.js"></script>
+		<!-- List.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 		 <script>
 			$(document).ready(function(){
 				$('.scrollspy').scrollSpy();
@@ -315,12 +342,117 @@
 		</script>
 		<script>
 			$(document).ready(function() {
-    			$('.desaparece').hover(function(){
-        			$(this).animate({opacity:0});
-    			},function(){
-        			$(this).animate({opacity:1});
-    			});
+    			function imghover() {
+	    			$('.desaparece').hover(function(){
+	        			$(this).animate({opacity:0});
+	    			},function(){
+	        			$(this).animate({opacity:1});
+	    			});
+    			}
+    			imghover() 
 			});
+		</script>
+		<script type="text/javascript">
+			
+			var contador = 0;
+			var limite_iinicial = 3
+			var limite = limite_iinicial;
+			var categoria_activa = "todos";
+
+			var options = {
+			 	valueNames: [
+					'card-title',
+					'descripcion', 
+					{ data: ['cat'] },
+					{ data: ['title'] },
+					{ data: ['id'] }
+				]
+			};
+			var userList = new List('items', options);
+			todos();
+
+			function imghover() {
+	    		$('.desaparece').hover(function(){
+	        		$(this).animate({opacity:0});
+	    		},function(){
+	        		$(this).animate({opacity:1});
+	    		});
+    		}
+    		
+
+			function changecategory(evt){
+				categoria_activa = evt.text.toLowerCase();
+				filtrado()
+			}
+
+			function vermas() {
+				limite = 99999;
+				$('.vermas').addClass('no_display')
+				$('.vermenos').removeClass('no_display')
+				filtrado()
+				imghover() 
+			}
+			function vermenos() {
+				limite = limite_iinicial;
+				$('.vermenos').addClass('no_display')
+				$('.vermas').removeClass('no_display')
+				filtrado()
+			}
+
+
+			function filtrado() {
+				if(categoria_activa == 'todos'){
+					todos();
+				}else {
+					contador = 0;
+					userList.filter();
+					userList.filter(function(item) {
+						if (item.values().cat == categoria_activa && contador < limite) {
+							contador++
+							return true;
+						} else {
+							return false;
+						}
+					});
+				}
+			}
+
+			function todos() {
+				contador = 0;
+				userList.filter();
+				userList.filter(function(item) {
+					if (contador < limite) {
+						contador++
+						return true;
+					} else {
+						return false;
+					}
+				}); 
+			}
+
+			function buscar(evt) {
+				let value = document.getElementById("search").value.toString().toLowerCase();
+				console.log(value)
+				contador = 0;
+				userList.filter();
+				userList.filter(function(item) {
+					let title = item.values().title.toString().toLowerCase()
+					let cat = item.values().cat.toString().toLowerCase()
+					let des = item.values().descripcion.toString().toLowerCase()
+					//console.log(item.values())
+					if (contador < limite) {
+						if( cat.includes(value) || title.includes(value) || des.includes(value)) {
+							contador++
+							return true;
+						}else{
+							return false
+						}						
+					} else {
+						return false;
+					}
+				});
+			}
+
 		</script>
 	</body>
 </html>

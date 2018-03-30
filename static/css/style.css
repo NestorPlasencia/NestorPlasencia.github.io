@@ -232,8 +232,9 @@ a.hoverline:hover {
 }
 #skills h4 {
 	border-bottom: 1px solid #ddd;
-	margin-bottom: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	font-size: 20px;
 }
 #skills .col img.responsive-img {
 	margin: 0 auto;
@@ -516,6 +517,7 @@ small { display: none;}
 	height: 40px;
 	border: 10px solid #7a98ab;
 	border-radius: 50%;
+	transform: rotate(-45deg);
 }
 
 .progreso-1::after {
@@ -555,4 +557,39 @@ small { display: none;}
 	align-items: center;
 	justify-content: space-between;
 
+}
+
+input[type=search]:focus, textarea:focus.materialize-textarea {
+    border-bottom: 1px solid #2980b9;
+    box-shadow: 0 1px 0 0 #2980b9;
+}
+
+.tabs li.tab a {
+	color: #2980b9;
+}
+
+.tabs li.tab a:hover {
+    color: #12679e;
+}
+
+.tabs .indicator {
+    background-color: #12679e;
+}
+
+.tabs-transparent,.tabs-transparent li{
+	background-color: transparent !important;
+}
+
+.page-title-projects {
+	margin-bottom: 0;
+}
+
+.no_display {
+	display: none !important;
+}
+
+@media (max-width: 992px) {
+	.filter-des {
+		display: none;
+	}
 }
