@@ -164,6 +164,86 @@
   color: #1a237e !important;
 }
 
+.blue {
+  background-color: #2196F3 !important;
+}
+
+.blue-text {
+  color: #2196F3 !important;
+}
+
+.blue.darken-1 {
+  background-color: #1E88E5 !important;
+}
+
+.blue-text.text-darken-1 {
+  color: #1E88E5 !important;
+}
+
+.blue.darken-2 {
+  background-color: #1976D2 !important;
+}
+
+.blue-text.text-darken-2 {
+  color: #1976D2 !important;
+}
+
+.blue.darken-3 {
+  background-color: #1565C0 !important;
+}
+
+.blue-text.text-darken-3 {
+  color: #1565C0 !important;
+}
+
+.blue.darken-4 {
+  background-color: #0D47A1 !important;
+}
+
+.blue-text.text-darken-4 {
+  color: #0D47A1 !important;
+}
+
+.light-blue {
+  background-color: #03a9f4 !important;
+}
+
+.light-blue-text {
+  color: #03a9f4 !important;
+}
+
+.light-blue.darken-1 {
+  background-color: #039be5 !important;
+}
+
+.light-blue-text.text-darken-1 {
+  color: #039be5 !important;
+}
+
+.light-blue.darken-2 {
+  background-color: #0288d1 !important;
+}
+
+.light-blue-text.text-darken-2 {
+  color: #0288d1 !important;
+}
+
+.light-blue.darken-3 {
+  background-color: #0277bd !important;
+}
+
+.light-blue-text.text-darken-3 {
+  color: #0277bd !important;
+}
+
+.light-blue.darken-4 {
+  background-color: #01579b !important;
+}
+
+.light-blue-text.text-darken-4 {
+  color: #01579b !important;
+}
+
 .cyan {
   background-color: #00bcd4 !important;
 }
@@ -324,44 +404,44 @@
   color: #e65100 !important;
 }
 
-.brown {
-  background-color: #795548 !important;
+.blue-grey {
+  background-color: #607d8b !important;
 }
 
-.brown-text {
-  color: #795548 !important;
+.blue-grey-text {
+  color: #607d8b !important;
 }
 
-.brown.darken-1 {
-  background-color: #6d4c41 !important;
+.blue-grey.darken-1 {
+  background-color: #546e7a !important;
 }
 
-.brown-text.text-darken-1 {
-  color: #6d4c41 !important;
+.blue-grey-text.text-darken-1 {
+  color: #546e7a !important;
 }
 
-.brown.darken-2 {
-  background-color: #5d4037 !important;
+.blue-grey.darken-2 {
+  background-color: #455a64 !important;
 }
 
-.brown-text.text-darken-2 {
-  color: #5d4037 !important;
+.blue-grey-text.text-darken-2 {
+  color: #455a64 !important;
 }
 
-.brown.darken-3 {
-  background-color: #4e342e !important;
+.blue-grey.darken-3 {
+  background-color: #37474f !important;
 }
 
-.brown-text.text-darken-3 {
-  color: #4e342e !important;
+.blue-grey-text.text-darken-3 {
+  color: #37474f !important;
 }
 
-.brown.darken-4 {
-  background-color: #3e2723 !important;
+.blue-grey.darken-4 {
+  background-color: #263238 !important;
 }
 
-.brown-text.text-darken-4 {
-  color: #3e2723 !important;
+.blue-grey-text.text-darken-4 {
+  color: #263238 !important;
 }
 
 .grey {
@@ -490,6 +570,13 @@ main,menu,nav,section {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
+canvas {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
@@ -534,7 +621,7 @@ a:active,a:hover {
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 
-b,strong {
+b {
   font-weight: bold;
 }
 
@@ -1190,68 +1277,6 @@ table {
   }
 }
 
-@media only screen and (min-width : 993px) {
-  .row .col.l1 {
-    width: 8.33333%;
-    margin-left: 0;
-  }
-
-  .row .col.l2 {
-    width: 16.66667%;
-    margin-left: 0;
-  }
-
-  .row .col.l3 {
-    width: 25%;
-    margin-left: 0;
-  }
-
-  .row .col.l4 {
-    width: 33.33333%;
-    margin-left: 0;
-  }
-
-  .row .col.l5 {
-    width: 41.66667%;
-    margin-left: 0;
-  }
-
-  .row .col.l6 {
-    width: 50%;
-    margin-left: 0;
-  }
-
-  .row .col.l7 {
-    width: 58.33333%;
-    margin-left: 0;
-  }
-
-  .row .col.l8 {
-    width: 66.66667%;
-    margin-left: 0;
-  }
-
-  .row .col.l9 {
-    width: 75%;
-    margin-left: 0;
-  }
-
-  .row .col.l10 {
-    width: 83.33333%;
-    margin-left: 0;
-  }
-
-  .row .col.l11 {
-    width: 91.66667%;
-    margin-left: 0;
-  }
-
-  .row .col.l12 {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
 nav {
   color: #fff;
   background-color: #ee6e73;
@@ -1334,7 +1359,7 @@ nav ul li {
   padding: 0px;
 }
 
-nav ul li:hover {
+nav ul li:hover,nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -1477,268 +1502,8 @@ em {
   font-style: italic;
 }
 
-strong {
-  font-weight: 500;
-}
-
 .light {
   font-weight: 300;
-}
-
-.flow-text {
-  font-weight: 300;
-}
-
-@media only screen and (min-width: 360px) {
-  .flow-text {
-    font-size: 1.2rem;
-  }
-}
-
-@media only screen and (min-width: 0px) {
-  .flow-text {
-    line-height: 0.8rem;
-  }
-}
-
-@media only screen and (min-width: 390px) {
-  .flow-text {
-    font-size: 1.224rem;
-  }
-}
-
-@media only screen and (min-width: 30px) {
-  .flow-text {
-    line-height: 0.904rem;
-  }
-}
-
-@media only screen and (min-width: 420px) {
-  .flow-text {
-    font-size: 1.248rem;
-  }
-}
-
-@media only screen and (min-width: 60px) {
-  .flow-text {
-    line-height: 1.008rem;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  .flow-text {
-    font-size: 1.272rem;
-  }
-}
-
-@media only screen and (min-width: 90px) {
-  .flow-text {
-    line-height: 1.112rem;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .flow-text {
-    font-size: 1.296rem;
-  }
-}
-
-@media only screen and (min-width: 120px) {
-  .flow-text {
-    line-height: 1.216rem;
-  }
-}
-
-@media only screen and (min-width: 510px) {
-  .flow-text {
-    font-size: 1.32rem;
-  }
-}
-
-@media only screen and (min-width: 150px) {
-  .flow-text {
-    line-height: 1.32rem;
-  }
-}
-
-@media only screen and (min-width: 540px) {
-  .flow-text {
-    font-size: 1.344rem;
-  }
-}
-
-@media only screen and (min-width: 180px) {
-  .flow-text {
-    line-height: 1.424rem;
-  }
-}
-
-@media only screen and (min-width: 570px) {
-  .flow-text {
-    font-size: 1.368rem;
-  }
-}
-
-@media only screen and (min-width: 210px) {
-  .flow-text {
-    line-height: 1.528rem;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .flow-text {
-    font-size: 1.392rem;
-  }
-}
-
-@media only screen and (min-width: 240px) {
-  .flow-text {
-    line-height: 1.632rem;
-  }
-}
-
-@media only screen and (min-width: 630px) {
-  .flow-text {
-    font-size: 1.416rem;
-  }
-}
-
-@media only screen and (min-width: 270px) {
-  .flow-text {
-    line-height: 1.736rem;
-  }
-}
-
-@media only screen and (min-width: 660px) {
-  .flow-text {
-    font-size: 1.44rem;
-  }
-}
-
-@media only screen and (min-width: 300px) {
-  .flow-text {
-    line-height: 1.84rem;
-  }
-}
-
-@media only screen and (min-width: 690px) {
-  .flow-text {
-    font-size: 1.464rem;
-  }
-}
-
-@media only screen and (min-width: 330px) {
-  .flow-text {
-    line-height: 1.944rem;
-  }
-}
-
-@media only screen and (min-width: 720px) {
-  .flow-text {
-    font-size: 1.488rem;
-  }
-}
-
-@media only screen and (min-width: 360px) {
-  .flow-text {
-    line-height: 2.048rem;
-  }
-}
-
-@media only screen and (min-width: 750px) {
-  .flow-text {
-    font-size: 1.512rem;
-  }
-}
-
-@media only screen and (min-width: 390px) {
-  .flow-text {
-    line-height: 2.152rem;
-  }
-}
-
-@media only screen and (min-width: 780px) {
-  .flow-text {
-    font-size: 1.536rem;
-  }
-}
-
-@media only screen and (min-width: 420px) {
-  .flow-text {
-    line-height: 2.256rem;
-  }
-}
-
-@media only screen and (min-width: 810px) {
-  .flow-text {
-    font-size: 1.56rem;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  .flow-text {
-    line-height: 2.36rem;
-  }
-}
-
-@media only screen and (min-width: 840px) {
-  .flow-text {
-    font-size: 1.584rem;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .flow-text {
-    line-height: 2.464rem;
-  }
-}
-
-@media only screen and (min-width: 870px) {
-  .flow-text {
-    font-size: 1.608rem;
-  }
-}
-
-@media only screen and (min-width: 510px) {
-  .flow-text {
-    line-height: 2.568rem;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .flow-text {
-    font-size: 1.632rem;
-  }
-}
-
-@media only screen and (min-width: 540px) {
-  .flow-text {
-    line-height: 2.672rem;
-  }
-}
-
-@media only screen and (min-width: 930px) {
-  .flow-text {
-    font-size: 1.656rem;
-  }
-}
-
-@media only screen and (min-width: 570px) {
-  .flow-text {
-    line-height: 2.776rem;
-  }
-}
-
-@media only screen and (min-width: 960px) {
-  .flow-text {
-    font-size: 1.68rem;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .flow-text {
-    line-height: 2.88rem;
-  }
 }
 
 .card {
@@ -2374,6 +2139,12 @@ ul.table-of-contents a:hover {
   border-left: 1px solid #ea4a4f;
 }
 
+ul.table-of-contents a.active {
+  font-weight: 500;
+  padding-left: 18px;
+  border-left: 2px solid #ea4a4f;
+}
+
 ul.side-nav {
   position: fixed;
   width: 240px;
@@ -2393,7 +2164,7 @@ ul.side-nav li {
   padding: 0 15px;
 }
 
-ul.side-nav li:hover {
+ul.side-nav li:hover,ul.side-nav li.active {
   background-color: #ddd;
 }
 
@@ -2832,3 +2603,144 @@ ul.side-nav.fixed {
     opacity: 0;
   }
 }
+
+/* ==========================================================================
+   $BASE-PICKER
+   ========================================================================== */
+
+/**
+ * Note: the root picker element should *NOT* be styled more than what's here.
+ */
+
+/**
+ * The picker input element.
+ */
+
+/**
+ * When the picker is opened, the input element is "activated".
+ */
+
+/**
+ * The holder is the only "scrollable" top-level container element.
+ */
+
+/*!
+ * Default mobile-first, responsive styling for pickadate.js
+ * Demo: http://amsul.github.io/pickadate.js
+ */
+
+/**
+ * Note: the root picker element should *NOT* be styled more than what's here.
+ */
+
+/**
+ * Make the holder and frame fullscreen.
+ */
+
+/**
+ * The holder should overlay the entire screen.
+ */
+
+/**
+ * The frame that bounds the box contents of the picker.
+ */
+
+/**
+ * The wrapper sets the stage to vertically align the box contents.
+ */
+
+/**
+ * The box contains all the picker contents.
+ */
+
+/**
+ * When the picker opens...
+ */
+
+/**
+ * For `large` screens, transform into an inline picker.
+ */
+
+/* ==========================================================================
+   CUSTOM MATERIALIZE STYLES
+   ========================================================================== */
+
+/* ==========================================================================
+   $BASE-DATE-PICKER
+   ========================================================================== */
+
+/**
+ * The picker box.
+ */
+
+/**
+ * The header containing the month and year stuff.
+ */
+
+/**
+ * The month and year labels.
+ */
+
+/**
+ * The month and year selectors.
+ */
+
+/**
+ * The month navigation buttons.
+ */
+
+/**
+ * The calendar table of dates
+ */
+
+/**
+ * The weekday labels
+ */
+
+/**
+ * The days on the calendar
+ */
+
+/**
+ * The footer containing the "today", "clear", and "close" buttons.
+ */
+
+/* ==========================================================================
+   CUSTOM MATERIALIZE STYLES
+   ========================================================================== */
+
+/* ==========================================================================
+   $BASE-TIME-PICKER
+   ========================================================================== */
+
+/**
+ * The list of times.
+ */
+
+/**
+ * The times on the clock.
+ */
+
+/* Hovered time */
+
+/* Highlighted and hovered/focused time */
+
+/* Selected and hovered/focused time */
+
+/* Disabled time */
+
+/**
+ * The clear button
+ */
+
+/* ==========================================================================
+   $DEFAULT-TIME-PICKER
+   ========================================================================== */
+
+/**
+ * The frame the bounds the time picker.
+ */
+
+/**
+ * The picker box.
+ */

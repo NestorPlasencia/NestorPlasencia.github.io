@@ -536,7 +536,7 @@ small { display: none;}
 
 .skill-group {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 } 
 
