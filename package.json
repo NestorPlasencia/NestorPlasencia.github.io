@@ -1,0 +1,33 @@
+{
+  "name": "portafolio",
+  "version": "0.1.1",
+  "description": "Portafolio Nestor Plasencia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NestorPlasencia/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "nestor",
+    "plasencia",
+    "frontend",
+    "web",
+    "backend",
+    "fullstack",
+    "javascript"
+  ],
+  "author": "Nestor Plasencia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NestorPlasencia/portfolio/issues"
+  },
+  "homepage": "https://github.com/NestorPlasencia/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "swig": "^1.4.2"
+  }
+}

@@ -1,0 +1,516 @@
+{
+	"nombre" : "Nestor Plasencia",
+	"etiqueta" : "Desarrollador de tecnología",
+	"img" : "perfil.png",
+	"titulo" : "I <span class=\"teal-red\">❤</span> <span class=\"underline\">Technology</span>",
+	"sobremi_titulo" : "Apasionado por la tecnología y la educación.",
+	"sobremi_descripcion" : "<p> Desde muy pequeño me apasiono el mundo de la computación y la tecnología. Estudie Ingeniería Mecatrónica en la Universidad Nacional de Ingeniería, allí descubrí la programación y quede encantado con esta disciplina. Al terminar la carrera, decidí especializarme en esta rama, especialmente en el desarrollo web.</p><p>Otra actividad que disfruto, es la robótica educativa, he dictado diversos talleres que involucran diseño, fabricación y programación de robots.</p><p>Siempre estoy en búsqueda de nuevos conocimientos y herramientas, que me permitan desarrollar productos tecnológicos que ayuden a mejorar la vida de las personas.</p>",
+	"educacion" : [
+		{
+			"universidad": "Universidad Nacional de Ingeniería",
+			"url" : "http://www.uni.edu.pe/",
+			"img" : "uni.png",
+			"grado" : "Bachiller",
+			"carrera" :  "Ingeniería Mecatrónica",
+			"fecha_inicio" : "2011-03",
+			"fecha_fin" : "2015-12",
+			"locacion" : "Lima - Perú"
+		}
+	],
+	"experiencia" : [
+		{
+			"empresa": "CloudWater",
+			"url" : "http://cloudwaterperu.com/",
+			"img" : "cloudwater.png",
+			"cargo" : "CTO / Co-founder",
+			"descripcion" : "Servicio compuesto por Hardware y Software que permite la medición del agua, monitoreo de la red de distribución y el análisis de información.",
+			"funciones" : [
+				"Director de tecnología, arquitectura a nivel hardware y software del proyecto.", 	
+				"Desarrollo y dirección del producto.",
+				"Desarrollo de las capas de adquisición, comunicación y visualización en las capas del Internet de las cosas (IoT).",
+				"Desarrollo frontend del dashboard para la presentación de datos (React JS)."
+			],
+			"logros" : [
+				"Liderar equipo multidisciplinario para concretar una solución tecnología a la problemática del agua en un fin de semana."
+			],
+			"fecha_inicio" : "2017/12/01",
+			"fecha_fin" : "Actualidad",
+			"locacion" : "Lima - Perú"
+		},
+		{
+			"empresa": "DevCode.la",
+			"url" : "https://devcode.la/",
+			"img" : "devcode.jpg",
+			"cargo" : "Desarrollador JavaScript FullStack / Soporte académico ",
+			"descripcion" : "Devcode.la es una plataforma de e-learning que brinda cursos de desarrollo web y mobile como HTML, CSS, Django, Android, entre otros, a países de habla hispana.",
+			"funciones" : [
+				"Desarrollo y mantenimiento de plataforma web de la empresa en stack Javascipt.",
+				"Creación de contenido (tutoriales y videoturiales) para apoyar el aprendizaje.",
+				"Guía a los usuarios en el proceso de aprendizaje.",
+				"Diseño y grabación del curso digital de Fundamentos de Programación en Arduino."
+			],
+			"logros" : [
+				"Satisfacción de usuarios y apertura de la tecnología de hardware en cursos online."
+			],
+			"fecha_inicio" : "2016/06/01",
+			"fecha_fin" : "2017/06/01",
+			"locacion" : "Trujillo - Perú"
+		},
+		{
+			"empresa": "GestionShop",
+			"url" : "https://gestionshop.co/",
+			"img" : "gestionshop.jpg",
+			"cargo" : "Desarrollador JavaScript FullStack",
+			"descripcion" : "La más moderna tecnología de administración centralizada para Almacenes de Compraventa con Pacto de Retroventa fundamentada en la seguridad, conectividad y usabilidad.",
+			"funciones" : [
+				"Desarrollo frontend con React JS en ERP de gestión de compra-venta.",
+				"Desarrollo móvil con React Native, en creación de aplicación móvil."
+			],
+			"logros" : [
+				"Diseñar una aplicación móvil en corto tiempo reutilizando funcionalidades de ReactJS en React Native."
+			],
+			"fecha_inicio" : "2017/01/01",
+			"fecha_fin" : "2017/05/01",
+			"locacion" : "Cartagena - Colombia (remoto)"
+		},
+		{
+			"empresa": "Roboticist",
+			"url" : "https://www.facebook.com/roboticistsite/",
+			"img" : "roboticist.jpg",
+			"cargo" : "Programador Arduino",
+			"descripcion" : "La más moderna tecnología de administración centralizada para Almacenes de Compraventa con Pacto de Retroventa fundamentada en la seguridad, conectividad y usabilidad.",
+			"funciones" : [
+				"Realizar mejoras al diseño mecánico, electrónico, y de software de programación de un robot bípedo.",
+				"Realizar talleres de introducción a la robótica, electrónica y programación con un robot bípedo (RoBi)."
+			],
+			"logros" : [
+				"Incorporar la programación por bloques de Scratch 2.0 con la plataforma Arduino del microcontrolador del robot."
+			],
+			"fecha_inicio" : "2015/12/01",
+			"fecha_fin" : "2016/04/01",
+			"locacion" : "Lima - Perú"
+		},
+		{
+			"empresa": "CTIC UNI",
+			"url" : "http://www.ctic.uni.edu.pe",
+			"img" : "ctic.jpg",
+			"cargo" : "Programador Matlab",
+			"descripcion" : "La más moderna tecnología de administración centralizada para Almacenes de Compraventa con Pacto de Retroventa fundamentada en la seguridad, conectividad y usabilidad.",
+			"funciones" : [
+				"Diseñar el algoritmo de cinemática inversa para el robot de 6 GDL y su implementación en el software Matlab.", 
+				"Crear una librería grafica en Matlab (Graphic Lenguage) para la simulación del robot manipulador."
+			],
+			"logros" : [
+				"Mejorar el HMI (Human Machine Interface) haciéndola mucho más agradable y sincronizada con el prototipo."
+			],
+			"fecha_inicio" : "2014/01/01",
+			"fecha_fin" : "2014/03/01",
+			"locacion" : "Lima - Perú"
+		}
+	],
+	"comunidades" : [
+		{
+			"empresa": "HackSpace Trujillo",
+			"url" : "https://trujillo.hackspace.la/",
+			"img" : "hackspace.png",
+			"cargo" : "Coach en Electrónica y Backend",
+			"descripcion" : "La más moderna tecnología de administración centralizada para Almacenes de Compraventa con Pacto de Retroventa fundamentada en la seguridad, conectividad y usabilidad.",
+			"funciones" : [
+				"Agrupación para generar un entorno de creación de tecnología basados en el trabajo en comunidad y auto-aprendizaje.",
+				"Organizar y calendarizar retos de selección de participantes.",
+				"Guía en el aprendizaje autodidacta de múltiples habilidades tecnológicas."
+			],
+			"fecha_inicio" : "2017/06/01",
+			"fecha_fin" : "Actualidad",
+			"locacion" : "Trujillo - Perú"
+		},
+		{
+			"empresa": "Cisco Networking Academy \"El Porvenir\"",
+			"url" : "https://www.netacad.com/es/",
+			"img" : "cisco.png",
+			"cargo" : "Instructor de curso \"Get Connected\"",
+			"descripcion" : "Organizacion que ofrece conocimientos y habilidades en Tecnologías de Información y Comunicación (TICs) para jóvenes del 4 al quinto año de secundaria.",
+			"funciones" : [
+				"Organizar y calendarizar curso \"Get connected\".",
+				"Crear contenido para cursos.",
+				"Instructor de curso dictado a jóvenes de 3°, 4° y 5° de secundaria."
+			],
+			"fecha_inicio" : "2017/08/01",
+			"fecha_fin" : "2017/12/01",
+			"locacion" : "Trujillo - Perú"
+		}
+	],
+	"portafolio" : [
+		{
+			"original" : "Animación de Star Wars con CSS3 y JavaScript ",
+			"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+			"nombre" : "Animación de <br> Star Wars",
+			"descripcion" : "Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3.",
+			"etiquetas" : ["fab fa-html5","fab fa-css3-alt","fab fa-js"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-de-star-wars-con-css3/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "starwars.gif",
+			"gif" : "starwars.png",
+			"fecha" : "2016/12/13"
+		},
+		{
+			"original" : "Background animado de copos de nieve JavaScript",
+			"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+			"nombre" : "Copos de nieve",
+			"descripcion" : "Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.",
+			"etiquetas" : ["fab fa-js"],
+						"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "copos.gif",
+			"gif" : "copos.png",
+			"fecha" : "2016/12/02"
+		},
+		{
+			"original" : "Crear un Cubo 3D con CSS CSS3",
+			"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+			"nombre" : "Cubo 3D",
+			"descripcion" : "Cubo 3D usando las propiedades rotate y translate de CSS3.",
+			"etiquetas" : ["fab fa-css3-alt"],
+						"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crear-un-cubo-3d-con-css/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "cubo3d.gif",
+			"gif" : "cubo3d.png",
+			"fecha" : "2016/11/09"
+		},
+		{
+			"original" : "Corazones animados con JavaScript",
+			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+			"nombre" : "Pinchar corazones",
+			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "corazones.gif",
+			"gif" : "corazones.png",
+			"fecha" : "2017/02/08"
+		}
+	],
+	"habilidades" : [
+		{
+			"categoria" : "Arquitectura Frontend",
+			"elementos" : [
+				{
+					"nombre" : "HTML5",
+					"img" : "html5.png",
+					"nivel" : 3
+				},
+				{
+					"nombre" : "CSS3",
+					"img" : "css3.png",
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Bootstrap 4",
+					"img" : "bootstrap.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Sass",
+					"img" : "sass.png" ,
+					"nivel" : 1
+				},
+				{
+					"nombre" : "Less",
+					"img" : "less.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Materialize",
+					"img" : "materialize.png" ,
+					"nivel" : 3
+				}
+			]
+		},
+		{
+			"categoria" : "JavaScript",
+			"elementos" : [
+				{
+					"nombre" : "JavaScript",
+					"img" : "javascript.png",
+					"nivel" : 3
+				},
+				{
+					"nombre" : "ES6",
+					"img" : "es6.png",
+					"nivel" : 2
+				},
+				{
+					"nombre" : "jQuery",
+					"img" : "jquery.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "React",
+					"img" : "react.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Vue",
+					"img" : "vue.jpg" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "React Native",
+					"img" : "react.png" ,
+					"nivel" : 2
+				}
+			]
+		},
+		{
+			"categoria" : "Backend",
+			"elementos" : [
+				{
+					"nombre" : "Django",
+					"img" : "django.png",
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Node JS",
+					"img" : "nodejs.png",
+					"nivel" : 3
+				},
+				{
+					"nombre" : "PHP",
+					"img" : "PHP.png" ,
+					"nivel" : 2
+				}
+			]
+		},
+		{
+			"categoria" : "Electrónica y Robótica",
+			"elementos" : [
+				{
+					"nombre" : "Arduino ",
+					"img" : "arduino.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Matlab ",
+					"img" : "matlab.jpg" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Pic ",
+					"img" : "pic.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "LabVIEW ",
+					"img" : "labview.jpg" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Scratch ",
+					"img" : "scratch.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Rasphberry PI ",
+					"img" : "raspberrypi.png" ,
+					"nivel" : 1
+				}
+			]
+		},
+		{
+			"categoria" : "Otros Lenguajes",
+			"elementos" : [    
+				{
+					"nombre" : "Python",
+					"img" : "python.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Java",
+					"img" : "java.jpg" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "C++",
+					"img" : "c++.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Kotlin",
+					"img" : "kotlin.jpg" ,
+					"nivel" : 1
+				}
+			]
+		},
+		{
+			"categoria" : "Herramientas",
+			"elementos" : [    
+				{
+					"nombre" : "Git ",
+					"img" : "git.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Github",
+					"img" : "github.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Bitbucket",
+					"img" : "bitbucket.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Heroku",
+					"img" : "heroku.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Webpack",
+					"img" : "webpack.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Trello",
+					"img" : "trello.jpg" ,
+					"nivel" : 3
+				}
+			]	
+		},
+		{
+			"categoria" : "CMS",
+			"elementos" : [    
+				{
+					"nombre" : "WordPress",
+					"img" : "wordpress.png" ,
+					"nivel" : 3
+				}
+			]			
+		},
+		{
+			"categoria" : "Bases de datos",
+			"elementos" : [    
+				{
+					"nombre" : "MySQL",
+					"img" : "mysql.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "MongoDB",
+					"img" : "mongodb.png" ,
+					"nivel" : 3
+				}
+			]			
+		},
+		{
+			"categoria" : "Diseño",
+			"elementos" : [    
+				{
+					"nombre" : "Illustrator",
+					"img" : "illustrator.png" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "Photoshop",
+					"img" : "photoshop.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Audition",
+					"img" : "audition.png" ,
+					"nivel" : 2
+				},
+				{
+					"nombre" : "Corel Draw",
+					"img" : "coreldraw.png" ,
+					"nivel" : 3
+				}
+			]			
+		},
+		{
+			"categoria" : "Diseño 3D / CAD",
+			"elementos" : [    
+				{
+					"nombre" : "SolidWorks",
+					"img" : "solidworks.jpg" ,
+					"nivel" : 3
+				},
+				{
+					"nombre" : "AutoCAD",
+					"img" : "autocad.jpg" ,
+					"nivel" : 1
+				},
+				{
+					"nombre" : "Inventor",
+					"img" : "inventor.png" ,
+					"nivel" : 2
+				}
+			]			
+		}
+	],
+	"contacto" : [
+		{
+			"red" : "mail",
+			"link" : "mailto:nplasencia82@gmail.com",
+			"icon" : "fa fa-envelope",
+			"etiqueta" : "nplasencia82@gmail.com"
+		},	
+		{
+			"red" : "github",
+			"link" : "http://github.com/NestorPlasencia",
+			"icon" : "fab fa-github",
+			"etiqueta" : "github.com/NestorPlasencia"
+		},	
+		{
+			"red" : "linkedin",
+			"link" : "https://www.linkedin.com/in/nestor-plasencia-prado/",
+			"icon" : "fab fa-linkedin",
+			"etiqueta" : "linkedin.com/in/nestor-plasencia-prado"
+		},
+		{
+			"red" : "dina",
+			"link" : "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34044",
+			"icon" : "fas fa-dna",
+			"etiqueta" : "dina.concytec.gob.pe/nestor-plasencia-prado"
+		}
+	]
+}

@@ -31,7 +31,8 @@ nav i {
 	top: 5px;
 }
 main {
-	background: url(../../static/img/bg.png) repeat;
+	background: url(../../static/img/bg.png),url(/img/bg.png); 
+	background-repeat: repeat;
 	padding-left: 250px;
 }
 ul.side-nav {
@@ -107,7 +108,10 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../../static/img/nestorplasencia.jpg) no-repeat top center/cover;
+	background-image:	url(../../static/img/nestorplasencia.jpg),url(/img/nestorplasencia.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
 	position: relative;
 }
 #intro.section .container {
@@ -498,4 +502,54 @@ small { display: none;}
 
 	align-items: center;
 	justify-content: space-between;
+}
+
+.progreso::after {
+	position: relative;
+	bottom: 65px;
+	right: -45px;
+	content: "";
+ 	width: 40px;
+	height: 40px;
+	border: 10px solid #7a98ab;
+	border-radius: 50%;
+}
+
+.progreso-1::after {
+	border-right: 10px solid #002e76;
+}
+.progreso-2::after {
+	border-right:  10px solid #002e76;
+	border-bottom: 10px solid #002e76;
+}
+.progreso-3::after {
+	border-right: 10px solid #002e76;
+	border-bottom: 10px solid #002e76;
+	border-left: 10px solid #002e76;
+}
+.progreso-4::after {
+	border-right: 10px solid #002e76;
+	border-bottom: 10px solid #002e76;
+	border-left: 10px solid #002e76;
+	border-top: 10px solid #002e76;
+}
+
+.skill-group {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+} 
+
+.img-skill {
+	max-width: 100px;
+	max-height: 100px;
+	margin: 0.5rem 1rem;
+}
+
+.img-skill-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
 }

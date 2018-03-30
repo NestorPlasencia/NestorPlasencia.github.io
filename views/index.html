@@ -1,0 +1,326 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-16">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Materialize Purify -->
+		 <link rel="stylesheet" href="css/materialize.css">
+		<!-- Custom Styles -->		
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+		<title>{{info.nombre}} |{{info.etiqueta}} </title>
+		<!-- Open Graph-->
+		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
+	</head>
+	<body>
+		<nav>
+			<ul class="side-nav fixed section table-of-contents">
+				<li class="logo">
+					<a  id="logo-container" href="#intro" class="brand-logo teal-text">
+						<img alt="" src="img/{{info.img}}" class="responsive-img center-block">
+						<h1> {{info.nombre}}
+							<span class="blue-text text-darken-4 light">{{info.etiqueta}}</span>
+						</h1>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#about" class="waves-effect waves-dark teal-text">
+						<i class="fa fa-user"></i><span>Sobre mi</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#education" class="waves-effect waves-dark orange-text">
+						<i class="fa fa-graduation-cap"></i><span>Educación</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#experience" class="waves-effect waves-dark cyan-text ">
+						<i class="fa fa-building"></i><span>Experiencia</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#actvities" class="waves-effect waves-dark lime-text ">
+						<i class="fa fa-users"></i><span>Actividades</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#projects" class="waves-effect waves-dark indigo-text">
+						<i class="fa fa-columns"></i><span>Portafolio</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#skills" class="waves-effect waves-dark purple-text">
+						<i class="fa fa-code"></i><span>Habilidades</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#contact" class="waves-effect waves-dark blue-text text-darken-4">
+						<i class="fa fa-envelope"></i><span>Contacto</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#" class="waves-effect waves-dark grey-text text-darken-4">
+						<i class="fa fa-file"></i><span>CV</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="hide-on-large only trigger z-depth-1">
+			<a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div class="name-title">
+				<a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">{{info.nombre}}</a>
+				<span class="blue-text text-darken-4 light">{{info.etiqueta}}</span>
+			</div>
+		</nav>
+		<nav class="hide-on-large only">
+			<ul id="slide-out" class="side-nav side-nav-sm" >
+				<li class="bold">
+					<a href="#about" class="waves-effect waves-dark teal-text">
+						<i class="fa fa-user icon-menu-sm" ></i><span>Sobre mi</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#education" class="waves-effect waves-dark orange-text">
+						<i class="fa fa-graduation-cap icon-menu-sm" ></i><span>Educación</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#experience" class="waves-effect waves-dark cyan-text ">
+						<i class="fa fa-building icon-menu-sm" ></i><span>Experiencia</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#actvities" class="waves-effect waves-dark cyan-text ">
+						<i class="fa fa-users icon-menu-sm" ></i><span>Actividades</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#projects" class="waves-effect waves-dark lime-text">
+						<i class="fa fa-columns icon-menu-sm" ></i><span>Portafolio</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#skills" class="waves-effect waves-dark purple-text">
+						<i class="fa fa-code icon-menu-sm" ></i><span>Habilidades</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#contact" class="waves-effect waves-dark blue-text text-darken-4">
+						<i class="fa fa-envelope icon-menu-sm" ></i><span>Contacto</span>
+					</a>
+				</li>
+				<li class="bold">
+					<a href="#" class="waves-effect waves-dark grey-text text-darken-4">
+						<i class="fa fa-file icon-menu-sm" ></i><span>CV</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<section id="intro" class="section scrollspy full-height">
+				<div class="overlay"></div>
+				<div class="container">
+					<h2>{{info.titulo|safe}}</h2>
+				</div>
+			</section>
+			<section id="about" class="section scrollspy">
+				<h3 class="page-title white-text teal">Sobre mi</h3>
+				<div class="container about-text">
+					<blockquote>
+						<h2>{{info.sobremi_titulo}}</h2>
+					</blockquote>
+					{{info.sobremi_descripcion|safe}}
+				</div>
+			</section>
+			<section id="education" class="section scrollspy">
+				<h3 class="page-title white-text teal">Educación</h3>
+				<div class="container">
+					<div class="row">
+						{% for educacion in info.educacion %}
+						<div class="col s12 m6">
+							<div class="card">
+								<div class="card-content">
+									<a href="{{educacion.url}}" target="_blank"><img alt="" src="img/{{educacion.img}}" class="responsive-img center-block"></a>	
+
+									<p><span class="card-title"><a href="{{educacion.url}}" class="teal-text hoverline">{{educacion.universidad}}</a></span></p>
+									<p class="blue-text text-darken-4">
+										{{educacion.locacion}} | {{educacion.fecha_inicio|date('Y')}} - {{educacion.fecha_fin|date('Y')}}</p>
+									<ul>
+										<li>{{educacion.grado}} en {{educacion.carrera}}</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>			
+			<section id="experience" class="section scrollspy">
+				<h3 class="page-title white-text teal">Experiencia</h3>
+				<div class="container">
+					{% for exp in info.experiencia %}
+					<div class="card">
+						<div class="card-content">
+							<div class="row">
+								<div class="col s12 m2"><a href="{{exp.url}}" target="_blank"><img alt="" src="img/{{exp.img}}" class="responsive-img center-block"></a></div>
+								<div class="col s12 m10">
+									<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline">{{exp.empresa}}</a></span></p>
+								</div>
+							</div>
+							<div class="role blue-text text-darken-4">{{exp.cargo}}</div>
+							<p><em class="grey-text">{{exp.descripcion}}.</em></p>
+							<ul>
+								{% for func in exp.funciones %}
+								<li>{{ func }}</li>
+								{% endfor %}
+							</ul>
+							<h6>Logros</h6>
+							<ul>
+								{% for logro in exp.logros %}
+								<li>{{logro}}</li>
+								{% endfor %}
+							</ul>
+						</div>
+						<div class="card-action"><span>
+							{{exp.fecha_inicio|date('F Y')}} - 
+							{% if exp.fecha_fin == "Actualidad" %}
+ 								{{ "Actualidad" }}
+							{% else %}		
+  								{{exp.fecha_fin|date('F Y')}}
+							{% endif %} |  {{exp.locacion}}</span></div>
+					</div>
+					{% endfor %}
+				</div>
+			</section>
+			<section id="actvities" class="section scrollspy">
+				<h3 class="page-title white-text teal">Comunidades</h3>
+				<div class="container">				
+					{% for com in info.comunidades %}
+					<div class="card">
+						<div class="card-content">
+							<div class="row">
+								<div class="col s12 m2"><a href="{{com.url}}" target="_blank"><img alt="" src="img/{{com.img}}" class="responsive-img center-block"></a></div>
+								<div class="col s12 m10">
+									<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline">{{com.empresa}}</a></span></p>
+								</div>
+							</div>
+							<div class="role blue-text text-darken-4">{{com.cargo}}</div>
+							<p><em class="grey-text">{{com.descripcion}}.</em></p>
+							<ul>
+								{% for func in com.funciones %}
+								<li>{{ func }}</li>
+								{% endfor %}
+							</ul>
+						</div>
+						<div class="card-action"><span>
+							{{com.fecha_inicio|date('F Y')}} - 
+							{% if com.fecha_fin == "Actualidad" %}
+ 								{{ "Actualidad" }}
+							{% else %}		
+  								{{com.fecha_fin|date('F Y')}}
+							{% endif %} |  {{com.locacion}}</span></div>
+					</div>
+					{% endfor %}
+				</div>
+			</section>
+			<section id="projects" class="section scrollspy">
+				<h3 class="page-title white-text teal">Portafolio</h3>
+				<div class="container">
+					<div class="row flex">						
+						{% for item in info.portafolio %}
+						<div class="card medium">
+							<div class="card-image waves-effect waves-block waves-light">
+								<a href="{{item.link}}" target="_blank">
+									<img alt="" src="img/{{item.img}}" class="item_img activator">	
+									<img alt="" src="img/{{item.gif}}" class="desaparece item_gif activator">
+								</a>									
+							</div>
+							<div class="card-content">
+								<span class="card-title activator teal-text hoverline item_title">
+									<span>{{item.nombre|safe}}</span>
+									<i class="fa fa-chevron-circle-up right"></i>
+								</span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title blue-text text-darken-4">Descripción<i class="fa fa-chevron-circle-down right"></i></span>
+								<p>{{item.descripcion}}</p>
+								<div>
+									{% for tag in item.etiquetas %}	
+									<i class="{{tag}} tag"></i>
+									{% endfor %}
+								</div>
+								<div class="card-action">
+									{% for ext in item.externos %}	
+									<a href="{{ext.link}}" target="_blank" data-position="top" class="btn-floating blue darken-2 ">
+										<i class="{{ext.icon}}"></i>
+									</a>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			<section id="skills" class="section scrollspy">
+				<h3 class="page-title white-text teal">Habilidades</h3>
+				<div class="container">
+					{% for habilidades in info.habilidades %}
+					<div class="card">
+						<div class="card-content">
+							<h4 class="blue-text text-darken-4 liht">{{habilidades.categoria}}</h4>
+							<div class="row skill-group ">
+								{% for elm in habilidades.elementos %}
+								<div class="img-skill-content progreso progreso-{{elm.nivel}}">
+									<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</section>
+			<section id="contact" class="section scrollspy full-height">
+				<h3 class="page-title white-text teal">Contacto</h3>
+				<div class="container">
+					{% for red in info.contacto %}
+					<p>
+						<a href="{{red.link}}" data-position="top"  class="btn-floating btn-large waves-effect waves-light blue darken-2 ">
+							<i class="{{red.icon}}"></i>
+						</a>
+						<a href="{{red.link}}" class="hoverline">{{red.etiqueta}}</a>
+					</p>
+					{% endfor %}
+				</div>
+			</section>
+		</main>
+		<!-- jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Materialize-->
+		<script src="js/materialize.js"></script>
+		 <script>
+			$(document).ready(function(){
+				$('.scrollspy').scrollSpy();
+				$(".button-collapse").sideNav({
+						menuWidth: 190, 
+						edge: 'left', 
+						closeOnClick: true 
+					}
+				);
+			});
+		</script>
+		<script>
+			$(document).ready(function() {
+    			$('.desaparece').hover(function(){
+        			$(this).animate({opacity:0});
+    			},function(){
+        			$(this).animate({opacity:1});
+    			});
+			});
+		</script>
+	</body>
+</html>
