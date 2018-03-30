@@ -381,6 +381,9 @@ small { display: none;}
     right: initial;
     top: initial;
 	}
+	.item_gif {
+		display: none;
+	}
 }
 @media (max-width: 600px) {
 	h2 {
