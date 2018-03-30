@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-		<title>{{info.nombre}} |{{info.etiqueta}} </title>
+		<title>{{info.nombre}} | {{info.etiqueta}} </title>
 		<!-- Open Graph-->
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
 	</head>
@@ -289,10 +289,10 @@
 				<div class="container">
 					{% for red in info.contacto %}
 					<p>
-						<a href="{{red.link}}" data-position="top"  class="btn-floating btn-large waves-effect waves-light blue darken-2 ">
+						<a href="{{red.link}}"  target="_blank" data-position="top"  class="btn-floating btn-large waves-effect waves-light blue darken-2 ">
 							<i class="{{red.icon}}"></i>
 						</a>
-						<a href="{{red.link}}" class="hoverline">{{red.etiqueta}}</a>
+						<a href="{{red.link}}"  target="_blank" class="hoverline">{{red.etiqueta}}</a>
 					</p>
 					{% endfor %}
 				</div>

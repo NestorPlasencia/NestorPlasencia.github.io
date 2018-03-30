@@ -205,7 +205,28 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 
 
 - Corazones animados con JavaScript (Tutorial y Aplicación)
-
+		{
+			"original" : "Corazones animados con JavaScript",
+			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+			"nombre" : "Pinchar corazones",
+			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "corazones.gif",
+			"gif" : "corazones.png",
+			"fecha" : "2017/02/08"
+		}
 
 - Dashboard GestionShop (Dashboard) 
 - Dashboard CloudWater (Dashboard)
@@ -232,7 +253,53 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 - ¿Qué es y por qué aprender EcmaScript? (Articulo)
 - Eventos KeyDown y KeyUp (Videotutorial)
 - Rompecabezas con JS, CSS3 y HTML5 (Videotutorial)
+
+		{
+			"original" : "Rompecabezas con JS, CSS3 y HTML5",
+			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+			"nombre" : "Rompecabezas",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "pikachu.gif",
+			"gif" : "pikachu.png",
+			"fecha" : "2016/11/21"
+		}
+
 - Crear un xilófono musical con JavaScript (Videotutorial)
+		{
+			"original" : "Crear un xilófono musical con JavaScript",
+			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+			"nombre" : "Xilofono musical",
+			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "xilofono.gif",
+			"gif" : "xilofono.png",
+			"fecha" : "2016/12/24"
+		}
 
 #### Backend
 

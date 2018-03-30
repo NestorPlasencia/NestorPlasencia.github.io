@@ -142,6 +142,28 @@
 	],
 	"portafolio" : [
 		{
+			"original" : "Rompecabezas con JS, CSS3 y HTML5",
+			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+			"nombre" : "Rompecabezas",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "pikachu.gif",
+			"gif" : "pikachu.png",
+			"fecha" : "2016/11/21"
+		},
+		{
 			"original" : "Animación de Star Wars con CSS3 y JavaScript ",
 			"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
 			"nombre" : "Animación de <br> Star Wars",
@@ -228,6 +250,28 @@
 			"img" : "corazones.gif",
 			"gif" : "corazones.png",
 			"fecha" : "2017/02/08"
+		},
+		{
+			"original" : "Crear un xilófono musical con JavaScript",
+			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+			"nombre" : "Xilofono musical",
+			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "xilofono.gif",
+			"gif" : "xilofono.png",
+			"fecha" : "2016/12/24"
 		}
 	],
 	"habilidades" : [
