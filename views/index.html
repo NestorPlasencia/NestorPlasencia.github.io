@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Cache-control" content="public">
 		<!-- Materialize Purify -->
-		<!--  <link rel="stylesheet" href="css/materialize.css">
-		 --><!-- Custom Styles -->		
+<!-- 	 <link rel="stylesheet" href="css/materialize.css"> -->
+		<!-- Custom Styles		 -->
 		<link rel="stylesheet" href="css/filter.css">
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
@@ -31,40 +31,40 @@
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark indigo-text">
+					<a href="#projects" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-columns"></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark purple-text">
+					<a href="#skills" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-code"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#education" class="waves-effect waves-dark orange-text">
+					<a href="#education" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-graduation-cap"></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark cyan-text ">
+					<a href="#experience" class="waves-effect waves-dark teal-text ">
 						<i class="fa fa-building"></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark lime-text ">
+					<a href="#actvities" class="waves-effect waves-dark teal-text ">
 						<i class="fa fa-users"></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#contact" class="waves-effect waves-dark blue-text text-darken-4">
+					<a href="#contact" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-envelope"></i><span>Contacto</span>
 					</a>
 				</li>
-				<li class="bold">
-					<a href="#" class="waves-effect waves-dark grey-text text-darken-4">
+<!-- 				<li class="bold">
+					<a href="#" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-file"></i><span>CV</span>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
 		<nav class="hide-on-large only trigger z-depth-1">
@@ -84,40 +84,40 @@
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark lime-text">
+					<a href="#projects" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-columns icon-menu-sm" ></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark purple-text">
+					<a href="#skills" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-code icon-menu-sm" ></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#education" class="waves-effect waves-dark orange-text">
+					<a href="#education" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-graduation-cap icon-menu-sm" ></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark cyan-text ">
+					<a href="#experience" class="waves-effect waves-dark teal-text ">
 						<i class="fa fa-building icon-menu-sm" ></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark cyan-text ">
+					<a href="#actvities" class="waves-effect waves-dark teal-text ">
 						<i class="fa fa-users icon-menu-sm" ></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#contact" class="waves-effect waves-dark blue-text text-darken-4">
+					<a href="#contact" class="waves-effect waves-dark blue-text ">
 						<i class="fa fa-envelope icon-menu-sm" ></i><span>Contacto</span>
 					</a>
 				</li>
-				<li class="bold">
-					<a href="#" class="waves-effect waves-dark grey-text text-darken-4">
+<!-- 				<li class="bold">
+					<a href="#" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-file icon-menu-sm" ></i><span>CV</span>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
 		<main>
@@ -202,21 +202,33 @@
 			</section>
 			<section id="skills" class="section scrollspy">
 				<h3 class="page-title white-text teal">Habilidades</h3>
-				<div class="container">
-					{% for habilidades in info.habilidades %}
-					<div class="card">
-						<div class="card-content">
-							<h4 class="blue-text text-darken-4 liht">{{habilidades.categoria}}</h4>
-							<div class="skill-group ">
-								{% for elm in habilidades.elementos %}
-								<div class="img-skill-content progreso progreso-{{elm.nivel}}">
-									<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
+				<div id="habilidades">
+					<div class="container list">
+						{% for habilidades in info.habilidades %}
+						<div class="card" data-id="{{ loop.index }}">
+							<div class="card-content">
+								<h4 class="blue-text text-darken-4 liht name">{{habilidades.categoria}}</h4>
+								<div class="skill-group ">
+									{% for elm in habilidades.elementos %}
+									<div class="img-skill-content progreso progreso-{{elm.nivel}}">
+										<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
+									</div>
+									{% endfor %}
 								</div>
-								{% endfor %}
 							</div>
 						</div>
+						{% endfor %}
 					</div>
-					{% endfor %}
+				</div>
+				<div class="vermash center">
+					<a data-position="top" class="btn-floating blue darken-2" onclick="vermash()">
+						<i class="fa fa-chevron-down "></i>
+					</a>						
+				</div>
+				<div class="vermenosh center no_display">
+					<a data-position="top" class="btn-floating blue darken-2" href="#skills" onclick="vermenosh()">
+						<i class="fa fa-chevron-up "></i>
+					</a>						
 				</div>
 			</section>
 			<section id="education" class="section scrollspy">
@@ -244,39 +256,51 @@
 			</section>			
 			<section id="experience" class="section scrollspy">
 				<h3 class="page-title white-text teal">Experiencia</h3>
-				<div class="container">
-					{% for exp in info.experiencia %}
-					<div class="card">
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2"><a href="{{exp.url}}" target="_blank"><img alt="" src="img/{{exp.img}}" class="responsive-img center-block"></a></div>
-								<div class="col s12 m10">
-									<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline">{{exp.empresa}}</a></span></p>
+				<div id="experiencia">
+					<div class="container list">
+						{% for exp in info.experiencia %}
+						<div class="card " data-id="{{loop.index}}">
+							<div class="card-content">
+								<div class="row">
+									<div class="col s12 m2"><a href="{{exp.url}}" target="_blank"><img alt="" src="img/{{exp.img}}" class="responsive-img center-block"></a></div>
+									<div class="col s12 m10">
+										<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline name">{{exp.empresa|safe}}</a></span></p>
+									</div>
 								</div>
+								<div class="role blue-text text-darken-4">{{exp.cargo|safe}}</div>
+								<p><em class="grey-text">{{exp.descripcion}}.</em></p>
+								<ul>
+									{% for func in exp.funciones %}
+									<li>{{ func }}</li>
+									{% endfor %}
+								</ul>
+								<h6>Logros</h6>
+								<ul>
+									{% for logro in exp.logros %}
+									<li>{{logro}}</li>
+									{% endfor %}
+								</ul>
 							</div>
-							<div class="role blue-text text-darken-4">{{exp.cargo}}</div>
-							<p><em class="grey-text">{{exp.descripcion}}.</em></p>
-							<ul>
-								{% for func in exp.funciones %}
-								<li>{{ func }}</li>
-								{% endfor %}
-							</ul>
-							<h6>Logros</h6>
-							<ul>
-								{% for logro in exp.logros %}
-								<li>{{logro}}</li>
-								{% endfor %}
-							</ul>
+							<div class="card-action"><span>
+								{{exp.fecha_inicio|date('F Y')}} - 
+								{% if exp.fecha_fin == "Actualidad" %}
+	 								{{ "Actualidad" }}
+								{% else %}		
+	  								{{exp.fecha_fin|date('F Y')}}
+								{% endif %} |  {{exp.locacion}}</span></div>
 						</div>
-						<div class="card-action"><span>
-							{{exp.fecha_inicio|date('F Y')}} - 
-							{% if exp.fecha_fin == "Actualidad" %}
- 								{{ "Actualidad" }}
-							{% else %}		
-  								{{exp.fecha_fin|date('F Y')}}
-							{% endif %} |  {{exp.locacion}}</span></div>
+						{% endfor %}
 					</div>
-					{% endfor %}
+				</div>	
+				<div class="vermase center">
+					<a data-position="top" class="btn-floating blue darken-2" onclick="vermase()">
+						<i class="fa fa-chevron-down "></i>
+					</a>						
+				</div>
+				<div class="vermenose center no_display">
+					<a data-position="top" class="btn-floating blue darken-2" href="#experience" onclick="vermenose()">
+						<i class="fa fa-chevron-up "></i>
+					</a>						
 				</div>
 			</section>
 			<section id="actvities" class="section scrollspy">
@@ -288,10 +312,10 @@
 							<div class="row">
 								<div class="col s12 m2"><a href="{{com.url}}" target="_blank"><img alt="" src="img/{{com.img}}" class="responsive-img center-block"></a></div>
 								<div class="col s12 m10">
-									<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline">{{com.empresa}}</a></span></p>
+									<p><span class="card-title"><a href="{{com.url}}" target="_blank" class="teal-text hoverline">{{com.empresa|safe}}</a></span></p>
 								</div>
 							</div>
-							<div class="role blue-text text-darken-4">{{com.cargo}}</div>
+							<div class="role blue-text text-darken-4">{{com.cargo|safe}}</div>
 							<p><em class="grey-text">{{com.descripcion}}.</em></p>
 							<ul>
 								{% for func in com.funciones %}
@@ -354,6 +378,15 @@
 			});
 		</script>
 		<script type="text/javascript">
+
+			function imghover() {
+	    		$('.desaparece').hover(function(){
+	        		$(this).animate({opacity:0});
+	    		},function(){
+	        		$(this).animate({opacity:1});
+	    		});
+    		}
+    		
 			
 			var contador = 0;
 			var limite_iinicial = 3
@@ -371,21 +404,10 @@
 			};
 			var userList = new List('items', options);
 			todos();
-
-			function imghover() {
-	    		$('.desaparece').hover(function(){
-	        		$(this).animate({opacity:0});
-	    		},function(){
-	        		$(this).animate({opacity:1});
-	    		});
-    		}
-    		
-
 			function changecategory(evt){
 				categoria_activa = evt.text.toLowerCase();
 				filtrado()
 			}
-
 			function vermas() {
 				limite = 99999;
 				$('.vermas').addClass('no_display')
@@ -399,8 +421,6 @@
 				$('.vermas').removeClass('no_display')
 				filtrado()
 			}
-
-
 			function filtrado() {
 				if(categoria_activa == 'todos'){
 					todos();
@@ -417,7 +437,6 @@
 					});
 				}
 			}
-
 			function todos() {
 				contador = 0;
 				userList.filter();
@@ -430,7 +449,6 @@
 					}
 				}); 
 			}
-
 			function buscar(evt) {
 				let value = document.getElementById("search").value.toString().toLowerCase();
 				console.log(value)
@@ -453,6 +471,65 @@
 					}
 				});
 			}
+
+
+			var options = {
+			 	valueNames: [
+					'name',
+					{ data: ['id'] }
+				]
+			};
+			var habilidades = new List('habilidades', options);
+			filterhabilidades()
+			function filterhabilidades() {
+				habilidades.filter(function(item) {
+					if (item.values().id < 3) {
+					   return true;
+					} else {
+					   return false;
+					}
+				}); 
+			}
+			function vermash() {
+				habilidades.filter();
+				$('.vermash').addClass('no_display')
+				$('.vermenosh').removeClass('no_display')
+			}
+			function vermenosh() {
+				$('.vermenosh').addClass('no_display')
+				$('.vermash').removeClass('no_display')
+				filterhabilidades()
+			}
+
+
+			var options = {
+			 	valueNames: [
+					'name',
+					{ data: ['id'] }
+				]
+			};
+			var experiencia = new List('experiencia', options);
+			filterexperiencia()
+			function filterexperiencia() {
+				experiencia.filter(function(item) {
+					if (item.values().id < 3) {
+					   return true;
+					} else {
+					   return false;
+					}
+				}); 
+			}
+			function vermase() {
+				experiencia.filter();
+				$('.vermase').addClass('no_display')
+				$('.vermenose').removeClass('no_display')
+			}
+			function vermenose() {
+				$('.vermenose').addClass('no_display')
+				$('.vermase').removeClass('no_display')
+				filterexperiencia()
+			}
+
 
 		</script>
 	</body>
