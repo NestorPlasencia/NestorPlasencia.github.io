@@ -142,10 +142,61 @@
 	],
 	"portafolio" : [
 		{
-			"original" : "Rompecabezas con JS, CSS3 y HTML5",
-			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-			"nombre" : "Rompecabezas",
-			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"original" : "Entrenamiento en <br> Backend de Coreupgrade",
+			"link" : "http://trujillo-hackspace.herokuapp.com/",
+			"nombre" : "Training Backend <br> HackSpace Trujillo",
+			"descripcion" : "Entrenamiento en backend para Hackspace Trujillo con NodeJS, Express, API Restfull, MongoDB, Heroku y VueJS",
+			"etiquetas" : ["fab fa-js","fab fa-node-js","fab fa-vuejs"],
+			"externos" : [
+				{
+					"tipo" : "app-backend", 
+					"link" : "http://trujillo-hackspace.herokuapp.com/",
+					"icon" : "fa fa-cloud"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
+					"icon" : "fa fa-code"
+				},
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/",
+					"icon" : "fab fa-github"
+				}
+			],
+			"img" : "backend-training.gif",
+			"gif" : "backend-training.PNG",
+			"categoria" : "backend",
+			"fecha" : "2017/11/24"
+		},
+		{
+			"original" : "Corazones animados con JavaScript",
+			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+			"nombre" : "Pinchar corazones",
+			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
+					"icon" : "fa fa-code"
+				}
+			],
+			"img" : "corazones.gif",
+			"gif" : "corazones.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2017/02/08"
+		},
+		{
+			"original" : "Crear un xilófono musical con JavaScript",
+			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+			"nombre" : "Xilofono musical",
+			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
 			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
 			"externos" : [
 				{
@@ -155,14 +206,14 @@
 				},
 				{
 					"tipo" : "video", 
-					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
 					"icon" : "fab fa-youtube"
 				}
 			],
-			"img" : "pikachu.gif",
-			"gif" : "pikachu.PNG",
+			"img" : "xilofono.gif",
+			"gif" : "xilofono.PNG",
 			"categoria" : "frontend",
-			"fecha" : "2016/11/21"
+			"fecha" : "2016/12/24"
 		},
 		{
 			"original" : "Animación de Star Wars con CSS3 y JavaScript ",
@@ -211,6 +262,29 @@
 			"fecha" : "2016/12/02"
 		},
 		{
+			"original" : "Rompecabezas con JS, CSS3 y HTML5",
+			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+			"nombre" : "Rompecabezas",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "pikachu.gif",
+			"gif" : "pikachu.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2016/11/21"
+		},
+		{
 			"original" : "Crear un Cubo 3D con CSS CSS3",
 			"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
 			"nombre" : "Cubo 3D",
@@ -232,52 +306,6 @@
 			"gif" : "cubo3d.PNG",
 			"categoria" : "frontend",
 			"fecha" : "2016/11/09"
-		},
-		{
-			"original" : "Corazones animados con JavaScript",
-			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
-			"nombre" : "Pinchar corazones",
-			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
-			"externos" : [
-				{
-					"tipo" : "aplicacion", 
-					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
-					"icon" : "fab fa-codepen"
-				},
-				{
-					"tipo" : "tutorial", 
-					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
-					"icon" : "fa fa-code"
-				}
-			],
-			"img" : "corazones.gif",
-			"gif" : "corazones.PNG",
-			"categoria" : "frontend",
-			"fecha" : "2017/02/08"
-		},
-		{
-			"original" : "Crear un xilófono musical con JavaScript",
-			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-			"nombre" : "Xilofono musical",
-			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
-			"externos" : [
-				{
-					"tipo" : "aplicacion", 
-					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
-				},
-				{
-					"tipo" : "video", 
-					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-					"icon" : "fab fa-youtube"
-				}
-			],
-			"img" : "xilofono.gif",
-			"gif" : "xilofono.PNG",
-			"categoria" : "frontend",
-			"fecha" : "2016/12/24"
 		}
 	],
 	"habilidades" : [
@@ -300,9 +328,9 @@
 					"nivel" : 3
 				},
 				{
-					"nombre" : "Sass",
-					"img" : "sass.png" ,
-					"nivel" : 1
+					"nombre" : "Materialize",
+					"img" : "materialize.png" ,
+					"nivel" : 3
 				},
 				{
 					"nombre" : "Less",
@@ -310,9 +338,9 @@
 					"nivel" : 2
 				},
 				{
-					"nombre" : "Materialize",
-					"img" : "materialize.png" ,
-					"nivel" : 3
+					"nombre" : "Sass",
+					"img" : "sass.png" ,
+					"nivel" : 1
 				}
 			]
 		},
@@ -325,14 +353,14 @@
 					"nivel" : 3
 				},
 				{
-					"nombre" : "ES6",
-					"img" : "es6.png",
-					"nivel" : 2
-				},
-				{
 					"nombre" : "jQuery",
 					"img" : "jquery.png" ,
 					"nivel" : 3
+				},
+				{
+					"nombre" : "ES6",
+					"img" : "es6.png",
+					"nivel" : 2
 				},
 				{
 					"nombre" : "React",
@@ -355,14 +383,14 @@
 			"categoria" : "Backend",
 			"elementos" : [
 				{
-					"nombre" : "Django",
-					"img" : "django.png",
-					"nivel" : 2
-				},
-				{
 					"nombre" : "Node JS",
 					"img" : "nodejs.png",
 					"nivel" : 3
+				},
+				{
+					"nombre" : "Django",
+					"img" : "django.png",
+					"nivel" : 2
 				},
 				{
 					"nombre" : "PHP",
@@ -390,14 +418,14 @@
 					"nivel" : 3
 				},
 				{
-					"nombre" : "LabVIEW ",
-					"img" : "labview.jpg" ,
-					"nivel" : 2
-				},
-				{
 					"nombre" : "Scratch ",
 					"img" : "scratch.png" ,
 					"nivel" : 3
+				},
+				{
+					"nombre" : "LabVIEW ",
+					"img" : "labview.jpg" ,
+					"nivel" : 2
 				},
 				{
 					"nombre" : "Rasphberry PI ",
@@ -480,14 +508,14 @@
 			"categoria" : "Bases de datos",
 			"elementos" : [    
 				{
-					"nombre" : "MySQL",
-					"img" : "mysql.png" ,
-					"nivel" : 2
-				},
-				{
 					"nombre" : "MongoDB",
 					"img" : "mongodb.png" ,
 					"nivel" : 3
+				},
+				{
+					"nombre" : "MySQL",
+					"img" : "mysql.png" ,
+					"nivel" : 2
 				}
 			]			
 		},
@@ -525,14 +553,14 @@
 					"nivel" : 3
 				},
 				{
-					"nombre" : "AutoCAD",
-					"img" : "autocad.jpg" ,
-					"nivel" : 1
-				},
-				{
 					"nombre" : "Inventor",
 					"img" : "inventor.png" ,
 					"nivel" : 2
+				},
+				{
+					"nombre" : "AutoCAD",
+					"img" : "autocad.jpg" ,
+					"nivel" : 1
 				}
 			]			
 		}

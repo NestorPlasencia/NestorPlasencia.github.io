@@ -304,6 +304,32 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 #### Backend
 
 - Entrenamiento en Backend de Coreupgrade (Tutorial)
+
+		{
+			"original" : "Entrenamiento en Backend de Coreupgrade",
+			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+			"nombre" : "Rompecabezas",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
+					"icon" : "fab fa-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"icon" : "fab fa-youtube"
+				}
+			],
+			"img" : "pikachu.gif",
+			"gif" : "pikachu.png",
+			"fecha" : "2016/11/21"
+		}
+
+
+		
 - Directorio de contactos con NodeJS (Aplicación)
 - API RESTfull Librería con NodeJS (Aplicación)
 - API RESTfull de registro de amigos con NodeJS (Aplicación)

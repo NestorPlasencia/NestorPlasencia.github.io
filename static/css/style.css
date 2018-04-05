@@ -496,6 +496,15 @@ small { display: none;}
 	color: #fdd93d;
 }
 
+.tag.fa-node-js {
+	color: #83cd29;
+}
+
+.tag.fa-vuejs {
+	color: #40b88f !important;
+}
+
+
 #projects  .card-action {
 	padding: 0.75rem 1rem !important;
 }
