@@ -144,65 +144,107 @@ Ago 2017 - Dic 2017 | Trujillo, PE
 
 Tipo
 
-- Videotutorial    	youtube
-- Aplicación 		codepen
-- Aplicación móvil  android
-- Tutorial 			code  
-- dashboard 		chart-line
-- Proyecto 			steam-symbol
-- Articulo			book
-- Landing			rocket
-- Repositorio		github
+- Videotutorial    	youtube x
+- Aplicación 		codepen x
+- Aplicación móvil  android x
+- Tutorial 			code    x
+- Dashboard 		chart-line  x
+- Proyecto 			steam-symbol x
+- Articulo			book    x
+- Landing			rocket  x
+- Repositorio		github  x
+- App-backend     	heroku 	x		
 
 Etiquetas 
 
-js
-css3-alt
-html5
-node-js
-react
+js  
+css3-alt  x
+html5     x
+node-js  
+react     x
 vuejs
-
-jquery
+jquery    x
 mongo-db
+
+
 
 #### Frontend
 
 
-Animación de Star Wars con CSS3 y JavaScript 
+- Animación de Star Wars con CSS3 y JavaScript 
+		{
+			"original" : "Animación de Star Wars con CSS3 y JavaScript ",
+			"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+			"nombre" : "Animación de <br> Star Wars",
+			"descripcion" : "Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3.",
+			"etiquetas" : ["icon-html5","icon-css3","icon-javascript-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-de-star-wars-con-css3/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "starwars.gif",
+			"gif" : "starwars.png",
+			"categoria" : "frontend",
+			"fecha" : "2016/12/13"
+		},
 
-- nombre: Animación de <br> Star Wars
-- descripcion: Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3.
-- etiquetas : html5 , css3, js
-- aplicacion : https://codepen.io/NestorPlasencia/pen/yVxmRv
-- tutorial : https://devcode.la/tutoriales/animacion-de-star-wars-con-css3/
-- imagen : static/img/starwars.gif
-- gif : static/img/starwars.png
-- fecha : Dec 13, 2016
+- Background animado de copos de nieve JavaScript
+		{
+			"original" : "Background animado de copos de nieve JavaScript",
+			"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+			"nombre" : "Copos de nieve",
+			"descripcion" : "Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.",
+			"etiquetas" : ["icon-javascript-alt"],
+						"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "copos.gif",
+			"gif" : "copos.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2016/12/02"
+		},
 
-Background animado de copos de nieve JavaScript
-
-- nombre: Copos de nieve
-- descripcion: Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.
-- etiquetas : js
-- aplicacion : https://codepen.io/NestorPlasencia/pen/YpYJNo
-- tutorial : https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/
-- imagen : static/img/copos.gif
-- gif : static/img/copos.png
-- fecha : Dec 2, 2016
-
-
-Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
-
-- nombre: Copos de nieve
-- descripcion: Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.
-- etiquetas : js
-- aplicacion : https://codepen.io/NestorPlasencia/pen/YpYJNo
-- tutorial : https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/
-- imagen : static/img/copos.gif
-- gif : static/img/copos.png
-- fecha : Dec 2, 2016
-
+- Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
+		{
+			"original" : "Crear un Cubo 3D con CSS CSS3",
+			"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+			"nombre" : "Cubo 3D",
+			"descripcion" : "Cubo 3D usando las propiedades rotate y translate de CSS3.",
+			"etiquetas" : ["icon-css3"],
+						"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crear-un-cubo-3d-con-css/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "cubo3d.gif",
+			"gif" : "cubo3d.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2016/11/09"
+		}
 
 - Corazones animados con JavaScript (Tutorial y Aplicación)
 		{
@@ -210,29 +252,29 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
 			"nombre" : "Pinchar corazones",
 			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				}
 			],
 			"img" : "corazones.gif",
-			"gif" : "corazones.png",
+			"gif" : "corazones.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2017/02/08"
-		}
+		},
 
 - Dashboard GestionShop (Dashboard) 
 - Dashboard CloudWater (Dashboard)
 - Single Page App con Vue.JS (Aplicación)
 - Maquetacion de un blog con Materialize (Landing)
-
 - Animación con Canvas de HTML5 (Tutorial y Aplicación)
 - Efectos Fantasmales con jQuery (Tutorial y Aplicación)
 - Filtros de Instagram con CSS (Tutorial y Aplicación)
@@ -253,29 +295,29 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 - ¿Qué es y por qué aprender EcmaScript? (Articulo)
 - Eventos KeyDown y KeyUp (Videotutorial)
 - Rompecabezas con JS, CSS3 y HTML5 (Videotutorial)
-
 		{
 			"original" : "Rompecabezas con JS, CSS3 y HTML5",
 			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
 			"nombre" : "Rompecabezas",
 			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "video", 
 					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-					"icon" : "fab fa-youtube"
+					"icon" : "icon-videotutorial"
 				}
 			],
 			"img" : "pikachu.gif",
-			"gif" : "pikachu.png",
+			"gif" : "pikachu.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/11/21"
-		}
+		},
 
 - Crear un xilófono musical con JavaScript (Videotutorial)
 		{
@@ -283,54 +325,84 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
 			"nombre" : "Xilofono musical",
 			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "video", 
 					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-					"icon" : "fab fa-youtube"
+					"icon" : "icon-videotutorial"
 				}
 			],
 			"img" : "xilofono.gif",
-			"gif" : "xilofono.png",
+			"gif" : "xilofono.PNG",
+			"categoria" : "frontend",
 			"fecha" : "2016/12/24"
-		}
+		},
 
 #### Backend
 
-- Entrenamiento en Backend de Coreupgrade (Tutorial)
-
+- Entrenamiento en Backend de Coreupgrade
 		{
-			"original" : "Entrenamiento en Backend de Coreupgrade",
-			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-			"nombre" : "Rompecabezas",
-			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"original" : "Entrenamiento en <br> Backend de Coreupgrade",
+			"link" : "http://trujillo-hackspace.herokuapp.com/",
+			"nombre" : "Training Backend <br> HackSpace Trujillo",
+			"descripcion" : "Entrenamiento en backend para Hackspace Trujillo con NodeJS, Express, API Restfull, MongoDB, Heroku y VueJS",
+			"etiquetas" : ["icon-javascript-alt","icon-node-js","icon-mongodb","icon-heroku"],
 			"externos" : [
 				{
-					"tipo" : "aplicacion", 
-					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
+					"tipo" : "app-backend", 
+					"link" : "http://trujillo-hackspace.herokuapp.com/",
+					"icon" : "icon-app-heroku"
 				},
 				{
-					"tipo" : "video", 
-					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-					"icon" : "fab fa-youtube"
+					"tipo" : "tutorial", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
+					"icon" : "icon-tutorial"
+				},
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/",
+					"icon" : "icon-github"
 				}
 			],
-			"img" : "pikachu.gif",
-			"gif" : "pikachu.png",
-			"fecha" : "2016/11/21"
-		}
+			"img" : "backend-training.gif",
+			"gif" : "backend-training.PNG",
+			"categoria" : "backend",
+			"fecha" : "2017/11/24"
+		},
 
-
-		
 - Directorio de contactos con NodeJS (Aplicación)
+		{
+			"original" : "Directorio de contactos con NodeJS",
+			"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+			"nombre" : "Directorio de contactos",
+			"descripcion" : "Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo numero de telefono",
+			"etiquetas" : ["icon-node-js"],
+			"externos" : [
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+					"icon" : "icon-github"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem2b_reto3.md",
+					"icon" : "icon-tutorial"
+				},
+			],
+			"img" : "directorio.gif",
+			"gif" : "directorio.PNG",
+			"categoria" : "backend",
+			"fecha" : "2018/02/23"
+		},
+
+
+
 - API RESTfull Librería con NodeJS (Aplicación)
 - API RESTfull de registro de amigos con NodeJS (Aplicación)
 
@@ -358,6 +430,24 @@ Crear un Cubo 3D con CSS CSS3 (Tutorial y Aplicación)
 #### Desarrollo Mobil
 
 - Aplicación móvil GestionShop (Aplicación Móvil)
+		{
+			"original" : "Aplicación móvil GestionShop",
+			"link" : "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+			"nombre" : "App Android GestionShop",
+			"descripcion" : "App para consultar el estado de tus contratos, la fecha de vencimiento, etc. Desarrollada en React Native.",
+			"etiquetas" : ["icon-react","icon-android"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion-movil", 
+					"link" : "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+					"icon" : "icon-mobile"
+				}
+			],
+			"img" : "app-gestionshop.gif",
+			"gif" : "app-gestionshop.PNG",
+			"categoria" : "mobile",
+			"fecha" : "2017/04/01"
+		},
 - Calculadora Científica con Kotlin (Tutorial)
 
 

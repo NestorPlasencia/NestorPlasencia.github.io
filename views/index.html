@@ -7,7 +7,9 @@
 		<!-- Materialize Purify -->
 <!-- 	 <link rel="stylesheet" href="css/materialize.css"> -->
 		<!-- Custom Styles		 -->
-		<link rel="stylesheet" href="css/filter.css">
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 		<title>{{info.nombre}} | {{info.etiqueta}} </title>
@@ -27,37 +29,37 @@
 				</li>
 				<li class="bold">
 					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-user"></i><span>Sobre mi</span>
+						<i class="icon-about" ></i><span>Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-columns"></i><span>Portafolio</span>
+						<i class="icon-portfolio"></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-code"></i><span>Habilidades</span>
+						<i class="icon-skills"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-graduation-cap"></i><span>Educación</span>
+						<i class="icon-education"></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark teal-text ">
-						<i class="fa fa-building"></i><span>Experiencia</span>
+					<a href="#experience" class="waves-effect waves-dark teal-text">
+						<i class="icon-experience"></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark teal-text ">
-						<i class="fa fa-users"></i><span>Actividades</span>
+					<a href="#actvities" class="waves-effect waves-dark teal-text">
+						<i class="icon-comunity"></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#contact" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-envelope"></i><span>Contacto</span>
+						<i class="icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
 <!-- 				<li class="bold">
@@ -69,7 +71,7 @@
 		</nav>
 		<nav class="hide-on-large only trigger z-depth-1">
 			<a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse">
-				<i class="fa fa-bars"></i>
+				<i class="icon-menu"></i>
 			</a>
 			<div class="name-title">
 				<a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">{{info.nombre}}</a>
@@ -80,37 +82,37 @@
 			<ul id="slide-out" class="side-nav side-nav-sm" >
 				<li class="bold">
 					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-user icon-menu-sm" ></i><span>Sobre mi</span>
+						<i class="icon-about" ></i><span>Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-columns icon-menu-sm" ></i><span>Portafolio</span>
+						<i class="icon-portfolio"></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-code icon-menu-sm" ></i><span>Habilidades</span>
+						<i class="icon-skills"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-graduation-cap icon-menu-sm" ></i><span>Educación</span>
+						<i class="icon-education"></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark teal-text ">
-						<i class="fa fa-building icon-menu-sm" ></i><span>Experiencia</span>
+					<a href="#experience" class="waves-effect waves-dark teal-text">
+						<i class="icon-experience"></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark teal-text ">
-						<i class="fa fa-users icon-menu-sm" ></i><span>Actividades</span>
+					<a href="#actvities" class="waves-effect waves-dark teal-text">
+						<i class="icon-comunity"></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#contact" class="waves-effect waves-dark blue-text ">
-						<i class="fa fa-envelope icon-menu-sm" ></i><span>Contacto</span>
+					<a href="#contact" class="waves-effect waves-dark teal-text">
+						<i class="icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
 <!-- 				<li class="bold">
@@ -152,7 +154,7 @@
 				<div id="items" class="container">
 					 <div class="input-field">
 						<input id="search" type="search" onkeyup="buscar(this)" required>
-			        	<label class="label-icon blue-text darken-2 " for="search"><i class="fa fa-search"></i></label>
+			        	<label class="label-icon blue-text darken-2 " for="search"><i class="icon-search"></i></label>
 					 </div>
 					<div class="flex list">						
 						{% for item in info.portafolio %}
@@ -166,11 +168,11 @@
 							<div class="card-content">
 								<span class="card-title activator teal-text hoverline item_title">
 									<span>{{item.nombre|safe}}</span>
-									<i class="fa fa-chevron-circle-up right"></i>
+									<i class="icon-up right"></i>
 								</span>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title blue-text text-darken-4">Descripción<i class="fa fa-chevron-circle-down right"></i></span>
+								<span class="card-title blue-text text-darken-4">Descripción<i class="icon-down right"></i></span>
 								<p class="descripcion">{{item.descripcion}}</p>
 								<div>
 									{% for tag in item.etiquetas %}	
@@ -190,12 +192,12 @@
 					</div>
 					<div class="vermas center">
 						<a data-position="top" class="btn-floating blue darken-2" onclick="vermas()">
-							<i class="fa fa-chevron-down "></i>
+							<i class="icon-down "></i>
 						</a>						
 					</div>
 					<div class="vermenos center no_display">
 						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
-							<i class="fa fa-chevron-up "></i>
+							<i class="icon-up "></i>
 						</a>						
 					</div>
 				</div>
@@ -222,12 +224,12 @@
 				</div>
 				<div class="vermash center">
 					<a data-position="top" class="btn-floating blue darken-2" onclick="vermash()">
-						<i class="fa fa-chevron-down "></i>
+						<i class="icon-down "></i>
 					</a>						
 				</div>
 				<div class="vermenosh center no_display">
 					<a data-position="top" class="btn-floating blue darken-2" href="#skills" onclick="vermenosh()">
-						<i class="fa fa-chevron-up "></i>
+						<i class="icon-up "></i>
 					</a>						
 				</div>
 			</section>
@@ -294,12 +296,12 @@
 				</div>	
 				<div class="vermase center">
 					<a data-position="top" class="btn-floating blue darken-2" onclick="vermase()">
-						<i class="fa fa-chevron-down "></i>
+						<i class="icon-down "></i>
 					</a>						
 				</div>
 				<div class="vermenose center no_display">
 					<a data-position="top" class="btn-floating blue darken-2" href="#experience" onclick="vermenose()">
-						<i class="fa fa-chevron-up "></i>
+						<i class="icon-up "></i>
 					</a>						
 				</div>
 			</section>
@@ -378,7 +380,7 @@
 			});
 		</script>
 		<script type="text/javascript">
-
+			
 			function imghover() {
 	    		$('.desaparece').hover(function(){
 	        		$(this).animate({opacity:0});
@@ -386,13 +388,11 @@
 	        		$(this).animate({opacity:1});
 	    		});
     		}
-    		
-			
+    			
 			var contador = 0;
 			var limite_iinicial = 3
 			var limite = limite_iinicial;
 			var categoria_activa = "todos";
-
 			var options = {
 			 	valueNames: [
 					'card-title',
@@ -470,15 +470,15 @@
 						return false;
 					}
 				});
+
 			}
-
-
 			var options = {
 			 	valueNames: [
 					'name',
 					{ data: ['id'] }
 				]
 			};
+			
 			var habilidades = new List('habilidades', options);
 			filterhabilidades()
 			function filterhabilidades() {
@@ -500,14 +500,13 @@
 				$('.vermash').removeClass('no_display')
 				filterhabilidades()
 			}
-
-
 			var options = {
 			 	valueNames: [
 					'name',
 					{ data: ['id'] }
 				]
 			};
+
 			var experiencia = new List('experiencia', options);
 			filterexperiencia()
 			function filterexperiencia() {
@@ -529,8 +528,6 @@
 				$('.vermase').removeClass('no_display')
 				filterexperiencia()
 			}
-
-
 		</script>
 	</body>
 </html>

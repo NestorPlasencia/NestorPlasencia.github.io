@@ -142,26 +142,49 @@
 	],
 	"portafolio" : [
 		{
+			"original" : "Directorio de contactos con NodeJS",
+			"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+			"nombre" : "Directorio de contactos",
+			"descripcion" : "Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo numero de telefono",
+			"etiquetas" : ["icon-node-js"],
+			"externos" : [
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+					"icon" : "icon-github"
+				},
+				{
+					"tipo" : "articulo", 
+					"link" : "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem2b_reto3.md",
+					"icon" : "icon-article"
+				}
+			],
+			"img" : "directorio.gif",
+			"gif" : "directorio.PNG",
+			"categoria" : "backend",
+			"fecha" : "2018/02/23"
+		},
+		{
 			"original" : "Entrenamiento en <br> Backend de Coreupgrade",
 			"link" : "http://trujillo-hackspace.herokuapp.com/",
 			"nombre" : "Training Backend <br> HackSpace Trujillo",
 			"descripcion" : "Entrenamiento en backend para Hackspace Trujillo con NodeJS, Express, API Restfull, MongoDB, Heroku y VueJS",
-			"etiquetas" : ["fab fa-js","fab fa-node-js","fab fa-vuejs"],
+			"etiquetas" : ["icon-javascript-alt","icon-node-js","icon-mongodb","icon-heroku"],
 			"externos" : [
 				{
 					"tipo" : "app-backend", 
 					"link" : "http://trujillo-hackspace.herokuapp.com/",
-					"icon" : "fa fa-cloud"
+					"icon" : "icon-app-heroku"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				},
 				{
 					"tipo" : "repositorio", 
 					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/",
-					"icon" : "fab fa-github"
+					"icon" : "icon-github"
 				}
 			],
 			"img" : "backend-training.gif",
@@ -170,21 +193,39 @@
 			"fecha" : "2017/11/24"
 		},
 		{
+			"original" : "Aplicación móvil GestionShop",
+			"link" : "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+			"nombre" : "App Android GestionShop",
+			"descripcion" : "App para consultar el estado de tus contratos, la fecha de vencimiento, etc. Desarrollada en React Native.",
+			"etiquetas" : ["icon-react","icon-android"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion-movil", 
+					"link" : "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+					"icon" : "icon-mobile"
+				}
+			],
+			"img" : "app-gestionshop.gif",
+			"gif" : "app-gestionshop.PNG",
+			"categoria" : "mobile",
+			"fecha" : "2017/04/01"
+		},
+		{
 			"original" : "Corazones animados con JavaScript",
 			"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
 			"nombre" : "Pinchar corazones",
 			"descripcion" : "Juego animando de elementos HTML en forma de corazón con JavaScript.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/WRgmXj",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				}
 			],
 			"img" : "corazones.gif",
@@ -197,17 +238,17 @@
 			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
 			"nombre" : "Xilofono musical",
 			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "video", 
 					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-					"icon" : "fab fa-youtube"
+					"icon" : "icon-videotutorial"
 				}
 			],
 			"img" : "xilofono.gif",
@@ -220,17 +261,17 @@
 			"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
 			"nombre" : "Animación de <br> Star Wars",
 			"descripcion" : "Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3.",
-			"etiquetas" : ["fab fa-html5","fab fa-css3-alt","fab fa-js"],
+			"etiquetas" : ["icon-html5","icon-css3","icon-javascript-alt"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/yVxmRv",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://devcode.la/tutoriales/animacion-de-star-wars-con-css3/",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				}
 			],
 			"img" : "starwars.gif",
@@ -243,17 +284,17 @@
 			"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
 			"nombre" : "Copos de nieve",
 			"descripcion" : "Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.",
-			"etiquetas" : ["fab fa-js"],
+			"etiquetas" : ["icon-javascript-alt"],
 						"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/YpYJNo",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				}
 			],
 			"img" : "copos.gif",
@@ -266,17 +307,17 @@
 			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
 			"nombre" : "Rompecabezas",
 			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
-			"etiquetas" : ["fab fa-js","fab fa-css3-alt","fab fa-html5"],
+			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "video", 
 					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-					"icon" : "fab fa-youtube"
+					"icon" : "icon-videotutorial"
 				}
 			],
 			"img" : "pikachu.gif",
@@ -289,17 +330,17 @@
 			"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
 			"nombre" : "Cubo 3D",
 			"descripcion" : "Cubo 3D usando las propiedades rotate y translate de CSS3.",
-			"etiquetas" : ["fab fa-css3-alt"],
+			"etiquetas" : ["icon-css3"],
 						"externos" : [
 				{
 					"tipo" : "aplicacion", 
 					"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
-					"icon" : "fab fa-codepen"
+					"icon" : "icon-app-codepen"
 				},
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://devcode.la/tutoriales/crear-un-cubo-3d-con-css/",
-					"icon" : "fa fa-code"
+					"icon" : "icon-tutorial"
 				}
 			],
 			"img" : "cubo3d.gif",
@@ -569,25 +610,25 @@
 		{
 			"red" : "mail",
 			"link" : "mailto:nplasencia82@gmail.com",
-			"icon" : "fa fa-envelope",
+			"icon" : "icon-contact",
 			"etiqueta" : "nplasencia82@gmail.com"
 		},	
 		{
 			"red" : "github",
 			"link" : "http://github.com/NestorPlasencia",
-			"icon" : "fab fa-github",
+			"icon" : "icon-github",
 			"etiqueta" : "github.com/NestorPlasencia"
 		},	
 		{
 			"red" : "linkedin",
 			"link" : "https://www.linkedin.com/in/nestor-plasencia-prado/",
-			"icon" : "fab fa-linkedin",
+			"icon" : "icon-contact-linkedin",
 			"etiqueta" : "linkedin.com/in/nestor-plasencia-prado"
 		},
 		{
 			"red" : "dina",
 			"link" : "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34044",
-			"icon" : "fas fa-dna",
+			"icon" : "icon-contact-research",
 			"etiqueta" : "dina.concytec.gob.pe/nestor-plasencia-prado"
 		}
 	]
