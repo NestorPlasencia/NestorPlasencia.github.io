@@ -272,11 +272,95 @@ mongo-db
 		},
 
 - Dashboard GestionShop (Dashboard) 
+
 - Dashboard CloudWater (Dashboard)
+
 - Single Page App con Vue.JS (Aplicación)
+
 - Maquetacion de un blog con Materialize (Landing)
+		
+		{
+			"original" : " Maquetacion de un blog con Materialize",
+			"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
+			"nombre" : "Blog con Materialize",
+			"descripcion" : "Maquetacion de un blog para el CoreUpgrade-Lima 2018",
+			"etiquetas" : ["icon-materialize","icon-css3",],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "articulo", 
+					"link" : "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem3_reto4.md",
+					"icon" : "icon-article"
+				},
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/CUP-2018-Frontend-Semana-3",
+					"icon" : "icon-github"
+				}
+			],
+			"img" : "pikachu.gif",
+			"gif" : "pikachu.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2018/02/23"
+		},
+
 - Animación con Canvas de HTML5 (Tutorial y Aplicación)
+
+		{
+			"original" : "Animación con Canvas de HTML5",
+			"link" : "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+			"nombre" : "Animación con canvas",
+			"descripcion" : "Animacion de ojos que siguen la posición del mouse.",
+			"etiquetas" : ["icon-javascript-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "ojitos.PNG",
+			"gif" : "ojitos.gif",
+			"categoria" : "frontend",
+			"fecha" : "2016/11/05"
+		}
+
 - Efectos Fantasmales con jQuery (Tutorial y Aplicación)
+		
+		{
+			"original" : "Efectos Fantasmales con jQuery ",
+			"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+			"nombre" : "Efectos Fantasmales con jQuery",
+			"descripcion" : "Utilizaremos fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
+			"etiquetas" : ["icon-jquery,icon-javascript-alt,icon-css3"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "fantasma.PNG",
+			"gif" : "fantasma.gif",
+			"categoria" : "frontend",
+			"fecha" : "2016/10/25"
+		},
+
+
 - Filtros de Instagram con CSS (Tutorial y Aplicación)
 - Gráficos con jCanvas de jQuery (Tutorial y Aplicación) 
 - Implementando Drag and Drop con HTML5  (Tutorial y Aplicación)
@@ -333,9 +417,14 @@ mongo-db
 					"icon" : "icon-app-codepen"
 				},
 				{
-					"tipo" : "video", 
-					"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-					"icon" : "icon-videotutorial"
+					"tipo" : "articulo", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
+					"icon" : "icon-article"
+				},
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/",
+					"icon" : "icon-github"
 				}
 			],
 			"img" : "xilofono.gif",
@@ -362,7 +451,7 @@ mongo-db
 				{
 					"tipo" : "tutorial", 
 					"link" : "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
-					"icon" : "icon-tutorial"
+					"icon" : "icon-article"
 				},
 				{
 					"tipo" : "repositorio", 
@@ -390,7 +479,7 @@ mongo-db
 					"icon" : "icon-github"
 				},
 				{
-					"tipo" : "tutorial", 
+					"tipo" : "articulo", 
 					"link" : "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem2b_reto3.md",
 					"icon" : "icon-tutorial"
 				},
@@ -410,6 +499,25 @@ mongo-db
 #### Robótica y Electrónica
 
 - Curso de programación con Arduino (Videotutorial)
+		{
+			"original" : "Curso de programación con Arduino",
+			"link" : "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+			"nombre" : "Curso de programación con Arduino",
+			"descripcion" : "Curso de electrónica básica y programacion de arduino.",
+			"etiquetas" : ["icon-arduino"],
+			"externos" : [
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+					"icon" : "icon-videotutorial"
+				}
+			],
+			"gif" : "corazones.gif",
+			"img" : "corazones.PNG",
+			"categoria" : "robotica",
+			"fecha" : "2017/06/01"
+		}
+
 - Entrenamiento en Electrónica de Coreupgrade (Tutorial)
 - Robot Wall-e (Proyecto)
 - Robot RoBi (Proyecto)
@@ -425,7 +533,46 @@ mongo-db
 #### Diseño
 
 - Crea tus propios Glyphicons (Tutorial)
+
+		{
+			"original" : "Crea tus propios Glyphicons",
+			"link" : "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+			"nombre" : "Crear un rompecabezas con Illustrator",
+			"descripcion" : "Crear tus propios GLYPHICONS, y mejorar las interfaces y usabilidad de tus sitios web, dejando de usar imágenes para los íconos.",
+			"etiquetas" : ["icon-illustrator"],
+			"externos" : [
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "glyphicons.PNG",
+			"gif" : "glyphicons.gif",
+			"categoria" : "diseño",
+			"fecha" : "2016/11/30"
+		},
+
 - Crear un rompecabezas con Illustrator (Tutorial)
+
+		{
+			"original" : "Crear un rompecabezas con Illustrator",
+			"link" : "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+			"nombre" : "Crear un rompecabezas con Illustrator",
+			"descripcion" : "Tutorial para crear piezas de rompecabezas en illustrator, a partir de una imagen.",
+			"etiquetas" : ["icon-illustrator"],
+			"externos" : [
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "piezas.PNG",
+			"gif" : "piezas.gif",
+			"categoria" : "diseño",
+			"fecha" : "2016/11/30"
+		},
 
 #### Desarrollo Mobil
 
@@ -448,6 +595,7 @@ mongo-db
 			"categoria" : "mobile",
 			"fecha" : "2017/04/01"
 		},
+
 - Calculadora Científica con Kotlin (Tutorial)
 
 

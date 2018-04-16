@@ -4,7 +4,7 @@
 	"img" : "perfil.png",
 	"titulo" : "I <span class=\"teal-red\">❤</span> <span class=\"underline\">Technology</span>",
 	"sobremi_titulo" : "Apasionado por la tecnología y la educación.",
-	"sobremi_descripcion" : "<p> Desde muy pequeño me apasiono el mundo de la computación y la tecnología. Estudie Ingeniería Mecatrónica en la Universidad Nacional de Ingeniería, allí descubrí la programación y quede encantado con esta disciplina. Al terminar la carrera, decidí especializarme en esta rama, especialmente en el desarrollo web.</p><p>Otra actividad que disfruto, es la robótica educativa, he dictado diversos talleres que involucran diseño, fabricación y programación de robots.</p><p>Siempre estoy en búsqueda de nuevos conocimientos y herramientas, que me permitan desarrollar productos tecnológicos que ayuden a mejorar la vida de las personas.</p>",
+	"sobremi_descripcion" : "<p> Desde muy pequeño me apasionó el mundo de la computación y la tecnología. Estudié Ingeniería Mecatrónica en la Universidad Nacional de Ingeniería, allí descubrí la programación y quedé encantado con esta disciplina. Al terminar la carrera, decidí especializarme en esta rama, especialmente en el desarrollo web.</p><p>Otra actividad que disfruto, es la robótica educativa, he dictado diversos talleres que involucran diseño, fabricación y programación de robots.</p><p>Siempre estoy en búsqueda de nuevos conocimientos y herramientas, que me permitan desarrollar productos tecnológicos que ayuden a mejorar la vida de las personas.</p>",
 	"educacion" : [
 		{
 			"universidad": "Universidad Nacional de Ingeniería",
@@ -142,6 +142,47 @@
 	],
 	"portafolio" : [
 		{
+			"original" : "Curso de programación con Arduino",
+			"link" : "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+			"nombre" : "Curso de fundamentada de Arduino",
+			"descripcion" : "Curso de electrónica básica y programación de arduino.",
+			"etiquetas" : ["icon-arduino"],
+			"externos" : [
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+					"icon" : "icon-videotutorial"
+				}
+			],
+			"gif" : "cursoArduino.gif",
+			"img" : "cursoArduino.PNG",
+			"categoria" : "robotica",
+			"fecha" : "2017/06/01"
+		},
+		{
+			"original" : "Rompecabezas con JS, CSS3 y HTML5",
+			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+			"nombre" : "Rompecabezas con Javascript",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/PGEYQv",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "video", 
+					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+					"icon" : "icon-videotutorial"
+				}
+			],
+			"gif" : "pikachu.gif",
+			"img" : "pikachu.PNG",
+			"categoria" : "frontend",
+			"fecha" : "2016/11/21"
+		},
+		{
 			"original" : "Directorio de contactos con NodeJS",
 			"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
 			"nombre" : "Directorio de contactos",
@@ -159,9 +200,119 @@
 					"icon" : "icon-article"
 				}
 			],
-			"img" : "directorio.gif",
-			"gif" : "directorio.PNG",
+			"gif" : "directorio.gif",
+			"img" : "directorio.PNG",
 			"categoria" : "backend",
+			"fecha" : "2018/02/23"
+		},
+		{
+			"original" : "Crea tus propios Glyphicons",
+			"link" : "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+			"nombre" : "Crea tus propios Glyphicons",
+			"descripcion" : "Crear tus propios GLYPHICONS, y mejorar las interfaces y usabilidad de tus sitios web, dejando de usar imágenes para los íconos.",
+			"etiquetas" : ["icon-illustrator"],
+			"externos" : [
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "glyphicons.PNG",
+			"gif" : "glyphicons.gif",
+			"categoria" : "diseño",
+			"fecha" : "2016/11/30"
+		},
+		{
+			"original" : "Crear un rompecabezas con Illustrator",
+			"link" : "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+			"nombre" : "Crear un rompecabezas con Illustrator",
+			"descripcion" : "Tutorial para crear piezas de rompecabezas en illustrator, a partir de una imagen.",
+			"etiquetas" : ["icon-illustrator"],
+			"externos" : [
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "piezas.PNG",
+			"gif" : "piezas.gif",
+			"categoria" : "diseño",
+			"fecha" : "2016/11/30"
+		},
+		{
+			"original" : "Animación con Canvas de HTML5",
+			"link" : "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+			"nombre" : "Animación con canvas",
+			"descripcion" : "Animacion de ojos que siguen la posición del mouse.",
+			"etiquetas" : ["icon-javascript-alt"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "ojitos.PNG",
+			"gif" : "ojitos.gif",
+			"categoria" : "frontend",
+			"fecha" : "2016/11/05"
+		},
+		{
+			"original" : "Efectos Fantasmales con jQuery",
+			"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+			"nombre" : "Efectos Fantasmales con jQuery",
+			"descripcion" : "Utilizaremos fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
+			"etiquetas" : ["icon-jquery,icon-javascript-alt,icon-css3"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "tutorial", 
+					"link" : "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+					"icon" : "icon-tutorial"
+				}
+			],
+			"img" : "fantasma.PNG",
+			"gif" : "fantasma.gif",
+			"categoria" : "frontend",
+			"fecha" : "2016/10/25"
+		},
+		{
+			"original" : "Maquetación de un blog con Materialize",
+			"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
+			"nombre" : "Blog con Materialize",
+			"descripcion" : "Maquetación de un blog para el CoreUpgrade-Lima 2018",
+			"etiquetas" : ["icon-materialize","icon-css3"],
+			"externos" : [
+				{
+					"tipo" : "aplicacion", 
+					"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
+					"icon" : "icon-app-codepen"
+				},
+				{
+					"tipo" : "articulo", 
+					"link" : "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem3_reto4.md",
+					"icon" : "icon-article"
+				},
+				{
+					"tipo" : "repositorio", 
+					"link" : "https://github.com/NestorPlasencia/CUP-2018-Frontend-Semana-3",
+					"icon" : "icon-github"
+				}
+			],
+			"img" : "blogMaterialize.PNG",
+			"gif" : "blogMaterialize.gif",
+			"categoria" : "frontend",
 			"fecha" : "2018/02/23"
 		},
 		{
@@ -187,8 +338,8 @@
 					"icon" : "icon-github"
 				}
 			],
-			"img" : "backend-training.gif",
-			"gif" : "backend-training.PNG",
+			"gif" : "backend-training.gif",
+			"img" : "backend-training.PNG",
 			"categoria" : "backend",
 			"fecha" : "2017/11/24"
 		},
@@ -205,8 +356,8 @@
 					"icon" : "icon-mobile"
 				}
 			],
-			"img" : "app-gestionshop.gif",
-			"gif" : "app-gestionshop.PNG",
+			"gif" : "app-gestionshop.gif",
+			"img" : "app-gestionshop.PNG",
 			"categoria" : "mobile",
 			"fecha" : "2017/04/01"
 		},
@@ -228,8 +379,8 @@
 					"icon" : "icon-tutorial"
 				}
 			],
-			"img" : "corazones.gif",
-			"gif" : "corazones.PNG",
+			"gif" : "corazones.gif",
+			"img" : "corazones.PNG",
 			"categoria" : "frontend",
 			"fecha" : "2017/02/08"
 		},
@@ -237,7 +388,7 @@
 			"original" : "Crear un xilófono musical con JavaScript",
 			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
 			"nombre" : "Xilofono musical",
-			"descripcion" : "Creacion de un Xilofono, y programación de melodia navideña.",
+			"descripcion" : "Creación de un Xilofono, y programación de melodía navideña.",
 			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
@@ -251,8 +402,8 @@
 					"icon" : "icon-videotutorial"
 				}
 			],
-			"img" : "xilofono.gif",
-			"gif" : "xilofono.PNG",
+			"gif" : "xilofono.gif",
+			"img" : "xilofono.PNG",
 			"categoria" : "frontend",
 			"fecha" : "2016/12/24"
 		},
@@ -274,8 +425,8 @@
 					"icon" : "icon-tutorial"
 				}
 			],
-			"img" : "starwars.gif",
-			"gif" : "starwars.png",
+			"gif" : "starwars.gif",
+			"img" : "starwars.png",
 			"categoria" : "frontend",
 			"fecha" : "2016/12/13"
 		},
@@ -297,38 +448,15 @@
 					"icon" : "icon-tutorial"
 				}
 			],
-			"img" : "copos.gif",
-			"gif" : "copos.PNG",
+			"gif" : "copos.gif",
+			"img" : "copos.PNG",
 			"categoria" : "frontend",
 			"fecha" : "2016/12/02"
 		},
 		{
-			"original" : "Rompecabezas con JS, CSS3 y HTML5",
-			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-			"nombre" : "Rompecabezas",
-			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
-			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
-			"externos" : [
-				{
-					"tipo" : "aplicacion", 
-					"link" : "https://codepen.io/NestorPlasencia/pen/gLXebG",
-					"icon" : "icon-app-codepen"
-				},
-				{
-					"tipo" : "video", 
-					"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-					"icon" : "icon-videotutorial"
-				}
-			],
-			"img" : "pikachu.gif",
-			"gif" : "pikachu.PNG",
-			"categoria" : "frontend",
-			"fecha" : "2016/11/21"
-		},
-		{
 			"original" : "Crear un Cubo 3D con CSS CSS3",
 			"link" : "https://codepen.io/NestorPlasencia/pen/NbWZrd",
-			"nombre" : "Cubo 3D",
+			"nombre" : "Cubo 3D con CSS",
 			"descripcion" : "Cubo 3D usando las propiedades rotate y translate de CSS3.",
 			"etiquetas" : ["icon-css3"],
 						"externos" : [
@@ -343,8 +471,8 @@
 					"icon" : "icon-tutorial"
 				}
 			],
-			"img" : "cubo3d.gif",
-			"gif" : "cubo3d.PNG",
+			"gif" : "cubo3d.gif",
+			"img" : "cubo3d.PNG",
 			"categoria" : "frontend",
 			"fecha" : "2016/11/09"
 		}

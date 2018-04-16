@@ -4,14 +4,9 @@
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Cache-control" content="public">
-		<!-- Materialize Purify -->
-<!-- 	 <link rel="stylesheet" href="css/materialize.css"> -->
-		<!-- Custom Styles		 -->
 		<link rel="stylesheet" href="css/materialize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/fonts.css">
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 		<title>{{info.nombre}} | {{info.etiqueta}} </title>
 		<!-- Open Graph-->
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
@@ -62,11 +57,13 @@
 						<i class="icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
-<!-- 				<li class="bold">
+				<!-- 				
+				<li class="bold">
 					<a href="#" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-file"></i><span>CV</span>
 					</a>
-				</li> -->
+				</li> 
+				-->
 			</ul>
 		</nav>
 		<nav class="hide-on-large only trigger z-depth-1">
@@ -115,11 +112,13 @@
 						<i class="icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
-<!-- 				<li class="bold">
+				<!--	 			
+				<li class="bold">
 					<a href="#" class="waves-effect waves-dark teal-text">
 						<i class="fa fa-file icon-menu-sm" ></i><span>CV</span>
 					</a>
-				</li> -->
+				</li> 
+				-->
 			</ul>
 		</nav>
 		<main>
@@ -161,18 +160,18 @@
 						<div class="card medium" data-cat="{{item.categoria}}" data-id="{{ loop.index }}" data-title="{{item.original}}">
 							<div class="card-image waves-effect waves-block waves-light">
 								<a href="{{item.link}}" target="_blank">
+									<img alt="" src="img/{{item.gif}}" class="item_gif activator">
 									<img alt="" src="img/{{item.img}}" class="item_img activator">	
-									<img alt="" src="img/{{item.gif}}" class="desaparece item_gif activator">
 								</a>									
 							</div>
 							<div class="card-content">
-								<span class="card-title activator teal-text hoverline item_title">
+								<span class=" card-title activator teal-text hoverline item_title">
 									<span>{{item.nombre|safe}}</span>
 									<i class="icon-up right"></i>
 								</span>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title blue-text text-darken-4">Descripción<i class="icon-down right"></i></span>
+								<span class="card-title blue-text text-darken-4">Descripción<i class=" icon-down right"></i></span>
 								<p class="descripcion">{{item.descripcion}}</p>
 								<div>
 									{% for tag in item.etiquetas %}	
@@ -190,12 +189,12 @@
 						</div>
 						{% endfor %}
 					</div>
-					<div class="vermas center">
+					<div class="more vermas center">
 						<a data-position="top" class="btn-floating blue darken-2" onclick="vermas()">
 							<i class="icon-down "></i>
 						</a>						
 					</div>
-					<div class="vermenos center no_display">
+					<div class="less vermenos center no_display">
 						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
 							<i class="icon-up "></i>
 						</a>						
@@ -222,12 +221,12 @@
 						{% endfor %}
 					</div>
 				</div>
-				<div class="vermash center">
+				<div class="more vermash center">
 					<a data-position="top" class="btn-floating blue darken-2" onclick="vermash()">
 						<i class="icon-down "></i>
 					</a>						
 				</div>
-				<div class="vermenosh center no_display">
+				<div class="less vermenosh center no_display">
 					<a data-position="top" class="btn-floating blue darken-2" href="#skills" onclick="vermenosh()">
 						<i class="icon-up "></i>
 					</a>						
@@ -264,13 +263,17 @@
 						<div class="card " data-id="{{loop.index}}">
 							<div class="card-content">
 								<div class="row">
-									<div class="col s12 m2"><a href="{{exp.url}}" target="_blank"><img alt="" src="img/{{exp.img}}" class="responsive-img center-block"></a></div>
+									<div class="col s12 m2">
+										<a href="{{exp.url}}" target="_blank">
+											<img alt="" src="img/{{exp.img}}" class="responsive-img center-block">
+										</a>
+									</div>
 									<div class="col s12 m10">
 										<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline name">{{exp.empresa|safe}}</a></span></p>
 									</div>
 								</div>
 								<div class="role blue-text text-darken-4">{{exp.cargo|safe}}</div>
-								<p><em class="grey-text">{{exp.descripcion}}.</em></p>
+								<p><em class="grey-text">{{exp.descripcion}}</em></p>
 								<ul>
 									{% for func in exp.funciones %}
 									<li>{{ func }}</li>
@@ -294,12 +297,12 @@
 						{% endfor %}
 					</div>
 				</div>	
-				<div class="vermase center">
+				<div class="more vermase center">
 					<a data-position="top" class="btn-floating blue darken-2" onclick="vermase()">
 						<i class="icon-down "></i>
 					</a>						
 				</div>
-				<div class="vermenose center no_display">
+				<div class="less vermenose center no_display">
 					<a data-position="top" class="btn-floating blue darken-2" href="#experience" onclick="vermenose()">
 						<i class="icon-up "></i>
 					</a>						
@@ -318,7 +321,7 @@
 								</div>
 							</div>
 							<div class="role blue-text text-darken-4">{{com.cargo|safe}}</div>
-							<p><em class="grey-text">{{com.descripcion}}.</em></p>
+							<p><em class="grey-text">{{com.descripcion}}</em></p>
 							<ul>
 								{% for func in com.funciones %}
 								<li>{{ func }}</li>
@@ -367,28 +370,8 @@
 				);
 			});
 		</script>
-		<script>
-			$(document).ready(function() {
-    			function imghover() {
-	    			$('.desaparece').hover(function(){
-	        			$(this).animate({opacity:0});
-	    			},function(){
-	        			$(this).animate({opacity:1});
-	    			});
-    			}
-    			imghover() 
-			});
-		</script>
 		<script type="text/javascript">
-			
-			function imghover() {
-	    		$('.desaparece').hover(function(){
-	        		$(this).animate({opacity:0});
-	    		},function(){
-	        		$(this).animate({opacity:1});
-	    		});
-    		}
-    			
+			    			
 			var contador = 0;
 			var limite_iinicial = 3
 			var limite = limite_iinicial;
@@ -413,7 +396,6 @@
 				$('.vermas').addClass('no_display')
 				$('.vermenos').removeClass('no_display')
 				filtrado()
-				imghover() 
 			}
 			function vermenos() {
 				limite = limite_iinicial;
