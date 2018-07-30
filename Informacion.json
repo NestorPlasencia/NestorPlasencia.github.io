@@ -155,8 +155,8 @@
 				}
 			],
 			"gif" : "cursoArduino.gif",
-			"img" : "cursoArduino.PNG",
-			"categoria" : "robotica",
+			"img" : "cursoArduino.png",
+			"categoria" : "electronica",
 			"fecha" : "2017/06/01"
 		},
 		{
@@ -236,7 +236,7 @@
 					"icon" : "icon-tutorial"
 				}
 			],
-			"img" : "piezas.PNG",
+			"img" : "piezas.png",
 			"gif" : "piezas.gif",
 			"categoria" : "diseño",
 			"fecha" : "2016/11/30"

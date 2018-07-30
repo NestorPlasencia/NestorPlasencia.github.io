@@ -1985,7 +1985,7 @@ ul {
 .clearfix {
   clear: both; }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.side-nav {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.sidenav {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
@@ -6011,25 +6011,25 @@ a.waves-effect .waves-ripple {
     margin: 0;
     padding: 2rem; }
 
-ul.side-nav ul.collapsible {
+ul.sidenav ul.collapsible {
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
-  ul.side-nav ul.collapsible li {
+  ul.sidenav ul.collapsible li {
     padding: 0; }
-ul.side-nav .collapsible-header {
+ul.sidenav .collapsible-header {
   background-color: transparent;
   border: none;
   line-height: inherit;
   height: inherit;
   margin: 0 1rem; }
-  ul.side-nav .collapsible-header i {
+  ul.sidenav .collapsible-header i {
     line-height: inherit; }
-ul.side-nav .collapsible-body {
+ul.sidenav .collapsible-body {
   border: 0;
   background-color: #FFF; }
-  ul.side-nav .collapsible-body li a {
+  ul.sidenav .collapsible-body li a {
     margin: 0 1rem 0 2rem; }
 
 li.no-padding {
@@ -6751,7 +6751,7 @@ ul.table-of-contents a {
     padding-left: 18px;
     border-left: 2px solid #ea4a4f; }
 
-ul.side-nav {
+ul.sidenav {
   position: fixed;
   width: 240px;
   left: -105%;
@@ -6763,18 +6763,18 @@ ul.side-nav {
   background-color: #FFF;
   z-index: 999;
   will-change: left; }
-  ul.side-nav.right-aligned {
+  ul.sidenav.right-aligned {
     will-change: right;
     right: -105%;
     left: auto; }
-  ul.side-nav .collapsible {
+  ul.sidenav .collapsible {
     margin: 0; }
-  ul.side-nav li {
+  ul.sidenav li {
     float: none;
     padding: 0 15px; }
-    ul.side-nav li:hover, ul.side-nav li.active {
+    ul.sidenav li:hover, ul.sidenav li.active {
       background-color: #ddd; }
-  ul.side-nav a {
+  ul.sidenav a {
     color: #444; }
 
 .drag-target {
@@ -6784,29 +6784,29 @@ ul.side-nav {
   top: 0;
   z-index: 998; }
 
-ul.side-nav.fixed a {
+ul.sidenav.fixed a {
   display: block;
   padding: 0 15px;
   color: #444; }
 
-ul.side-nav.fixed {
+ul.sidenav.fixed {
   left: 0;
   position: fixed; }
-  ul.side-nav.fixed.right-aligned {
+  ul.sidenav.fixed.right-aligned {
     right: 0;
     left: auto; }
 
 @media only screen and (max-width : 992px) {
-  ul.side-nav.fixed {
+  ul.sidenav.fixed {
     left: -105%; }
-    ul.side-nav.fixed.right-aligned {
+    ul.sidenav.fixed.right-aligned {
       right: -105%;
       left: auto; }
  }
 
-ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.active {
+ul.sidenav .collapsible-body li.active, ul.sidenav.fixed .collapsible-body li.active {
   background-color: #ee6e73; }
-  ul.side-nav .collapsible-body li.active a, ul.side-nav.fixed .collapsible-body li.active a {
+  ul.sidenav .collapsible-body li.active a, ul.sidenav.fixed .collapsible-body li.active a {
     color: #fff; }
 
 #sidenav-overlay {

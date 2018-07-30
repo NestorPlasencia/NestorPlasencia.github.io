@@ -28,50 +28,52 @@ nav {
 nav i {
 	padding: 0 15px;
 	position: relative;
-	top: 5px;
 }
+
+
 main {
-	background: url(../../static/img/bg.png),url(/img/bg.png); 
+	background: url(../img/bg.png),url(/img/bg.png); 
 	background-repeat: repeat;
 	padding-left: 250px;
 }
-ul.side-nav {
+
+.sidenav {
 	width: 250px;
 }
-ul.side-nav li {
+
+.sidenav li {
 	padding: 0;
 }
-ul.side-nav.fixed a {
-	box-sizing: content-box;
-	color: #444;
-	display: block;
-	line-height: 100%;
-	padding: 10px 0 12px;
+
+.sidenav li a {
+	display: flex;
+	height: 48px;
 }
-ul.table-of-contents li.logo a.active,
-ul.table-of-contents li.logo a:hover {
+
+.sidenav-mobile {
+	padding-top: 20px; 
+}
+
+.table-of-contents li.logo a.active,
+.table-of-contents li.logo a:hover {
 	border: none;
 	font-weight: 200;
 }
-ul.side-nav.fixed li.logo {
+.sidenav.sidenav-fixed li.logo {
 	background-color: #fafafa;
 	border-bottom: 1px solid #ddd;
 	box-sizing: content-box;
 	min-height: 186px;
 	padding: 30px 30px 40px;
 }
-ul.side-nav.fixed li.logo a {
+.sidenav.sidenav-fixed li.logo a {
 	font-weight: 200;
 	line-height: 100%;
 }
-ul.table-of-contents li:not(.logo) a.active,
-ul.table-of-contents li:not(.logo) a:hover {
+.table-of-contents li:not(.logo) a.active,
+.table-of-contents li:not(.logo) a:hover {
 	background-color: #d8eaff;
 	border-left: 3px solid ;
-}
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
-ul#slide-out li:not(.logo) a span {
-	color: #333 !important;
 }
 li.logo span {
 	display: block;
@@ -108,7 +110,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background-image:	url(../../static/img/nestorplasencia.jpg),url(/img/nestorplasencia.jpg);
+	background-image:	url(../img/nestorplasencia.jpg),url(/img/nestorplasencia.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
@@ -318,7 +320,7 @@ small { display: none;}
 		padding-left: 0px;
 		padding-top: 64px;
 	}
-	ul.side-nav a {
+	.sidenav a {
 	  line-height: 100%;
 	  padding: 0;
 	  width: 100%;
@@ -343,10 +345,10 @@ small { display: none;}
 	}
 
 	nav.hide-on-large.only.trigger {
-		display: block;
-	  position: fixed;
-	  top: 0;
-	  z-index: 2;
+		display: flex;
+		position: fixed;
+		top: 0;
+		z-index: 2;
 	}
 	.name-title {
 	  display: block;
@@ -426,7 +428,7 @@ small { display: none;}
 	}
 }
 
-.side-nav-sm {
+.sidenav-sm {
 	width: 190px; 
 	left: -200px;
 }

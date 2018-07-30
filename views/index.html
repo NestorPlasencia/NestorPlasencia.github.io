@@ -4,7 +4,9 @@
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Cache-control" content="public">
-		<link rel="stylesheet" href="css/materialize.css">
+		<!-- <link rel="stylesheet" href="css/materialize.css">
+ -->
+ 		<link rel="stylesheet" href="css/material.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<title>{{info.nombre}} | {{info.etiqueta}} </title>
@@ -12,104 +14,105 @@
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
 	</head>
 	<body>
+
+		
 		<nav>
-			<ul class="side-nav fixed section table-of-contents">
-				<li class="logo">
-					<a  id="logo-container" href="#intro" class="brand-logo teal-text">
+			<ul class="sidenav sidenav-fixed section table-of-contents">
+				<li>
+					<div class="user-view">
 						<img alt="" src="img/{{info.img}}" class="responsive-img center-block">
-						<h1> {{info.nombre}}
-							<span class="blue-text text-darken-4 light">{{info.etiqueta}}</span>
-						</h1>
-					</a>
+						<span class="blue-text center name">{{info.nombre}}</span>
+						<span class="blue-text center  email">{{info.etiqueta}}</span>
+					</div>
 				</li>
 				<li class="bold">
 					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class="icon-about" ></i><span>Sobre mi</span>
+						<i class=" blue-text icon-about" ></i><span>Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class="icon-portfolio"></i><span>Portafolio</span>
+						<i class=" blue-text icon-portfolio"></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class="icon-skills"></i><span>Habilidades</span>
+						<i class=" blue-text icon-skills"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class="icon-education"></i><span>Educación</span>
+						<i class=" blue-text icon-education"></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#experience" class="waves-effect waves-dark teal-text">
-						<i class="icon-experience"></i><span>Experiencia</span>
+						<i class=" blue-text icon-experience"></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#actvities" class="waves-effect waves-dark teal-text">
-						<i class="icon-comunity"></i><span>Actividades</span>
+						<i class=" blue-text icon-comunity"></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#contact" class="waves-effect waves-dark teal-text">
-						<i class="icon-contact"></i><span>Contacto</span>
+						<i class=" blue-text icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
 				<!-- 				
 				<li class="bold">
 					<a href="#" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-file"></i><span>CV</span>
+						<i class=" blue-text fa fa-file"></i><span>CV</span>
 					</a>
 				</li> 
 				-->
 			</ul>
 		</nav>
 		<nav class="hide-on-large only trigger z-depth-1">
-			<a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse">
+			<a href="#" data-target="slide-out" class="blue-text sidenav-trigger">
 				<i class="icon-menu"></i>
 			</a>
 			<div class="name-title">
-				<a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">{{info.nombre}}</a>
+				<a id="name" href="#main" class="teal-text">{{info.nombre}}</a>
 				<span class="blue-text text-darken-4 light">{{info.etiqueta}}</span>
 			</div>
 		</nav>
-		<nav class="hide-on-large only">
-			<ul id="slide-out" class="side-nav side-nav-sm" >
+		<nav>
+			<ul id="slide-out" class="sidenav sidenav-mobile" >
 				<li class="bold">
 					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class="icon-about" ></i><span>Sobre mi</span>
+						<i class="blue-text icon-about" ></i><span>Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class="icon-portfolio"></i><span>Portafolio</span>
+						<i class="blue-text icon-portfolio"></i><span>Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class="icon-skills"></i><span>Habilidades</span>
+						<i class="blue-text icon-skills"></i><span>Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class="icon-education"></i><span>Educación</span>
+						<i class="blue-text icon-education"></i><span>Educación</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#experience" class="waves-effect waves-dark teal-text">
-						<i class="icon-experience"></i><span>Experiencia</span>
+						<i class="blue-text icon-experience"></i><span>Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#actvities" class="waves-effect waves-dark teal-text">
-						<i class="icon-comunity"></i><span>Actividades</span>
+						<i class="blue-text icon-comunity"></i><span>Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
 					<a href="#contact" class="waves-effect waves-dark teal-text">
-						<i class="icon-contact"></i><span>Contacto</span>
+						<i class="blue-text icon-contact"></i><span>Contacto</span>
 					</a>
 				</li>
 				<!--	 			
@@ -140,14 +143,13 @@
 			<section id="projects" class="section scrollspy">
 				<h3 class="page-title white-text teal page-title-projects">Portafolio</h3>
 				<div class="nav-content filter-des">
-			      <ul class="tabs tabs-transparent ">
-			        <li class="tab"><a class="active" href="" onclick="changecategory(this)" >Todos</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">Frontend</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">Backend</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">Mobile</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">Robotica</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">IoT</a></li>
-			        <li class="tab"><a href="" onclick="changecategory(this)">Diseño</i></a></li>
+			      <ul class="tabs">
+			        <li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a></li>
+			        <li class="tab"><a onclick="changecategory(this)">Frontend</a></li>
+			        <li class="tab"><a onclick="changecategory(this)">Backend</a></li>
+			        <li class="tab"><a onclick="changecategory(this)">Mobile</a></li>
+			        <li class="tab"><a onclick="changecategory(this)">Electronica</a></li>
+			        <li class="tab"><a onclick="changecategory(this)">Diseño</i></a></li>
 			      </ul>
 			    </div>
 				<div id="items" class="container">
@@ -356,25 +358,32 @@
 		<!-- jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Materialize-->
-		<script src="/js/materialize.min.js"></script>
+		<!-- <script src="/js/materialize.min.js"></script> -->
+		<script src="/js/material.js"></script>
+		
 		<!-- List.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 		 <script>
-			$(document).ready(function(){
-				$('.scrollspy').scrollSpy();
-				$(".button-collapse").sideNav({
-						menuWidth: 190, 
-						edge: 'left', 
-						closeOnClick: true 
-					}
-				);
+			document.addEventListener('DOMContentLoaded', function() {
+				var elems = document.querySelectorAll('.sidenav');
+				var instances = M.Sidenav.init(elems, {
+					menuWidth: 190, 
+					edge: 'left', 
+					closeOnClick: true 
+				});
 			});
+			document.addEventListener('DOMContentLoaded', function() {
+				var elems = document.querySelectorAll('.scrollspy');
+				var instances = M.ScrollSpy.init(elems,{});
+			});
+
+
 		</script>
 		<script type="text/javascript">
 			    			
 			var contador = 0;
-			var limite_iinicial = 3
-			var limite = limite_iinicial;
+			var limite_inicial = 3
+			var limite = limite_inicial;
 			var categoria_activa = "todos";
 			var options = {
 			 	valueNames: [
@@ -398,7 +407,7 @@
 				filtrado()
 			}
 			function vermenos() {
-				limite = limite_iinicial;
+				limite = limite_inicial;
 				$('.vermenos').addClass('no_display')
 				$('.vermas').removeClass('no_display')
 				filtrado()

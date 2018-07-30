@@ -1,3 +1,10 @@
-- npm install
-- node sever.js
-- localhost:5000 en el navegador 
+```
+npm install
+```
+```
+node server.js
+```
+```
+localhost:5000
+```
+
