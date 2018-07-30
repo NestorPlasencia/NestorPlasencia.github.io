@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="">
+		<input type="email" id="email">
+		<input type="button" id="boton" value="Enviar">
+	</form>
+	<script>
+		let boton = document.getElementById("boton")
+		let email = document.getElementById("email")
+		boton.addEventListener("click", sendInvitation)
+		function sendInvitation() {
+			let ajax = new XMLHttpRequest()
+			ajax.open("POST", "https://slack.com/api/users.admin.invite", true)
+			//ajax.setRequestHeader("Access-Control-Allow-Origin", "*")
+			//ajax.setRequestHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Origin, Origin, X-Requested-With, Content-Type, Accept, Authorization")	
+			ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+			//ajax.setRequestHeader("Authorization", "Bearer xoxp-335099491303-333514829457-369585118708-b3c919181404c7270a81315cda491f38")
+			//ajax.setRequestHeader("token", "xoxp-335099491303-333514829457-369585118708-b3c919181404c7270a81315cda491f38")
+			
+			let emailAdress = email.value
+			let payload = "email=" + emailAdress + "&"
+			payload = payload + "token=xoxp-335099491303-333514829457-369585118708-b3c919181404c7270a81315cda491f38&"
+			payload = payload + "channels=C9U0FA04C&ultra_restricted=true&"
+			payload = payload + "extra_message=" + "Hola guapo hermoso"	
+			console.log(payload)
+			ajax.send(payload)
+			ajax.onreadystatechange = function() {
+				if (ajax.readyState == 4 && ajax.status == 200) {
+					var data = ajax.responseText		
+					console.log(data) // ok = true
+				}
+			}	
+		}
+		/*function sendInvitation() {
+			let emailAdress = email.value
+			let url  = "https://slack.com/api/users.admin.invite" + "?"
+			url = url + "token=" + "xoxp-335099491303-333514829457-369585118708-b3c919181404c7270a81315cda491f38" + "&"
+			url = url + "email=" + emailAdress + "&"
+			url = url + "channels=" + "C9U0FA04C" + "&"
+			url = url + "ultra_restricted=" + "true" + "&"
+			url = url + "extra_message=" + "Hola guapo hermoso"	
+			let ajax = new XMLHttpRequest()
+			ajax.open("GET",url, true)
+			ajax.send()
+			ajax.onreadystatechange = function() {
+				if (ajax.readyState == 4 && ajax.status == 200) {
+					var data = ajax.responseText		
+					console.log(data) // ok = true
+				}
+			}	
+		}*/
+	</script>
+</body>
+</html>

@@ -22,7 +22,7 @@ var info = JSON.parse(fs.readFileSync('Informacion.json', 'utf8'));
 
 // Cuando exista una petición en el servidor  
 server.get('/',function(req,res){
-	res.render('index.html', {info:info});
+	res.render('testSlack.html', {info:info});
 });
 
 

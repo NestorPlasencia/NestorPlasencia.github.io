@@ -269,7 +269,7 @@
 			"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
 			"nombre" : "Efectos Fantasmales con jQuery",
 			"descripcion" : "Utilizaremos fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
-			"etiquetas" : ["icon-jquery,icon-javascript-alt,icon-css3"],
+			"etiquetas" : ["icon-jquery","icon-javascript-alt","icon-css3"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
@@ -289,15 +289,15 @@
 		},
 		{
 			"original" : "Maquetación de un blog con Materialize",
-			"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
+			"link" : "https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/",
 			"nombre" : "Blog con Materialize",
 			"descripcion" : "Maquetación de un blog para el CoreUpgrade-Lima 2018",
-			"etiquetas" : ["icon-materialize","icon-css3"],
+			"etiquetas" : ["icon-materialize","icon-css3","icon-html5"],
 			"externos" : [
 				{
 					"tipo" : "aplicacion", 
-					"link" : "https://codepen.io/NestorPlasencia/pen/LdvVvz",
-					"icon" : "icon-app-codepen"
+					"link" : "https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/",
+					"icon" : "icon-web"
 				},
 				{
 					"tipo" : "articulo", 
