@@ -142,19 +142,23 @@
 				
 				<div class="nav-content filter-des">
 					<ul class="tabs">
-						<li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a></li>
-						<li class="tab"><a onclick="changecategory(this)">Frontend</a></li>
-						<li class="tab"><a onclick="changecategory(this)">Backend</a></li>
-						<li class="tab"><a onclick="changecategory(this)">Mobile</a></li>
-						<li class="tab"><a onclick="changecategory(this)">Electronica</a></li>
-						<li class="tab"><a onclick="changecategory(this)">Diseño</i></a></li>
+						<li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a><span class="badge todos">0</span></li>
+						<li class="tab"><a onclick="changecategory(this)">Frontend</a><span class="badge frontend">0</span></li>
+						<li class="tab"><a onclick="changecategory(this)">Backend</a><span class="badge backend">0</span></li>
+						<li class="tab"><a onclick="changecategory(this)">Mobile</a><span class="badge mobile">0</span></li>
+						<li class="tab"><a onclick="changecategory(this)">Electronica</a><span class="badge electronica">0</span></li>
+						<li class="tab"><a onclick="changecategory(this)">Diseño</a><span class="badge diseño">0</span></li>
 					</ul>
 				</div>
 				
 				<div id="items" class="container">
 					 <div class="input-field">
 						<input id="search" type="search" onkeyup="filterItems()"  autocomplete="off">
-			        	<label class="label-icon blue-text darken-2 " for="search"><i class="icon-search"></i></label>
+			        	<label class="label-icon blue-text darken-2 " for="search">
+							<i class="icon-search"></i>
+							
+						</label>
+						<span class="badge search">0</span>
 					 </div>
 					<div class="flex list">						
 						{% for item in info.portafolio %}
@@ -371,13 +375,21 @@
 		var category = 'todos'
 
 		function getOffsetTops(){
-			console.log("offsets")
 			var section = document.querySelectorAll(".scrollspy");
 			Array.prototype.forEach.call(section, function(e) {
 				sections[e.id] = e.offsetTop;
 			});
 		}
-		
+
+		var projects = document.querySelectorAll('.card-project')
+		document.querySelectorAll('.badge.todos')[0].innerText = projects.length
+		for (var i = 0; i < projects.length; i++) {
+			let cat = projects[i].getAttribute("data-cat")
+			let elem = document.querySelectorAll(`.badge.${cat}`)
+			elem[0].innerText = parseInt(elem[0].innerText)+1
+
+		}
+
 		ocultarItems('.card-project',1)
 		ocultarItems('.card-skill',1)
 		ocultarItems('.card-experience',1)
@@ -399,7 +411,8 @@
 			filterContent()
 			filterShow()
 			statusButtonLessMore()
-			getOffsetTops() 
+			getOffsetTops()
+			 
 		}	
 
 		function filterCategory() {
@@ -454,6 +467,7 @@
 			if ( totalItemsActives <= 2) {
 				document.getElementById('seeMoreProjects').parentNode.classList.add('d-none')
 			}
+			document.querySelectorAll('.badge.search')[0].innerText = totalItemsActives
 		}
 	
 		function seeMore(button) {

@@ -2,9 +2,11 @@ body {
 	color: #333;
 	font-size: 16px;
 }
+
 a {
 	color: #2980b9;
 }
+
 blockquote {
 	border-left: 5px solid #795548;
 	color: #795548;
@@ -13,23 +15,26 @@ blockquote {
 	margin: 20px 0;
 	padding-left: 1.5rem;
 }
+
 blockquote * {
   font-size: inherit;
   line-height: inherit;
 }
+
 .text-center {
 	text-align: center;
 }
+
 nav {
 	background: white;
 	box-shadow: none;
 	height: 0;
 }
+
 nav i {
 	padding: 0 15px;
 	position: relative;
 }
-
 
 main {
 	background: url(../img/bg.png),url(/img/bg.png); 
@@ -95,6 +100,7 @@ li.logo span {
 .container {
 	width: 95%
 }
+
 h3 {
 	font-weight: 200;
 	margin-bottom: 60px;
@@ -102,6 +108,7 @@ h3 {
 	padding: 30px 40px;
 	text-transform: uppercase;
 }
+
 .section {
 	padding-bottom: 30px;
 	padding-top: 0;
@@ -575,7 +582,10 @@ small { display: none;}
 .input-field input[type=search]:focus:not(.browser-default) {
 	background-color: transparent;
 	border-bottom: 1px solid #9e9e9e;
+}
 
+.input-field input[type=search]:focus:not(.browser-default) ~ .badge.search {
+	display: inline;
 }
 
 .input-field input[type=search] {
@@ -586,21 +596,61 @@ small { display: none;}
 	top: 1rem;
 }
 
+.tabs {
+	white-space: normal;
+}
+.tabs li.tab {
+	position: relative;
+	
+}
 
 .tabs li.tab a {
 	color: #2980b9;
+	padding: 0 14px 0 0;
+	margin-right: 30px;
 }
-
-.tabs li.tab a:hover {
-    color: #12679e;
+.tabs .tab a:hover {
+	cursor: pointer;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+	background-color: #2980b9;
+	color: white;
 }
 
 .tabs .indicator {
-    background-color: #12679e;
+    background-color: #2980b9;
+}
+
+.tab a.active + span.badge,
+.tab a:hover + span.badge {
+	color: white !important;
 }
 
 .tabs-transparent,.tabs-transparent li{
 	background-color: transparent !important;
+}
+
+span.badge {
+	position: absolute;
+	box-sizing: border-box;
+	top: 14px;
+    right: 4px;
+	background:  transparent;
+	color: #2980b9;
+	border-radius: 50%;
+    max-width: 20px;
+    min-width: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	text-align: center;
+	font-size: 9px;
+	line-height: 20px;
+	float: none;
+	padding: 0
+}
+
+.badge.search {
+	display: none;
 }
 
 .page-title-projects {
