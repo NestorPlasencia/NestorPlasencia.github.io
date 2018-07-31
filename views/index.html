@@ -11,12 +11,12 @@
 		<!-- Open Graph-->
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
 	</head>
-	<body>
+	<body> 
 		<nav>
 			<ul class="sidenav sidenav-fixed section table-of-contents">
 				<div class="user-view">
 					<a href="#intro">
-						<img alt="" src="img/{{info.img}}" class="responsive-img center-block">
+						<img alt="" src="/img/{{info.img}}" class="responsive-img center-block">
 						<span class="blue-text center name">{{info.nombre}}</span>
 						<span class="blue-text center  email">{{info.etiqueta}}</span>
 					</a>
@@ -153,16 +153,19 @@
 				
 				<div id="items" class="container">
 					 <div class="input-field">
-						<input id="search" type="search" onkeyup="buscar(this)" required>
+						<input id="search" type="search" onkeyup="filterItems()"  autocomplete="off">
 			        	<label class="label-icon blue-text darken-2 " for="search"><i class="icon-search"></i></label>
 					 </div>
 					<div class="flex list">						
 						{% for item in info.portafolio %}
-						<div class="card medium" data-cat="{{item.categoria}}" data-id="{{ loop.index }}" data-title="{{item.original}}">
+						<div class="card card-project card-project-active medium" 
+							data-cat="{{item.categoria}}" 
+							data-des="{{ item.descripcion }}" 
+							data-title="{{item.original}}">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="{{item.link}}" target="_blank">
-									<img alt="" src="img/{{item.gif}}" class="item_gif activator">
-									<img alt="" src="img/{{item.img}}" class="item_img activator">	
+									<img alt="" src="/img/{{item.gif}}" class="item_gif activator">
+									<img alt="" src="/img/{{item.img}}" class="item_img activator">	
 								</a>									
 							</div>
 							<div class="card-content">
@@ -190,18 +193,15 @@
 						</div>
 						{% endfor %}
 					</div>
-					<div class="more vermas center">
-						<a data-position="top" class="btn-floating blue darken-2" onclick="vermas()">
-							<i class="icon-down "></i>
-						</a>						
-					</div>
-					<div class="less vermenos center d-none">
-						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
-							<i class="icon-up "></i>
+					<div class="center">
+						<a id="seeMoreProjects" data-position="top" data-section="project-active" class="more btn-floating blue darken-2" onclick="seeMore(this)">
+							<i class="icon-down"></i>
+						</a>	
+						<a id="seeLessProjects" data-position="top" data-section="project-active" class="less btn-floating blue darken-2 d-none" href="#projects" onclick="seeMore(this)">
+							<i class="icon-up"></i>
 						</a>						
 					</div>
 				</div>
-
 
 			</section>
 			<section id="skills" class="section scrollspy full-height">
@@ -215,7 +215,7 @@
 								<div class="skill-group ">
 									{% for elm in habilidades.elementos %}
 									<div class="img-skill-content progreso progreso-{{elm.nivel}}">
-										<img alt="" src="img/{{elm.img}}" class="img-skill">{{elm.nombre}}
+										<img alt="" src="/img/{{elm.img}}" class="img-skill">{{elm.nombre}}
 									</div>
 									{% endfor %}
 								</div>
@@ -241,7 +241,7 @@
 						<div class="col s12 m6">
 							<div class="card">
 								<div class="card-content">
-									<a href="{{educacion.url}}" target="_blank"><img alt="" src="img/{{educacion.img}}" class="responsive-img center-block"></a>	
+									<a href="{{educacion.url}}" target="_blank"><img alt="" src="/img/{{educacion.img}}" class="responsive-img center-block"></a>	
 
 									<p><span class="card-title"><a href="{{educacion.url}}" class="teal-text hoverline">{{educacion.universidad}}</a></span></p>
 									<p class="blue-text ">
@@ -266,7 +266,7 @@
 								<div class="row">
 									<div class="col s12 m2">
 										<a href="{{exp.url}}" target="_blank">
-											<img alt="" src="img/{{exp.img}}" class="responsive-img center-block">
+											<img alt="" src="/img/{{exp.img}}" class="responsive-img center-block">
 										</a>
 									</div>
 									<div class="col s12 m10">
@@ -315,7 +315,7 @@
 					<div class="card">
 						<div class="card-content">
 							<div class="row">
-								<div class="col s12 m2"><a href="{{com.url}}" target="_blank"><img alt="" src="img/{{com.img}}" class="responsive-img center-block"></a></div>
+								<div class="col s12 m2"><a href="{{com.url}}" target="_blank"><img alt="" src="/img/{{com.img}}" class="responsive-img center-block"></a></div>
 								<div class="col s12 m10">
 									<p><span class="card-title"><a href="{{com.url}}" target="_blank" class="teal-text hoverline">{{com.empresa|safe}}</a></span></p>
 								</div>
@@ -353,178 +353,164 @@
 				</div>
 			</section>
 		</main>
-		<!-- jQuery-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<!-- Materialize-->
-		<!-- <script src="/js/materialize.min.js"></script> -->
 		<script src="/js/material.js"></script>
-		
-		<!-- List.js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-		
 		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-				var elems = document.querySelectorAll('.sidenav');
-				var sidenavs = M.Sidenav.init(elems, {
-					menuWidth: 190, 
-					edge: 'left', 
-					closeOnClick: true 
-				});
+		
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.sidenav');
+			var sidenavs = M.Sidenav.init(elems, {
+				menuWidth: 190, 
+				edge: 'left', 
+				closeOnClick: true 
 			});
-		</script>
+		});
+		
+		var sections = {};
+		var totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		var limite_inicial = 2
+		var category = 'todos'
 
-		<script type="text/javascript">
-			    			
-			var contador = 0;
-			var limite_inicial = 3
-			var limite = limite_inicial;
-			var categoria_activa = "todos";
+		function getOffsetTops(){
+			console.log("offsets")
+			var section = document.querySelectorAll(".scrollspy");
+			Array.prototype.forEach.call(section, function(e) {
+				sections[e.id] = e.offsetTop;
+			});
+		}
+		
+		ocultarItems('.card-project',1)
+		ocultarItems('.card-skill',1)
+		ocultarItems('.card-experience',1)
+		getOffsetTops()
 
-			var options = {
-			 	valueNames: [
-					'card-title',
-					'descripcion', 
-					{ data: ['cat'] },
-					{ data: ['title'] },
-					{ data: ['id'] }
-				]
-			};
-
-			var projectList = new List('items', options);
-
-			todos();
-
-			function changecategory(evt){
-				
-				let categories = evt.parentNode.parentNode.children
-				for (var i = 0; i < categories.length; i++) {
-					categories[i].children[0].classList.remove('active');
-				}
-
-				evt.classList.add("active")
-				
-				categoria_activa = evt.text.toLowerCase();
-				filtrado()
+		function changecategory(evt){
+			let categories = evt.parentNode.parentNode.children
+			for (var i = 0; i < categories.length; i++) {
+				categories[i].children[0].classList.remove('active');
 			}
+			evt.classList.add("active")
+			category = evt.text.toLowerCase();	
+			filterItems()
+		}
 
-			function vermas() {
-				limite = 99999;
-				$('.vermas').addClass('d-none')
-				$('.vermenos').removeClass('d-none')
-				filtrado()
-			}
+		function filterItems() {
+			mostrarProjects()
+			filterCategory()
+			filterContent()
+			filterShow()
+			statusButtonLessMore()
+			getOffsetTops() 
+		}	
 
-			function vermenos() {
-				limite = limite_inicial;
-				$('.vermenos').addClass('d-none')
-				$('.vermas').removeClass('d-none')
-				filtrado()
-			}
-
-			function filtrado() {
-				if(categoria_activa == 'todos'){
-					todos();
-				}else {
-					contador = 0;
-					projectList.filter();
-					projectList.filter(function(item) {
-						if (item.values().cat == categoria_activa && contador < limite) {
-							contador++
-							return true;
-						} else {
-							return false;
-						}
-					});
+		function filterCategory() {
+			ocultarProjects()
+			if( category =='todos') {
+				mostrarProjects()
+			}else {
+				let items = document.querySelectorAll('.card-project')
+				for (var i = 0; i < items.length; i++) {	
+					if(items[i].getAttribute("data-cat") == category) {
+						items[i].classList.remove('d-none')
+						items[i].classList.add('card-project-active')	
+					}
 				}
 			}
+			totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		}
 
-			function todos() {
-				contador = 0;
-				projectList.filter();
-				projectList.filter(function(item) {
-					if (contador < limite) {
-						contador++
-						return true;
-					} else {
-						return false;
-					}
-				}); 
-			}
-
-			function buscar(evt) {
-				let value = document.getElementById("search").value.toString().toLowerCase();
-				console.log(value)
-				contador = 0;
-				projectList.filter();
-				projectList.filter(function(item) {
-					let title = item.values().title.toString().toLowerCase()
-					let cat = item.values().cat.toString().toLowerCase()
-					let des = item.values().descripcion.toString().toLowerCase()
-					//console.log(item.values())
-					if (contador < limite) {
-						if( cat.includes(value) || title.includes(value) || des.includes(value)) {
-							contador++
-							return true;
-						}else{
-							return false
-						}						
-					} else {
-						return false;
-					}
-				});
-
-			}
-
-
-			toogleItems('.card-skill')
-			toogleItems('.card-experience')
+		function filterContent() {
 			
-			function seeMore(button) {
-				button.parentNode.children[0].classList.toggle('d-none')
-				button.parentNode.children[1].classList.toggle('d-none')
-				let selector = '.card-' + button.getAttribute("data-section")
-				toogleItems(selector)
-			}
-
-			function toogleItems(selector) {
-				if(document.querySelectorAll(`${selector}.d-none`).length > 0) {
-					ocultarItems(selector,9999)
-				}else {
-					ocultarItems(selector,1)
+			let value = document.getElementById("search").value.toString().toLowerCase();
+			
+			projectList = document.querySelectorAll('.card-project-active')
+			for (var i = 0; i < projectList.length; i++) {
+			
+				projectList[i].classList.add('d-none')
+				projectList[i].classList.remove('card-project-active')
+					
+				let title = projectList[i].getAttribute("data-title").toLowerCase()
+				let cat = projectList[i].getAttribute("data-cat").toLowerCase()
+				let des = projectList[i].getAttribute("data-des").toLowerCase()
+				
+				if( cat.includes(value) || title.includes(value) || des.includes(value)) {
+					projectList[i].classList.add('card-project-active')
+					projectList[i].classList.remove('d-none')
 				}
 			}
+			totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		}
 
-			function ocultarItems(selector,number)  {
-				var elements = document.querySelectorAll(selector);
-				elements.forEach( (element,index) => {
-					element.classList.remove('d-none')
-					if( index > number) {
-						element.classList.add('d-none')
-					}
-				})
+		function filterShow() {
+			if ( document.getElementById('seeMoreProjects').classList.contains('d-none')){
+				mostrarItems('.card-project-active')
+			
+			}else if (document.getElementById('seeLessProjects').classList.contains('d-none')){
+				ocultarItems('.card-project-active',1)
 			}
-		</script>
-		<script>
-			(function() {
-				var sections = {};
-				getOffsetTops()
+		}
 
-				function getOffsetTops(){
-					var section = document.querySelectorAll(".scrollspy");
-					Array.prototype.forEach.call(section, function(e) {
-						sections[e.id] = e.offsetTop;
-					});
+		function statusButtonLessMore() {
+			document.getElementById('seeMoreProjects').parentNode.classList.remove('d-none')
+			if ( totalItemsActives <= 2) {
+				document.getElementById('seeMoreProjects').parentNode.classList.add('d-none')
+			}
+		}
+	
+		function seeMore(button) {
+			button.parentNode.children[0].classList.toggle('d-none')
+			button.parentNode.children[1].classList.toggle('d-none')
+			let selector = '.card-' + button.getAttribute("data-section")
+			if( button.classList.contains('more') ) {
+				mostrarItems(selector)
+			}else if (button.classList.contains('less')) {
+				ocultarItems(selector,1)
+			}			
+			getOffsetTops()
+		}
+
+		function ocultarProjects() {
+			let items = document.querySelectorAll('.card-project')
+			for (var i = 0; i < items.length; i++) {
+				items[i].classList.remove('card-project-active')
+				items[i].classList.add('d-none')	
+			}
+		}
+
+		function mostrarProjects() {
+			let items = document.querySelectorAll('.card-project')
+			for (var i = 0; i < items.length; i++) {
+				items[i].classList.add('card-project-active')
+				items[i].classList.remove('d-none')		
+			}
+		}
+
+		function ocultarItems(selector,number)  {
+			var elements = document.querySelectorAll(selector);
+			elements.forEach( (element,index) => {
+				element.classList.remove('d-none')
+				if( index > number) {
+					element.classList.add('d-none')
 				}
-				window.onscroll = function() {
-					var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-					for (i in sections) {
-						if (sections[i] <= scrollPosition + screen.height/2 ) {
-							document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
-							document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
-						}
-					}
-				};
-			})();
+			})
+		}
+
+		function mostrarItems(selector)  {
+			var elements = document.querySelectorAll(selector);
+			elements.forEach( (element,index) => {
+				element.classList.remove('d-none')
+			})
+		}
+
+		window.onscroll = function() {
+			var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+			for (i in sections) {
+				if (sections[i] <= scrollPosition + screen.height/2 ) {
+					document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
+					document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
+				}
+			}
+		};
+
 		</script>
 	</body>
 </html>

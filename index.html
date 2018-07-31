@@ -11,7 +11,7 @@
 		<!-- Open Graph-->
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
 	</head>
-	<body>
+	<body> 
 		<nav>
 			<ul class="sidenav sidenav-fixed section table-of-contents">
 				<div class="user-view">
@@ -153,12 +153,15 @@
 				
 				<div id="items" class="container">
 					 <div class="input-field">
-						<input id="search" type="search" onkeyup="buscar(this)" required>
+						<input id="search" type="search" onkeyup="filterItems()"  autocomplete="off">
 			        	<label class="label-icon blue-text darken-2 " for="search"><i class="icon-search"></i></label>
 					 </div>
 					<div class="flex list">						
 						
-						<div class="card medium" data-cat="electronica" data-id="1" data-title="Curso de programación con Arduino">
+						<div class="card card-project card-project-active medium" 
+							data-cat="electronica" 
+							data-des="Curso de electrónica básica y programación de arduino." 
+							data-title="Curso de programación con Arduino">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://www.youtube.com/watch?v=J--3hdPsRtg&amp;list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6" target="_blank">
 									<img alt="" src="./static/img/cursoArduino.gif" class="item_gif activator">
@@ -189,7 +192,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="2" data-title="Rompecabezas con JS, CSS3 y HTML5">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Rompecabezas de 9 piezas usando solo javascript, css y html" 
+							data-title="Rompecabezas con JS, CSS3 y HTML5">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://www.youtube.com/watch?v=dcIuh7JaxWw" target="_blank">
 									<img alt="" src="./static/img/pikachu.gif" class="item_gif activator">
@@ -228,7 +234,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="backend" data-id="3" data-title="Directorio de contactos con NodeJS">
+						<div class="card card-project card-project-active medium" 
+							data-cat="backend" 
+							data-des="Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo numero de telefono" 
+							data-title="Directorio de contactos con NodeJS">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2" target="_blank">
 									<img alt="" src="./static/img/directorio.gif" class="item_gif activator">
@@ -263,7 +272,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="diseño" data-id="4" data-title="Crea tus propios Glyphicons">
+						<div class="card card-project card-project-active medium" 
+							data-cat="diseño" 
+							data-des="Crear tus propios GLYPHICONS, y mejorar las interfaces y usabilidad de tus sitios web, dejando de usar imágenes para los íconos." 
+							data-title="Crea tus propios Glyphicons">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://devcode.la/tutoriales/crea-tus-propios-glyphicons/" target="_blank">
 									<img alt="" src="./static/img/glyphicons.gif" class="item_gif activator">
@@ -294,7 +306,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="diseño" data-id="5" data-title="Crear un rompecabezas con Illustrator">
+						<div class="card card-project card-project-active medium" 
+							data-cat="diseño" 
+							data-des="Tutorial para crear piezas de rompecabezas en illustrator, a partir de una imagen." 
+							data-title="Crear un rompecabezas con Illustrator">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/" target="_blank">
 									<img alt="" src="./static/img/piezas.gif" class="item_gif activator">
@@ -325,7 +340,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="6" data-title="Animación con Canvas de HTML5">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Animacion de ojos que siguen la posición del mouse." 
+							data-title="Animación con Canvas de HTML5">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/YWZWqq" target="_blank">
 									<img alt="" src="./static/img/ojitos.gif" class="item_gif activator">
@@ -360,7 +378,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="7" data-title="Efectos Fantasmales con jQuery">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Utilizaremos fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS." 
+							data-title="Efectos Fantasmales con jQuery">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/LRaaPz" target="_blank">
 									<img alt="" src="./static/img/fantasma.gif" class="item_gif activator">
@@ -399,7 +420,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="8" data-title="Maquetación de un blog con Materialize">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Maquetación de un blog para el CoreUpgrade-Lima 2018" 
+							data-title="Maquetación de un blog con Materialize">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/" target="_blank">
 									<img alt="" src="./static/img/blogMaterialize.gif" class="item_gif activator">
@@ -442,7 +466,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="backend" data-id="9" data-title="Entrenamiento en &lt;br&gt; Backend de Coreupgrade">
+						<div class="card card-project card-project-active medium" 
+							data-cat="backend" 
+							data-des="Entrenamiento en backend para Hackspace Trujillo con NodeJS, Express, API Restfull, MongoDB, Heroku y VueJS" 
+							data-title="Entrenamiento en &lt;br&gt; Backend de Coreupgrade">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="http://trujillo-hackspace.herokuapp.com/" target="_blank">
 									<img alt="" src="./static/img/backend-training.gif" class="item_gif activator">
@@ -487,7 +514,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="mobile" data-id="10" data-title="Aplicación móvil GestionShop">
+						<div class="card card-project card-project-active medium" 
+							data-cat="mobile" 
+							data-des="App para consultar el estado de tus contratos, la fecha de vencimiento, etc. Desarrollada en React Native." 
+							data-title="Aplicación móvil GestionShop">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://play.google.com/store/apps/details?id=com.gestionpawnapp" target="_blank">
 									<img alt="" src="./static/img/app-gestionshop.gif" class="item_gif activator">
@@ -520,7 +550,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="11" data-title="Corazones animados con JavaScript">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Juego animando de elementos HTML en forma de corazón con JavaScript." 
+							data-title="Corazones animados con JavaScript">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/WRgmXj" target="_blank">
 									<img alt="" src="./static/img/corazones.gif" class="item_gif activator">
@@ -557,7 +590,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="12" data-title="Crear un xilófono musical con JavaScript">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Creación de un Xilofono, y programación de melodía navideña." 
+							data-title="Crear un xilófono musical con JavaScript">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://www.youtube.com/watch?v=EtuRJB6Gyyk" target="_blank">
 									<img alt="" src="./static/img/xilofono.gif" class="item_gif activator">
@@ -596,7 +632,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="13" data-title="Animación de Star Wars con CSS3 y JavaScript ">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3." 
+							data-title="Animación de Star Wars con CSS3 y JavaScript ">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/yVxmRv" target="_blank">
 									<img alt="" src="./static/img/starwars.gif" class="item_gif activator">
@@ -635,7 +674,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="14" data-title="Background animado de copos de nieve JavaScript">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5." 
+							data-title="Background animado de copos de nieve JavaScript">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/YpYJNo" target="_blank">
 									<img alt="" src="./static/img/copos.gif" class="item_gif activator">
@@ -670,7 +712,10 @@
 							</div>
 						</div>
 						
-						<div class="card medium" data-cat="frontend" data-id="15" data-title="Crear un Cubo 3D con CSS CSS3">
+						<div class="card card-project card-project-active medium" 
+							data-cat="frontend" 
+							data-des="Cubo 3D usando las propiedades rotate y translate de CSS3." 
+							data-title="Crear un Cubo 3D con CSS CSS3">
 							<div class="card-image waves-effect waves-block waves-">
 								<a href="https://codepen.io/NestorPlasencia/pen/NbWZrd" target="_blank">
 									<img alt="" src="./static/img/cubo3d.gif" class="item_gif activator">
@@ -706,18 +751,15 @@
 						</div>
 						
 					</div>
-					<div class="more vermas center">
-						<a data-position="top" class="btn-floating blue darken-2" onclick="vermas()">
-							<i class="icon-down "></i>
-						</a>						
-					</div>
-					<div class="less vermenos center d-none">
-						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
-							<i class="icon-up "></i>
+					<div class="center">
+						<a id="seeMoreProjects" data-position="top" data-section="project-active" class="more btn-floating blue darken-2" onclick="seeMore(this)">
+							<i class="icon-down"></i>
+						</a>	
+						<a id="seeLessProjects" data-position="top" data-section="project-active" class="less btn-floating blue darken-2 d-none" href="#projects" onclick="seeMore(this)">
+							<i class="icon-up"></i>
 						</a>						
 					</div>
 				</div>
-
 
 			</section>
 			<section id="skills" class="section scrollspy full-height">
@@ -1308,178 +1350,164 @@
 				</div>
 			</section>
 		</main>
-		<!-- jQuery-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<!-- Materialize-->
-		<!-- <script src="./static/js/materialize.min.js"></script> -->
 		<script src="./static/js/material.js"></script>
-		
-		<!-- List.js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-		
 		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-				var elems = document.querySelectorAll('.sidenav');
-				var sidenavs = M.Sidenav.init(elems, {
-					menuWidth: 190, 
-					edge: 'left', 
-					closeOnClick: true 
-				});
+		
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.sidenav');
+			var sidenavs = M.Sidenav.init(elems, {
+				menuWidth: 190, 
+				edge: 'left', 
+				closeOnClick: true 
 			});
-		</script>
+		});
+		
+		var sections = {};
+		var totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		var limite_inicial = 2
+		var category = 'todos'
 
-		<script type="text/javascript">
-			    			
-			var contador = 0;
-			var limite_inicial = 3
-			var limite = limite_inicial;
-			var categoria_activa = "todos";
+		function getOffsetTops(){
+			console.log("offsets")
+			var section = document.querySelectorAll(".scrollspy");
+			Array.prototype.forEach.call(section, function(e) {
+				sections[e.id] = e.offsetTop;
+			});
+		}
+		
+		ocultarItems('.card-project',1)
+		ocultarItems('.card-skill',1)
+		ocultarItems('.card-experience',1)
+		getOffsetTops()
 
-			var options = {
-			 	valueNames: [
-					'card-title',
-					'descripcion', 
-					{ data: ['cat'] },
-					{ data: ['title'] },
-					{ data: ['id'] }
-				]
-			};
-
-			var projectList = new List('items', options);
-
-			todos();
-
-			function changecategory(evt){
-				
-				let categories = evt.parentNode.parentNode.children
-				for (var i = 0; i < categories.length; i++) {
-					categories[i].children[0].classList.remove('active');
-				}
-
-				evt.classList.add("active")
-				
-				categoria_activa = evt.text.toLowerCase();
-				filtrado()
+		function changecategory(evt){
+			let categories = evt.parentNode.parentNode.children
+			for (var i = 0; i < categories.length; i++) {
+				categories[i].children[0].classList.remove('active');
 			}
+			evt.classList.add("active")
+			category = evt.text.toLowerCase();	
+			filterItems()
+		}
 
-			function vermas() {
-				limite = 99999;
-				$('.vermas').addClass('d-none')
-				$('.vermenos').removeClass('d-none')
-				filtrado()
-			}
+		function filterItems() {
+			mostrarProjects()
+			filterCategory()
+			filterContent()
+			filterShow()
+			statusButtonLessMore()
+			getOffsetTops() 
+		}	
 
-			function vermenos() {
-				limite = limite_inicial;
-				$('.vermenos').addClass('d-none')
-				$('.vermas').removeClass('d-none')
-				filtrado()
-			}
-
-			function filtrado() {
-				if(categoria_activa == 'todos'){
-					todos();
-				}else {
-					contador = 0;
-					projectList.filter();
-					projectList.filter(function(item) {
-						if (item.values().cat == categoria_activa && contador < limite) {
-							contador++
-							return true;
-						} else {
-							return false;
-						}
-					});
+		function filterCategory() {
+			ocultarProjects()
+			if( category =='todos') {
+				mostrarProjects()
+			}else {
+				let items = document.querySelectorAll('.card-project')
+				for (var i = 0; i < items.length; i++) {	
+					if(items[i].getAttribute("data-cat") == category) {
+						items[i].classList.remove('d-none')
+						items[i].classList.add('card-project-active')	
+					}
 				}
 			}
+			totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		}
 
-			function todos() {
-				contador = 0;
-				projectList.filter();
-				projectList.filter(function(item) {
-					if (contador < limite) {
-						contador++
-						return true;
-					} else {
-						return false;
-					}
-				}); 
-			}
-
-			function buscar(evt) {
-				let value = document.getElementById("search").value.toString().toLowerCase();
-				console.log(value)
-				contador = 0;
-				projectList.filter();
-				projectList.filter(function(item) {
-					let title = item.values().title.toString().toLowerCase()
-					let cat = item.values().cat.toString().toLowerCase()
-					let des = item.values().descripcion.toString().toLowerCase()
-					//console.log(item.values())
-					if (contador < limite) {
-						if( cat.includes(value) || title.includes(value) || des.includes(value)) {
-							contador++
-							return true;
-						}else{
-							return false
-						}						
-					} else {
-						return false;
-					}
-				});
-
-			}
-
-
-			toogleItems('.card-skill')
-			toogleItems('.card-experience')
+		function filterContent() {
 			
-			function seeMore(button) {
-				button.parentNode.children[0].classList.toggle('d-none')
-				button.parentNode.children[1].classList.toggle('d-none')
-				let selector = '.card-' + button.getAttribute("data-section")
-				toogleItems(selector)
-			}
-
-			function toogleItems(selector) {
-				if(document.querySelectorAll(`${selector}.d-none`).length > 0) {
-					ocultarItems(selector,9999)
-				}else {
-					ocultarItems(selector,1)
+			let value = document.getElementById("search").value.toString().toLowerCase();
+			
+			projectList = document.querySelectorAll('.card-project-active')
+			for (var i = 0; i < projectList.length; i++) {
+			
+				projectList[i].classList.add('d-none')
+				projectList[i].classList.remove('card-project-active')
+					
+				let title = projectList[i].getAttribute("data-title").toLowerCase()
+				let cat = projectList[i].getAttribute("data-cat").toLowerCase()
+				let des = projectList[i].getAttribute("data-des").toLowerCase()
+				
+				if( cat.includes(value) || title.includes(value) || des.includes(value)) {
+					projectList[i].classList.add('card-project-active')
+					projectList[i].classList.remove('d-none')
 				}
 			}
+			totalItemsActives = document.querySelectorAll('.card-project-active').length;
+		}
 
-			function ocultarItems(selector,number)  {
-				var elements = document.querySelectorAll(selector);
-				elements.forEach( (element,index) => {
-					element.classList.remove('d-none')
-					if( index > number) {
-						element.classList.add('d-none')
-					}
-				})
+		function filterShow() {
+			if ( document.getElementById('seeMoreProjects').classList.contains('d-none')){
+				mostrarItems('.card-project-active')
+			
+			}else if (document.getElementById('seeLessProjects').classList.contains('d-none')){
+				ocultarItems('.card-project-active',1)
 			}
-		</script>
-		<script>
-			(function() {
-				var sections = {};
-				getOffsetTops()
+		}
 
-				function getOffsetTops(){
-					var section = document.querySelectorAll(".scrollspy");
-					Array.prototype.forEach.call(section, function(e) {
-						sections[e.id] = e.offsetTop;
-					});
+		function statusButtonLessMore() {
+			document.getElementById('seeMoreProjects').parentNode.classList.remove('d-none')
+			if ( totalItemsActives <= 2) {
+				document.getElementById('seeMoreProjects').parentNode.classList.add('d-none')
+			}
+		}
+	
+		function seeMore(button) {
+			button.parentNode.children[0].classList.toggle('d-none')
+			button.parentNode.children[1].classList.toggle('d-none')
+			let selector = '.card-' + button.getAttribute("data-section")
+			if( button.classList.contains('more') ) {
+				mostrarItems(selector)
+			}else if (button.classList.contains('less')) {
+				ocultarItems(selector,1)
+			}			
+			getOffsetTops()
+		}
+
+		function ocultarProjects() {
+			let items = document.querySelectorAll('.card-project')
+			for (var i = 0; i < items.length; i++) {
+				items[i].classList.remove('card-project-active')
+				items[i].classList.add('d-none')	
+			}
+		}
+
+		function mostrarProjects() {
+			let items = document.querySelectorAll('.card-project')
+			for (var i = 0; i < items.length; i++) {
+				items[i].classList.add('card-project-active')
+				items[i].classList.remove('d-none')		
+			}
+		}
+
+		function ocultarItems(selector,number)  {
+			var elements = document.querySelectorAll(selector);
+			elements.forEach( (element,index) => {
+				element.classList.remove('d-none')
+				if( index > number) {
+					element.classList.add('d-none')
 				}
-				window.onscroll = function() {
-					var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-					for (i in sections) {
-						if (sections[i] <= scrollPosition + screen.height/2 ) {
-							document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
-							document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
-						}
-					}
-				};
-			})();
+			})
+		}
+
+		function mostrarItems(selector)  {
+			var elements = document.querySelectorAll(selector);
+			elements.forEach( (element,index) => {
+				element.classList.remove('d-none')
+			})
+		}
+
+		window.onscroll = function() {
+			var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+			for (i in sections) {
+				if (sections[i] <= scrollPosition + screen.height/2 ) {
+					document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
+					document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
+				}
+			}
+		};
+
 		</script>
 	</body>
 </html>
