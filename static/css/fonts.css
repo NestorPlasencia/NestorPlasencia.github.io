@@ -24,6 +24,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arduino:before {
+  content: "\e913";
+  color: #08979c;
+}
+
+.icon-materialize:before {
+  content: "\e911";
+  color: #e2797f;
+}
+
+.icon-web:before {
+  content: "\e912";
+}
+
 .icon-node-js:before {
   content: "\e908";
   color: #83cd2a;

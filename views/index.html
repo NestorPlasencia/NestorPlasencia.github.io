@@ -4,8 +4,6 @@
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Cache-control" content="public">
-		<!-- <link rel="stylesheet" href="css/materialize.css">
- -->
  		<link rel="stylesheet" href="css/material.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/fonts.css">
@@ -14,56 +12,54 @@
 		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
 	</head>
 	<body>
-
-		
 		<nav>
 			<ul class="sidenav sidenav-fixed section table-of-contents">
-				<li>
-					<div class="user-view">
+				<div class="user-view">
+					<a href="#intro">
 						<img alt="" src="img/{{info.img}}" class="responsive-img center-block">
 						<span class="blue-text center name">{{info.nombre}}</span>
 						<span class="blue-text center  email">{{info.etiqueta}}</span>
-					</div>
-				</li>
-				<li class="bold">
-					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-about" ></i><span>Sobre mi</span>
+					</a>
+				</div>
+				<li class=" bold">
+					<a href="#about" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-about" ></i><span class="blue-text">Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-portfolio"></i><span>Portafolio</span>
+					<a href="#projects" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-portfolio"></i><span class="blue-text">Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-skills"></i><span>Habilidades</span>
+					<a href="#skills" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-skills"></i><span class="blue-text">Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-education"></i><span>Educación</span>
+					<a href="#education" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-education"></i><span class="blue-text">Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-experience"></i><span>Experiencia</span>
+					<a href="#experience" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-experience"></i><span class="blue-text">Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-comunity"></i><span>Actividades</span>
+					<a href="#actvities" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-comunity"></i><span class="blue-text">Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#contact" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-contact"></i><span>Contacto</span>
+					<a href="#contact" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text icon-contact"></i><span class="blue-text">Contacto</span>
 					</a>
 				</li>
 				<!-- 				
 				<li class="bold">
-					<a href="#" class="waves-effect waves-dark teal-text">
-						<i class=" blue-text fa fa-file"></i><span>CV</span>
+					<a href="#" class="itemScroll waves-effect waves-dark teal-text">
+						<i class=" blue-text fa fa-file"></i><span class="blue-text">CV</span>
 					</a>
 				</li> 
 				-->
@@ -73,52 +69,53 @@
 			<a href="#" data-target="slide-out" class="blue-text sidenav-trigger">
 				<i class="icon-menu"></i>
 			</a>
-			<div class="name-title">
-				<a id="name" href="#main" class="teal-text">{{info.nombre}}</a>
-				<span class="blue-text text-darken-4 light">{{info.etiqueta}}</span>
-			</div>
+			<a href="#intro" class="name-title">
+
+				<span id="name"  class="teal-text">{{info.nombre}}</span>
+				<span class="blue-text  ">{{info.etiqueta}}</span>
+			</a>
 		</nav>
 		<nav>
 			<ul id="slide-out" class="sidenav sidenav-mobile" >
 				<li class="bold">
-					<a href="#about" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-about" ></i><span>Sobre mi</span>
+					<a href="#about" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-about" ></i><span class="blue-text">Sobre mi</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#projects" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-portfolio"></i><span>Portafolio</span>
+					<a href="#projects" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-portfolio"></i><span class="blue-text">Portafolio</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#skills" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-skills"></i><span>Habilidades</span>
+					<a href="#skills" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-skills"></i><span class="blue-text">Habilidades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#education" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-education"></i><span>Educación</span>
+					<a href="#education" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-education"></i><span class="blue-text">Educación</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#experience" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-experience"></i><span>Experiencia</span>
+					<a href="#experience" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-experience"></i><span class="blue-text">Experiencia</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#actvities" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-comunity"></i><span>Actividades</span>
+					<a href="#actvities" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-comunity"></i><span class="blue-text">Actividades</span>
 					</a>
 				</li>
 				<li class="bold">
-					<a href="#contact" class="waves-effect waves-dark teal-text">
-						<i class="blue-text icon-contact"></i><span>Contacto</span>
+					<a href="#contact" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="blue-text icon-contact"></i><span class="blue-text">Contacto</span>
 					</a>
 				</li>
 				<!--	 			
 				<li class="bold">
-					<a href="#" class="waves-effect waves-dark teal-text">
-						<i class="fa fa-file icon-menu-sm" ></i><span>CV</span>
+					<a href="#" class="itemScroll waves-effect waves-dark teal-text">
+						<i class="fa fa-file icon-menu-sm" ></i><span class="blue-text">CV</span>
 					</a>
 				</li> 
 				-->
@@ -131,7 +128,7 @@
 					<h2>{{info.titulo|safe}}</h2>
 				</div>
 			</section>
-			<section id="about" class="section scrollspy">
+			<section id="about" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Sobre mi</h3>
 				<div class="container about-text">
 					<blockquote>
@@ -140,18 +137,20 @@
 					{{info.sobremi_descripcion|safe}}
 				</div>
 			</section>
-			<section id="projects" class="section scrollspy">
+			<section id="projects" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal page-title-projects">Portafolio</h3>
+				
 				<div class="nav-content filter-des">
-			      <ul class="tabs">
-			        <li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a></li>
-			        <li class="tab"><a onclick="changecategory(this)">Frontend</a></li>
-			        <li class="tab"><a onclick="changecategory(this)">Backend</a></li>
-			        <li class="tab"><a onclick="changecategory(this)">Mobile</a></li>
-			        <li class="tab"><a onclick="changecategory(this)">Electronica</a></li>
-			        <li class="tab"><a onclick="changecategory(this)">Diseño</i></a></li>
-			      </ul>
-			    </div>
+					<ul class="tabs">
+						<li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a></li>
+						<li class="tab"><a onclick="changecategory(this)">Frontend</a></li>
+						<li class="tab"><a onclick="changecategory(this)">Backend</a></li>
+						<li class="tab"><a onclick="changecategory(this)">Mobile</a></li>
+						<li class="tab"><a onclick="changecategory(this)">Electronica</a></li>
+						<li class="tab"><a onclick="changecategory(this)">Diseño</i></a></li>
+					</ul>
+				</div>
+				
 				<div id="items" class="container">
 					 <div class="input-field">
 						<input id="search" type="search" onkeyup="buscar(this)" required>
@@ -160,7 +159,7 @@
 					<div class="flex list">						
 						{% for item in info.portafolio %}
 						<div class="card medium" data-cat="{{item.categoria}}" data-id="{{ loop.index }}" data-title="{{item.original}}">
-							<div class="card-image waves-effect waves-block waves-light">
+							<div class="card-image waves-effect waves-block waves-">
 								<a href="{{item.link}}" target="_blank">
 									<img alt="" src="img/{{item.gif}}" class="item_gif activator">
 									<img alt="" src="img/{{item.img}}" class="item_img activator">	
@@ -173,7 +172,7 @@
 								</span>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title blue-text text-darken-4">Descripción<i class=" icon-down right"></i></span>
+								<span class="card-title blue-text ">Descripción<i class=" icon-down right"></i></span>
 								<p class="descripcion">{{item.descripcion}}</p>
 								<div>
 									{% for tag in item.etiquetas %}	
@@ -196,21 +195,23 @@
 							<i class="icon-down "></i>
 						</a>						
 					</div>
-					<div class="less vermenos center no_display">
+					<div class="less vermenos center d-none">
 						<a data-position="top" class="btn-floating blue darken-2" href="#projects" onclick="vermenos()">
 							<i class="icon-up "></i>
 						</a>						
 					</div>
 				</div>
+
+
 			</section>
-			<section id="skills" class="section scrollspy">
+			<section id="skills" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Habilidades</h3>
 				<div id="habilidades">
 					<div class="container list">
 						{% for habilidades in info.habilidades %}
-						<div class="card" data-id="{{ loop.index }}">
+						<div class="card card-skill" data-id="{{ loop.index }}">
 							<div class="card-content">
-								<h4 class="blue-text text-darken-4 liht name">{{habilidades.categoria}}</h4>
+								<h4 class="blue-text  liht name">{{habilidades.categoria}}</h4>
 								<div class="skill-group ">
 									{% for elm in habilidades.elementos %}
 									<div class="img-skill-content progreso progreso-{{elm.nivel}}">
@@ -223,18 +224,16 @@
 						{% endfor %}
 					</div>
 				</div>
-				<div class="more vermash center">
-					<a data-position="top" class="btn-floating blue darken-2" onclick="vermash()">
-						<i class="icon-down "></i>
-					</a>						
-				</div>
-				<div class="less vermenosh center no_display">
-					<a data-position="top" class="btn-floating blue darken-2" href="#skills" onclick="vermenosh()">
-						<i class="icon-up "></i>
+				<div class="center">
+					<a data-position="top" data-section="skill" class="more btn-floating blue darken-2" onclick="seeMore(this)">
+						<i class="icon-down"></i>
+					</a>	
+					<a data-position="top" data-section="skill" class="less btn-floating blue darken-2 d-none" href="#skills" onclick="seeMore(this)">
+						<i class="icon-up"></i>
 					</a>						
 				</div>
 			</section>
-			<section id="education" class="section scrollspy">
+			<section id="education" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Educación</h3>
 				<div class="container">
 					<div class="row">
@@ -245,7 +244,7 @@
 									<a href="{{educacion.url}}" target="_blank"><img alt="" src="img/{{educacion.img}}" class="responsive-img center-block"></a>	
 
 									<p><span class="card-title"><a href="{{educacion.url}}" class="teal-text hoverline">{{educacion.universidad}}</a></span></p>
-									<p class="blue-text text-darken-4">
+									<p class="blue-text ">
 										{{educacion.locacion}} | {{educacion.fecha_inicio|date('Y')}} - {{educacion.fecha_fin|date('Y')}}</p>
 									<ul>
 										<li>{{educacion.grado}} en {{educacion.carrera}}</li>
@@ -257,12 +256,12 @@
 					</div>
 				</div>
 			</section>			
-			<section id="experience" class="section scrollspy">
+			<section id="experience" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Experiencia</h3>
 				<div id="experiencia">
 					<div class="container list">
 						{% for exp in info.experiencia %}
-						<div class="card " data-id="{{loop.index}}">
+						<div class="card card-experience" data-id="{{loop.index}}">
 							<div class="card-content">
 								<div class="row">
 									<div class="col s12 m2">
@@ -274,7 +273,7 @@
 										<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline name">{{exp.empresa|safe}}</a></span></p>
 									</div>
 								</div>
-								<div class="role blue-text text-darken-4">{{exp.cargo|safe}}</div>
+								<div class="role blue-text ">{{exp.cargo|safe}}</div>
 								<p><em class="grey-text">{{exp.descripcion}}</em></p>
 								<ul>
 									{% for func in exp.funciones %}
@@ -299,18 +298,17 @@
 						{% endfor %}
 					</div>
 				</div>	
-				<div class="more vermase center">
-					<a data-position="top" class="btn-floating blue darken-2" onclick="vermase()">
-						<i class="icon-down "></i>
+				<div class="center">
+					<a data-position="top" data-section="experience" class="more btn-floating blue darken-2" onclick="seeMore(this)">
+						<i class="icon-down"></i>
+					</a>	
+					<a data-position="top" data-section="experience" class="less btn-floating blue darken-2 d-none" href="#experience" onclick="seeMore(this)">
+						<i class="icon-up"></i>
 					</a>						
-				</div>
-				<div class="less vermenose center no_display">
-					<a data-position="top" class="btn-floating blue darken-2" href="#experience" onclick="vermenose()">
-						<i class="icon-up "></i>
-					</a>						
-				</div>
+				</div>						
+			</div>
 			</section>
-			<section id="actvities" class="section scrollspy">
+			<section id="actvities" class="section scrollspy full-height">
 				<h3 class="page-title white-text teal">Comunidades</h3>
 				<div class="container">				
 					{% for com in info.comunidades %}
@@ -322,7 +320,7 @@
 									<p><span class="card-title"><a href="{{com.url}}" target="_blank" class="teal-text hoverline">{{com.empresa|safe}}</a></span></p>
 								</div>
 							</div>
-							<div class="role blue-text text-darken-4">{{com.cargo|safe}}</div>
+							<div class="role blue-text ">{{com.cargo|safe}}</div>
 							<p><em class="grey-text">{{com.descripcion}}</em></p>
 							<ul>
 								{% for func in com.funciones %}
@@ -346,7 +344,7 @@
 				<div class="container">
 					{% for red in info.contacto %}
 					<p>
-						<a href="{{red.link}}"  target="_blank" data-position="top"  class="btn-floating btn-large waves-effect waves-light blue darken-2 ">
+						<a href="{{red.link}}"  target="_blank" data-position="top"  class="btn-floating btn-large waves-effect waves- blue darken-2 ">
 							<i class="{{red.icon}}"></i>
 						</a>
 						<a href="{{red.link}}"  target="_blank" class="hoverline">{{red.etiqueta}}</a>
@@ -363,28 +361,25 @@
 		
 		<!-- List.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-		 <script>
+		
+		<script>
 			document.addEventListener('DOMContentLoaded', function() {
 				var elems = document.querySelectorAll('.sidenav');
-				var instances = M.Sidenav.init(elems, {
+				var sidenavs = M.Sidenav.init(elems, {
 					menuWidth: 190, 
 					edge: 'left', 
 					closeOnClick: true 
 				});
 			});
-			document.addEventListener('DOMContentLoaded', function() {
-				var elems = document.querySelectorAll('.scrollspy');
-				var instances = M.ScrollSpy.init(elems,{});
-			});
-
-
 		</script>
+
 		<script type="text/javascript">
 			    			
 			var contador = 0;
 			var limite_inicial = 3
 			var limite = limite_inicial;
 			var categoria_activa = "todos";
+
 			var options = {
 			 	valueNames: [
 					'card-title',
@@ -394,31 +389,45 @@
 					{ data: ['id'] }
 				]
 			};
-			var userList = new List('items', options);
+
+			var projectList = new List('items', options);
+
 			todos();
+
 			function changecategory(evt){
+				
+				let categories = evt.parentNode.parentNode.children
+				for (var i = 0; i < categories.length; i++) {
+					categories[i].children[0].classList.remove('active');
+				}
+
+				evt.classList.add("active")
+				
 				categoria_activa = evt.text.toLowerCase();
 				filtrado()
 			}
+
 			function vermas() {
 				limite = 99999;
-				$('.vermas').addClass('no_display')
-				$('.vermenos').removeClass('no_display')
+				$('.vermas').addClass('d-none')
+				$('.vermenos').removeClass('d-none')
 				filtrado()
 			}
+
 			function vermenos() {
 				limite = limite_inicial;
-				$('.vermenos').addClass('no_display')
-				$('.vermas').removeClass('no_display')
+				$('.vermenos').addClass('d-none')
+				$('.vermas').removeClass('d-none')
 				filtrado()
 			}
+
 			function filtrado() {
 				if(categoria_activa == 'todos'){
 					todos();
 				}else {
 					contador = 0;
-					userList.filter();
-					userList.filter(function(item) {
+					projectList.filter();
+					projectList.filter(function(item) {
 						if (item.values().cat == categoria_activa && contador < limite) {
 							contador++
 							return true;
@@ -428,10 +437,11 @@
 					});
 				}
 			}
+
 			function todos() {
 				contador = 0;
-				userList.filter();
-				userList.filter(function(item) {
+				projectList.filter();
+				projectList.filter(function(item) {
 					if (contador < limite) {
 						contador++
 						return true;
@@ -440,12 +450,13 @@
 					}
 				}); 
 			}
+
 			function buscar(evt) {
 				let value = document.getElementById("search").value.toString().toLowerCase();
 				console.log(value)
 				contador = 0;
-				userList.filter();
-				userList.filter(function(item) {
+				projectList.filter();
+				projectList.filter(function(item) {
 					let title = item.values().title.toString().toLowerCase()
 					let cat = item.values().cat.toString().toLowerCase()
 					let des = item.values().descripcion.toString().toLowerCase()
@@ -463,62 +474,57 @@
 				});
 
 			}
-			var options = {
-			 	valueNames: [
-					'name',
-					{ data: ['id'] }
-				]
-			};
-			
-			var habilidades = new List('habilidades', options);
-			filterhabilidades()
-			function filterhabilidades() {
-				habilidades.filter(function(item) {
-					if (item.values().id < 3) {
-					   return true;
-					} else {
-					   return false;
-					}
-				}); 
-			}
-			function vermash() {
-				habilidades.filter();
-				$('.vermash').addClass('no_display')
-				$('.vermenosh').removeClass('no_display')
-			}
-			function vermenosh() {
-				$('.vermenosh').addClass('no_display')
-				$('.vermash').removeClass('no_display')
-				filterhabilidades()
-			}
-			var options = {
-			 	valueNames: [
-					'name',
-					{ data: ['id'] }
-				]
-			};
 
-			var experiencia = new List('experiencia', options);
-			filterexperiencia()
-			function filterexperiencia() {
-				experiencia.filter(function(item) {
-					if (item.values().id < 3) {
-					   return true;
-					} else {
-					   return false;
+
+			toogleItems('.card-skill')
+			toogleItems('.card-experience')
+			
+			function seeMore(button) {
+				button.parentNode.children[0].classList.toggle('d-none')
+				button.parentNode.children[1].classList.toggle('d-none')
+				let selector = '.card-' + button.getAttribute("data-section")
+				toogleItems(selector)
+			}
+
+			function toogleItems(selector) {
+				if(document.querySelectorAll(`${selector}.d-none`).length > 0) {
+					ocultarItems(selector,9999)
+				}else {
+					ocultarItems(selector,1)
+				}
+			}
+
+			function ocultarItems(selector,number)  {
+				var elements = document.querySelectorAll(selector);
+				elements.forEach( (element,index) => {
+					element.classList.remove('d-none')
+					if( index > number) {
+						element.classList.add('d-none')
 					}
-				}); 
+				})
 			}
-			function vermase() {
-				experiencia.filter();
-				$('.vermase').addClass('no_display')
-				$('.vermenose').removeClass('no_display')
-			}
-			function vermenose() {
-				$('.vermenose').addClass('no_display')
-				$('.vermase').removeClass('no_display')
-				filterexperiencia()
-			}
+		</script>
+		<script>
+			(function() {
+				var sections = {};
+				getOffsetTops()
+
+				function getOffsetTops(){
+					var section = document.querySelectorAll(".scrollspy");
+					Array.prototype.forEach.call(section, function(e) {
+						sections[e.id] = e.offsetTop;
+					});
+				}
+				window.onscroll = function() {
+					var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+					for (i in sections) {
+						if (sections[i] <= scrollPosition + screen.height/2 ) {
+							document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
+							document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
+						}
+					}
+				};
+			})();
 		</script>
 	</body>
 </html>

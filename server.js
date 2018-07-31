@@ -1,7 +1,8 @@
 // REQUERIMIENTO DE MODULOS
 
 var express =  require('express');
-var swig = require('swig');
+var swigTemplates  = require('swig-templates');
+var swig  = require('swig');
 var fs = require('fs');
 //CONFIGURACIONES
 
@@ -14,6 +15,7 @@ server.set('view engine', 'html');
 server.set('views', __dirname + '/views');
 swig.setDefaults({cache: false});
 
+
 // Seteo de dirección de carpeta de archivos estaticos
 server.use(express.static(__dirname + '/static'));
 
@@ -25,9 +27,23 @@ server.get('/',function(req,res){
 	res.render('index.html', {info:info});
 });
 
+var template = swigTemplates.compileFile('./views/index.html');
+var output = template({
+    info:info
+});
+fs.writeFileSync('./index.html', output);
+
+
+var output = template({
+    pagename: 'awesome people',
+    authors: ['Paul', 'Jim', 'Jane']
+});
+
+
 
 // INICIAR SERVIDOR
 // Se corre el servidor en el puerto 5000
 server.listen(process.env.PORT || 5000, function() {
 	console.log('El servidor esta escuchando en el puerto '+ 5000)
 });
+
