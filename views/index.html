@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Cache-control" content="public">
-	<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<!-- <link rel="stylesheet" href="/css/materialclean.css"> -->
 	<link rel="stylesheet" href="/css/app.css">
 	<title>{{info.nombre}} | {{info.etiqueta}} </title>
@@ -43,7 +43,7 @@
 				{% for itemMenu in info.menu %}
 					<li class="text-center p-2 lg:p-2 font-bold itemMenu">
 						<a href="{{itemMenu.href}}" class="itemScroll text-blue ">
-							<i class="text-2xl mr-4 {{itemMenu.icon}}"></i><span class="">{{itemMenu.title}}</span>
+							<i class="{{itemMenu.icon}} text-2xl mr-4"></i><span class="">{{itemMenu.title}}</span>
 						</a>
 					</li>
 				{% endfor %}
