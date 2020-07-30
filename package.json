@@ -4,7 +4,8 @@
   "description": "Portafolio Nestor Plasencia",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx postcss ./static/src/css/app.css -o ./static/css/app.css -w"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,27 @@
   },
   "homepage": "https://github.com/NestorPlasencia/portfolio#readme",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "swig": "^1.4.2",
-    "swig-templates": "^2.0.2",
-    "uglify-js": "^3.3.21"
+    "swig-templates": "^2.0.2"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "ie 10"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.1",
+    "postcss-hexrgba": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-simple-vars": "^5.0.2",
+    "tailwindcss": "^1.1.4",
+    "postcss-color-function": "^4.1.0",
+    "postcss-css-variables": "^0.17.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-extend": "^1.0.5",
+    "postcss-nested": "^4.2.1",
+    "precss": "^4.0.0"
   }
 }

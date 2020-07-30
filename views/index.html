@@ -1,533 +1,382 @@
 <html lang="en">
-	<head>
-		<meta charset="utf-16">
-		<meta name="viewport" content="width=device-width initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta http-equiv="Cache-control" content="public">
-		<link rel="stylesheet" href="/css/normalize.css">
-		<link rel="stylesheet" href="/css/materialclean.css">
-		<link rel="stylesheet" href="/css/style.css">
-		<link rel="stylesheet" href="/css/fonts.css">
 
-		<!-- <link rel="stylesheet" href="/css/main.css"> -->
-		<title>{{info.nombre}} | {{info.etiqueta}} </title>
-		<!-- Open Graph-->
-		<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
-	</head>
-	<body> 
-		<nav>
-			<ul class="sidenav sidenav-fixed section table-of-contents">
-				<div class="user-view">
-					<a href="#intro">
-						<img alt="" src="/img/{{info.img}}" class="responsive-img center-block">
-						<span class="blue-text center name">{{info.nombre}}</span>
-						<span class="blue-text center  email">{{info.etiqueta}}</span>
-					</a>
-				</div>
-				<li class=" bold">
-					<a href="#about" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-about" ></i><span class="blue-text">Sobre mi</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#projects" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-portfolio"></i><span class="blue-text">Portafolio</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#skills" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-skills"></i><span class="blue-text">Habilidades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#education" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-education"></i><span class="blue-text">Educación</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#experience" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-experience"></i><span class="blue-text">Experiencia</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#actvities" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-comunity"></i><span class="blue-text">Actividades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#contact" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text icon-contact"></i><span class="blue-text">Contacto</span>
-					</a>
-				</li>
-				<!-- 				
-				<li class="bold">
-					<a href="#" class="itemScroll waves-effect waves-dark teal-text">
-						<i class=" blue-text fa fa-file"></i><span class="blue-text">CV</span>
-					</a>
-				</li> 
-				-->
-			</ul>
-		</nav>
-		<nav class="hide-on-large only trigger z-depth-1">
-			<a href="#" data-target="slide-out" class="blue-text sidenav-trigger">
-				<i class="icon-menu"></i>
-			</a>
-			<a href="#intro" class="name-title">
+<head>
+	<meta charset="utf-16">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-control" content="public">
+	<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+	<!-- <link rel="stylesheet" href="/css/materialclean.css"> -->
+	<link rel="stylesheet" href="/css/app.css">
+	<title>{{info.nombre}} | {{info.etiqueta}} </title>
+	<!-- Open Graph-->
+	<!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js') -->
+</head>
 
-				<span id="name"  class="teal-text">{{info.nombre}}</span>
-				<span class="blue-text  ">{{info.etiqueta}}</span>
-			</a>
-		</nav>
-		<nav>
-			<ul id="slide-out" class="sidenav sidenav-mobile" >
-				<li class="bold">
-					<a href="#about" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-about" ></i><span class="blue-text">Sobre mi</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#projects" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-portfolio"></i><span class="blue-text">Portafolio</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#skills" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-skills"></i><span class="blue-text">Habilidades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#education" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-education"></i><span class="blue-text">Educación</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#experience" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-experience"></i><span class="blue-text">Experiencia</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#actvities" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-comunity"></i><span class="blue-text">Actividades</span>
-					</a>
-				</li>
-				<li class="bold">
-					<a href="#contact" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="blue-text icon-contact"></i><span class="blue-text">Contacto</span>
-					</a>
-				</li>
-				<!--	 			
-				<li class="bold">
-					<a href="#" class="itemScroll waves-effect waves-dark teal-text">
-						<i class="fa fa-file icon-menu-sm" ></i><span class="blue-text">CV</span>
-					</a>
-				</li> 
-				-->
+<body>
+
+	<nav class="bg-white shadow-md fixed h-16 w-full z-20 lg:hidden flex justify-between items-center p-4">
+		<a href="#about" class="name-title">
+			<img alt="" src="/img/{{info.img}}" class="w-10 h-10">
+		</a>
+
+		<a href="#about" class="name-title">
+			<img alt="" src="/img/logosquare.svg" class="w-10 h-10">
+		</a>
+		
+		<a id="menu-mobile-icon" class="text-3xl text-blue">
+			<i class="icon-menu"></i>
+		</a>
+	</nav>
+
+	<nav id="menu" class="bg-white shadow-md w-full inset-0 z-30 ml-screen lg:ml-0 fixed lg:w-64 h-full transition-all duration-500 ease-in-out">
+		<div class="flex flex-col h-full xxl:max-h-3/4">
+			<div class="m-4">
+				<a class="flex flex-col items-center" href="#about">
+					<img class="w-4/12 lg:w-3/4 mb-2" alt="" src="/img/{{info.img}}" class="mb-4">
+					<h2 class="font-bold text-center text-blue name">{{info.nombre}}</h2>
+					<h1 class="font-bold text-center text-blue email">{{info.etiqueta}}</h1>
+				</a>
+			</div>
+			<ul class="md:pb-4 lg:pb-6">
+				{% for itemMenu in info.menu %}
+					<li class="text-center p-2 lg:p-2 font-bold itemMenu">
+						<a href="{{itemMenu.href}}" class="itemScroll text-blue ">
+							<i class="text-2xl mr-4 {{itemMenu.icon}}"></i><span class="">{{itemMenu.title}}</span>
+						</a>
+					</li>
+				{% endfor %}
 			</ul>
-		</nav>
-		<main>
-			<section id="intro" class="section scrollspy full-height">
-				<div class="overlay"></div>
-				<div class="container">
-					<h2>{{info.titulo|safe}}</h2>
+		</div>
+		<a id="close-mobile-icon" class="absolute top-0 right-0 p-4 text-blue lg:hidden text-2xl">
+			<i class="icon-cross"></i>
+		</a>
+	</nav>
+	
+	<main class="pt-16 lg:pt-0  lg:ml-64 cuadricula relative right-0 overflow-hidden">
+		
+		<section class="scrollspy min-h-screen" id="about">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl ">Sobre mi</h3>
+			<div class="p-6">
+
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2">
+					{% for card in info.about_cards %}
+					<div class="bg-white p-6 shadow-md flex flex-col items-center">
+						<img class="w-7/12 mb-4 rounded" src="/img/{{card.image}}"/>
+						<h3 class="font-bold text-blue text-lg text-center">{{card.title}}</h3>
+						<p class="">{{card.content}}</p>
+					</div>
+					{% endfor %}
 				</div>
-			</section>
-			<section id="about" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Sobre mi</h3>
-				<div class="container about-text">
-					<blockquote>
-						<h2>{{info.sobremi_titulo}}</h2>
-					</blockquote>
-					{{info.sobremi_descripcion|safe}}
+				<h2 class="font-bold text-darkBlue my-3 text-xl">Contacto:</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2">
+					{% for red in info.contacto %}
+					<a href="{{red.link}}" target="_blank" class="bg-white p-4 shadow-md">
+						<i class="{{red.icon}}"></i>
+						<span class="">{{red.etiqueta}}</span>
+					</a>
+					{% endfor %}
 				</div>
-			</section>
-			<section id="projects" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal page-title-projects">Portafolio</h3>
-				
-				<div class="nav-content filter-des">
-					<ul class="tabs">
-						<li class="tab"><a class="active" onclick="changecategory(this)" >Todos</a><span class="badge todos">0</span></li>
-						<li class="tab"><a onclick="changecategory(this)">Frontend</a><span class="badge frontend">0</span></li>
-						<li class="tab"><a onclick="changecategory(this)">Backend</a><span class="badge backend">0</span></li>
-						<li class="tab"><a onclick="changecategory(this)">Mobile</a><span class="badge mobile">0</span></li>
-						<li class="tab"><a onclick="changecategory(this)">Electronica</a><span class="badge electronica">0</span></li>
-						<li class="tab"><a onclick="changecategory(this)">Diseño</a><span class="badge diseño">0</span></li>
+
+			</div>
+		</section>
+		<section class="scrollspy min-h-screen" id="projects">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl page-title-projects">Portafolio</h3>
+			<div class="p-6">
+
+				<!-- <div class="flex">
+					<ul class="flex justify-around w-full">
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)" class="active">Todos</a>
+							<span class="badge todos">0</span>
+						</li>
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)">Frontend</a>
+							<span class="badge frontend">0</span>
+						</li>
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)">Backend</a>
+							<span class="badge backend">0</span>
+						</li>
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)">Mobile</a>
+							<span class="badge mobile">0</span>
+						</li>
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)">Electronica</a>
+							<span class="badge electronica">0</span>
+						</li>
+						<li class="bg-white px-4 py-1 border-solid border-2 border-blue rounded-lg cursor-pointer">
+							<a onclick="changecategory(this)">Diseño</a>
+							<span class="badge diseño">0</span>
+						</li>
 					</ul>
-				</div>
-				
-				<div id="items" class="container">
-					 <div class="input-field">
-						<input id="search" type="search" onkeyup="filterItems()"  autocomplete="off">
-			        	<label class="label-icon blue-text darken-2 " for="search">
+				</div> -->
+	
+				<div id="items" class="">
+					
+					<!-- <div class="input-field">
+						<input id="search" type="search" onkeyup="filterItems()" autocomplete="off">
+						<label class="label-icon darken-2 " for="search">
 							<i class="icon-search"></i>
-							
 						</label>
 						<span class="badge search">0</span>
-					 </div>
-					<div class="flex list">						
+					</div> -->
+					
+					<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 xxl:grid-cols-5 xxxl:grid-cols-6 gap-6 mt-2">
 						{% for item in info.portafolio %}
-						<div class="card card-project card-project-active medium" 
-							data-cat="{{item.categoria}}" 
-							data-des="{{ item.descripcion }}" 
-							data-title="{{item.original}}">
-							<div class="card-image waves-effect waves-block waves-">
-								<a href="{{item.link}}" target="_blank">
-									<img alt="" src="/img/{{item.gif}}" class="item_gif activator">
-									<img alt="" src="/img/{{item.img}}" class="item_img activator">	
-								</a>									
-							</div>
-							<div class="card-content">
-								<span class=" card-title activator teal-text hoverline item_title">
-									<span>{{item.nombre|safe}}</span>
-									<i class="icon-up right"></i>
-								</span>
-							</div>
-							<div class="card-reveal">
-								<span class="card-title blue-text ">Descripción<i class=" icon-down right"></i></span>
-								<p class="descripcion">{{item.descripcion}}</p>
-								<div>
-									{% for tag in item.etiquetas %}	
-									<i class="{{tag}} tag"></i>
-									{% endfor %}
-								</div>
-								<div class="card-action">
-									{% for ext in item.externos %}	
-									<a href="{{ext.link}}" target="_blank" data-position="top" class="btn-floating blue darken-2 ">
-										<i class="{{ext.icon}}"></i>
-									</a>
-									{% endfor %}
-								</div>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-					<div class="center">
-						<a id="seeMoreProjects" data-position="top" data-section="project-active" class="more btn-floating blue darken-2" onclick="seeMore(this)">
-							<i class="icon-down"></i>
-						</a>	
-						<a id="seeLessProjects" data-position="top" data-section="project-active" class="less btn-floating blue darken-2 d-none" href="#projects" onclick="seeMore(this)">
-							<i class="icon-up"></i>
-						</a>						
-					</div>
-				</div>
-
-			</section>
-			<section id="skills" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Habilidades</h3>
-				<div id="habilidades">
-					<div class="container list">
-						{% for habilidades in info.habilidades %}
-						<div class="card card-skill" data-id="{{ loop.index }}">
-							<div class="card-content">
-								<h4 class="blue-text  liht name">{{habilidades.categoria}}</h4>
-								<div class="skill-group ">
-									{% for elm in habilidades.elementos %}
-									<div class="img-skill-content progreso progreso-{{elm.nivel}}">
-										<img alt="" src="/img/{{elm.img}}" class="img-skill">{{elm.nombre}}
-									</div>
-									{% endfor %}
-								</div>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-				<div class="center">
-					<a data-position="top" data-section="skill" class="more btn-floating blue darken-2" onclick="seeMore(this)">
-						<i class="icon-down"></i>
-					</a>	
-					<a data-position="top" data-section="skill" class="less btn-floating blue darken-2 d-none" href="#skills" onclick="seeMore(this)">
-						<i class="icon-up"></i>
-					</a>						
-				</div>
-			</section>
-			<section id="education" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Educación</h3>
-				<div class="container">
-					<div class="row">
-						{% for educacion in info.educacion %}
-						<div class="col s12 m6">
-							<div class="card">
-								<div class="card-content">
-									<a href="{{educacion.url}}" target="_blank"><img alt="" src="/img/{{educacion.img}}" class="responsive-img center-block"></a>	
-
-									<p><span class="card-title"><a href="{{educacion.url}}" class="teal-text hoverline">{{educacion.universidad}}</a></span></p>
-									<p class="blue-text ">
-										{{educacion.locacion}} | {{educacion.fecha_inicio|date('Y')}} - {{educacion.fecha_fin|date('Y')}}</p>
-									<ul>
-										<li>{{educacion.grado}} en {{educacion.carrera}}</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-			</section>			
-			<section id="experience" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Experiencia</h3>
-				<div id="experiencia">
-					<div class="container list">
-						{% for exp in info.experiencia %}
-						<div class="card card-experience" data-id="{{loop.index}}">
-							<div class="card-content">
-								<div class="row">
-									<div class="col s12 m2">
-										<a href="{{exp.url}}" target="_blank">
-											<img alt="" src="/img/{{exp.img}}" class="responsive-img center-block">
+							<div class="bg-white p-2 shadow-md" data-cat="{{item.categoria}}" data-des="{{ item.descripcion }}" data-title="{{item.original}}">
+								<div class="h-full flex flex-col justify-around"> 
+									<div class="p-2">
+										<a href="{{item.link}}" target="_blank" class="block relative">
+											<img alt="" src="/img/{{item.gif}}" class="item_gif absolute inset-0 w-full h-full z-0">
+											<img alt="" src="/img/{{item.img}}" class="item_img relative hover:opacity-0 z-10">
 										</a>
 									</div>
-									<div class="col s12 m10">
-										<p><span class="card-title"><a href="{{exp.url}}" target="_blank" class="teal-text hoverline name">{{exp.empresa|safe}}</a></span></p>
+									<div class="card-content">
+										<h3 class="font-bold text-darkBlue text-center">
+											{{item.nombre|safe}}
+										</h3>
+										<p class="m-2">{{item.descripcion}}</p>
+									</div>
+									<div class="mt-2 flex justify-between">
+										<div>
+											{% for tag in item.etiquetas %}
+												<i class="{{tag}} tag text-2xl"></i>
+											{% endfor %}
+										</div>
+										<div class="card-action">
+											{% for ext in item.externos %}
+												<a href="{{ext.link}}" target="_blank" data-position="top"
+													class="btn-floating blue darken-2 ">
+													<i class="{{ext.icon}} text-2xl"></i>
+												</a>
+											{% endfor %}
+										</div>
 									</div>
 								</div>
-								<div class="role blue-text ">{{exp.cargo|safe}}</div>
-								<p><em class="grey-text">{{exp.descripcion}}</em></p>
-								<ul>
-									{% for func in exp.funciones %}
-									<li>{{ func }}</li>
-									{% endfor %}
-								</ul>
-								<h6>Logros</h6>
+							</div>
+						{% endfor %}
+					</div>
+					
+					<!-- <div class="center">
+						<a id="seeMoreProjects" data-position="top" data-section="project-active"
+							class="more btn-floating blue darken-2" onclick="seeMore(this)">
+							<i class="icon-down"></i>
+						</a>
+						<a id="seeLessProjects" data-position="top" data-section="project-active"
+							class="less btn-floating blue darken-2 d-none" href="#projects" onclick="seeMore(this)">
+							<i class="icon-up"></i>
+						</a>
+					</div> -->
+
+				</div>
+			</div>
+
+		</section>
+		<section class="scrollspy min-h-screen" id="skills">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl">Habilidades</h3>
+			<div class="p-6" id="habilidades">
+				<div class="list">
+					{% for habilidades in info.habilidades %}
+					<div class="bg-white p-4 shadow-md mx-2 my-4" data-id="{{ loop.index }}">
+						<div class="card-content">
+							<h4 class="font-bold mb-2 pb-2 border-b-2 border-blue border-opacity-75 text-blue justify-center">{{habilidades.categoria}}</h4>
+							<div class="flex justify-center sm:justify-start p-2 flex-wrap">
+								{% for elm in habilidades.elementos %}
+									<div class="mr-12 -mb-4 img-skill-content progreso progreso-{{elm.nivel}}">
+										<img alt="" src="/img/{{elm.img}}" class="img-skill w-16 h-16">
+										<p class="font-semibold">{{elm.nombre}}</p>
+									</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<!-- <div class="center">
+				<a data-position="top" data-section="skill" class="more btn-floating blue darken-2"
+					onclick="seeMore(this)">
+					<i class="icon-down"></i>
+				</a>
+				<a data-position="top" data-section="skill" class="less btn-floating blue darken-2 d-none"
+					href="#skills" onclick="seeMore(this)">
+					<i class="icon-up"></i>
+				</a>
+			</div> -->
+		</section>
+		<section class="scrollspy min-h-screen" id="education">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl">Educación</h3>
+			<div class="p-6">
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2">
+					{% for educacion in info.educacion %}
+						<div class="bg-white p-4 shadow-md">
+							<div class="flex justify-between">
+								<div class="w-20 h-20">
+									<a href="{{educacion.url}}" target="_blank">
+										<img alt="" src="/img/{{educacion.img}}" class="">
+									</a>
+								</div>
+								<div class="flex flex-col items-end">
+									<h2 class="font-bold">
+										<a href="{{educacion.url}}" target="_blank" class="">{{educacion.universidad|safe}}</a>
+									</h2>
+									<h4>
+										{{educacion.fecha_inicio|date('F Y')}} 
+										-
+										{% if educacion.fecha_fin == "Actualidad" %}
+											{{ "Actualidad" }}
+										{% else %}
+											{{educacion.fecha_fin|date('F Y')}}
+										{% endif %}
+									</h4>
+									<h5>
+										{{educacion.locacion}}
+									</h5>
+								</div>
+							</div>
+							<h3 class="font-bold my-2 mt-4 text-lg text-center">{{educacion.grado}} en {{educacion.carrera}}</h3>
+						</div>
+					
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+		<section class="scrollspy min-h-screen" id="experience">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl">Experiencia</h3>
+			<div class="p-6">
+				<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xxl:grid-cols-3 xxxl:grid-cols-4 gap-6">
+					{% for exp in info.experiencia %}
+					
+					{% if exp.principal == "True" %}
+						<div class="bg-white p-4 shadow-md md:col-span-2 xxl:col-span-2 xxxl:col-span-3 gap-6" data-id="{{loop.index}}">
+					{% else %}
+						<div class="bg-white p-4 shadow-md" data-id="{{loop.index}}">
+					{% endif %}
+						<div class="card-content">
+							<div class="flex justify-between">
+								<div class="w-20 h-20">
+									<a href="{{exp.url}}" target="_blank">
+										<img alt="" src="/img/{{exp.img}}" class="">
+									</a>
+								</div>
+								<div class="flex flex-col items-end">
+									<h2 class="font-bold">
+										<a href="{{exp.url}}" target="_blank" class="">{{exp.empresa|safe}}</a>
+									</h2>
+									<h4>
+										{{exp.fecha_inicio|date('F Y')}} 
+										-
+										{% if exp.fecha_fin == "Actualidad" %}
+											{{ "Actualidad" }}
+										{% else %}
+											{{exp.fecha_fin|date('F Y')}}
+										{% endif %}
+									</h4>
+									<h5>
+										{{exp.locacion}}
+									</h5>
+								</div>
+							</div>
+							<h3 class="font-bold my-2 mt-4 text-lg">{{exp.cargo|safe}}</h3>
+							<p>{{exp.descripcion}}</em></p>
+							<ul class="my-2 ">
+								{% for func in exp.funciones %}
+								<li>{{ func }}</li>
+								{% endfor %}
+							</ul>
+							{% if exp.logros.length %}
+								<h6 class="font-bold mb-2">Logros</h6>
 								<ul>
 									{% for logro in exp.logros %}
 									<li>{{logro}}</li>
 									{% endfor %}
 								</ul>
+							{% endif %}
+							<div class="flex flex-col md:flex-row">
+								{% for project in exp.projects %}
+									<div class="w-full md:w-1/2"> 
+										<h4 class="font-bold my-3">
+											{{ project.titulo }}
+										</h4>
+										<p class="my-3">
+											{{ project.description }}
+										</p>
+										<ul class="my-2 ">
+											{% for func in project.funciones %}
+											<li>{{ func }}</li>
+											{% endfor %}
+										</ul>
+									</div>
+								{% endfor %}
 							</div>
-							<div class="card-action"><span>
-								{{exp.fecha_inicio|date('F Y')}} - 
-								{% if exp.fecha_fin == "Actualidad" %}
-	 								{{ "Actualidad" }}
-								{% else %}		
-	  								{{exp.fecha_fin|date('F Y')}}
-								{% endif %} |  {{exp.locacion}}</span></div>
+							
 						</div>
-						{% endfor %}
 					</div>
-				</div>	
-				<div class="center">
-					<a data-position="top" data-section="experience" class="more btn-floating blue darken-2" onclick="seeMore(this)">
-						<i class="icon-down"></i>
-					</a>	
-					<a data-position="top" data-section="experience" class="less btn-floating blue darken-2 d-none" href="#experience" onclick="seeMore(this)">
-						<i class="icon-up"></i>
-					</a>						
-				</div>						
+					{% endfor %}
+				</div>
 			</div>
-			</section>
-			<section id="actvities" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Comunidades</h3>
-				<div class="container">				
+			<!-- <div class="center">
+				<a data-position="top" data-section="experience" class="more btn-floating blue darken-2"
+					onclick="seeMore(this)">
+					<i class="icon-down"></i>
+				</a>
+				<a data-position="top" data-section="experience" class="less btn-floating blue darken-2 d-none"
+					href="#experience" onclick="seeMore(this)">
+					<i class="icon-up"></i>
+				</a>
+			</div> -->
+			</div>
+		</section>
+		<section class="scrollspy min-h-screen" id="actvities">
+			<h3 class="bg-blue font-bold text-white p-2 pl-8 mb-6 text-2xl">Actividades</h3>
+			<div class="p-6">
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2">
 					{% for com in info.comunidades %}
-					<div class="card">
+					<div class="bg-white p-4 shadow-md">
 						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m2"><a href="{{com.url}}" target="_blank"><img alt="" src="/img/{{com.img}}" class="responsive-img center-block"></a></div>
-								<div class="col s12 m10">
-									<p><span class="card-title"><a href="{{com.url}}" target="_blank" class="teal-text hoverline">{{com.empresa|safe}}</a></span></p>
+							<div class="flex justify-between">
+								<div class="w-20 h-20">
+									<a href="{{com.url}}" target="_blank">
+										<img alt="" src="/img/{{com.img}}" class="">
+									</a>
+								</div>
+								<div class="flex flex-col items-end">
+									<h2 class="font-bold">
+										<a href="{{com.url}}" target="_blank" class="">{{com.empresa|safe}}</a>
+									</h2>
+									<h4>
+										{{com.fecha_inicio|date('F Y')}} 
+										-
+										{% if com.fecha_fin == "Actualidad" %}
+											{{ "Actualidad" }}
+										{% else %}
+											{{com.fecha_fin|date('F Y')}}
+										{% endif %}
+									</h4>
+									<h5>
+										{{com.locacion}}
+									</h5>
 								</div>
 							</div>
-							<div class="role blue-text ">{{com.cargo|safe}}</div>
-							<p><em class="grey-text">{{com.descripcion}}</em></p>
-							<ul>
+							<h3 class="font-bold my-2 mt-4 text-lg">{{com.cargo|safe}}</h3>
+							<p>{{com.descripcion}}</em></p>
+							<ul class="my-2 ">
 								{% for func in com.funciones %}
 								<li>{{ func }}</li>
 								{% endfor %}
 							</ul>
 						</div>
-						<div class="card-action"><span>
-							{{com.fecha_inicio|date('F Y')}} - 
-							{% if com.fecha_fin == "Actualidad" %}
- 								{{ "Actualidad" }}
-							{% else %}		
-  								{{com.fecha_fin|date('F Y')}}
-							{% endif %} |  {{com.locacion}}</span></div>
 					</div>
 					{% endfor %}
 				</div>
-			</section>
-			<section id="contact" class="section scrollspy full-height">
-				<h3 class="page-title white-text teal">Contacto</h3>
-				<div class="container">
-					{% for red in info.contacto %}
-					<p>
-						<a href="{{red.link}}"  target="_blank" data-position="top"  class="btn-floating btn-large waves-effect waves- blue darken-2 ">
-							<i class="{{red.icon}}"></i>
-						</a>
-						<a href="{{red.link}}"  target="_blank" class="hoverline">{{red.etiqueta}}</a>
-					</p>
-					{% endfor %}
-				</div>
-			</section>
-		</main>
-		<script src="/js/material.js"></script>
-		<script>
-		
-		document.addEventListener('DOMContentLoaded', function() {
-			var elems = document.querySelectorAll('.sidenav');
-			var sidenavs = M.Sidenav.init(elems, {
-				menuWidth: 190, 
-				edge: 'left', 
-				closeOnClick: true 
-			});
-		});
-		
-		var sections = {};
-		var totalItemsActives = document.querySelectorAll('.card-project-active').length;
-		var limite_inicial = 2
-		var category = 'todos'
+			</div>
+		</section>
 
-		function getOffsetTops(){
-			var section = document.querySelectorAll(".scrollspy");
-			Array.prototype.forEach.call(section, function(e) {
-				sections[e.id] = e.offsetTop;
-			});
-		}
+	</main>
+	<script src="/js/app.js"></script>
+</body>
 
-		var projects = document.querySelectorAll('.card-project')
-		document.querySelectorAll('.badge.todos')[0].innerText = projects.length
-		for (var i = 0; i < projects.length; i++) {
-			let cat = projects[i].getAttribute("data-cat")
-			let elem = document.querySelectorAll(`.badge.${cat}`)
-			elem[0].innerText = parseInt(elem[0].innerText)+1
-
-		}
-
-		ocultarItems('.card-project',1)
-		ocultarItems('.card-skill',1)
-		ocultarItems('.card-experience',1)
-		getOffsetTops()
-
-		function changecategory(evt){
-			let categories = evt.parentNode.parentNode.children
-			for (var i = 0; i < categories.length; i++) {
-				categories[i].children[0].classList.remove('active');
-			}
-			evt.classList.add("active")
-			category = evt.text.toLowerCase();	
-			filterItems()
-		}
-
-		function filterItems() {
-			mostrarProjects()
-			filterCategory()
-			filterContent()
-			filterShow()
-			statusButtonLessMore()
-			getOffsetTops()
-			 
-		}	
-
-		function filterCategory() {
-			ocultarProjects()
-			if( category =='todos') {
-				mostrarProjects()
-			}else {
-				let items = document.querySelectorAll('.card-project')
-				for (var i = 0; i < items.length; i++) {	
-					if(items[i].getAttribute("data-cat") == category) {
-						items[i].classList.remove('d-none')
-						items[i].classList.add('card-project-active')	
-					}
-				}
-			}
-			totalItemsActives = document.querySelectorAll('.card-project-active').length;
-		}
-
-		function filterContent() {
-			
-			let value = document.getElementById("search").value.toString().toLowerCase();
-			
-			projectList = document.querySelectorAll('.card-project-active')
-			for (var i = 0; i < projectList.length; i++) {
-			
-				projectList[i].classList.add('d-none')
-				projectList[i].classList.remove('card-project-active')
-					
-				let title = projectList[i].getAttribute("data-title").toLowerCase()
-				let cat = projectList[i].getAttribute("data-cat").toLowerCase()
-				let des = projectList[i].getAttribute("data-des").toLowerCase()
-				
-				if( cat.includes(value) || title.includes(value) || des.includes(value)) {
-					projectList[i].classList.add('card-project-active')
-					projectList[i].classList.remove('d-none')
-				}
-			}
-			totalItemsActives = document.querySelectorAll('.card-project-active').length;
-		}
-
-		function filterShow() {
-			if ( document.getElementById('seeMoreProjects').classList.contains('d-none')){
-				mostrarItems('.card-project-active')
-			
-			}else if (document.getElementById('seeLessProjects').classList.contains('d-none')){
-				ocultarItems('.card-project-active',1)
-			}
-		}
-
-		function statusButtonLessMore() {
-			document.getElementById('seeMoreProjects').parentNode.classList.remove('d-none')
-			if ( totalItemsActives <= 2) {
-				document.getElementById('seeMoreProjects').parentNode.classList.add('d-none')
-			}
-			document.querySelectorAll('.badge.search')[0].innerText = totalItemsActives
-		}
-	
-		function seeMore(button) {
-			button.parentNode.children[0].classList.toggle('d-none')
-			button.parentNode.children[1].classList.toggle('d-none')
-			let selector = '.card-' + button.getAttribute("data-section")
-			if( button.classList.contains('more') ) {
-				mostrarItems(selector)
-			}else if (button.classList.contains('less')) {
-				ocultarItems(selector,1)
-			}			
-			getOffsetTops()
-		}
-
-		function ocultarProjects() {
-			let items = document.querySelectorAll('.card-project')
-			for (var i = 0; i < items.length; i++) {
-				items[i].classList.remove('card-project-active')
-				items[i].classList.add('d-none')	
-			}
-		}
-
-		function mostrarProjects() {
-			let items = document.querySelectorAll('.card-project')
-			for (var i = 0; i < items.length; i++) {
-				items[i].classList.add('card-project-active')
-				items[i].classList.remove('d-none')		
-			}
-		}
-
-		function ocultarItems(selector,number)  {
-			var elements = document.querySelectorAll(selector);
-			elements.forEach( (element,index) => {
-				element.classList.remove('d-none')
-				if( index > number) {
-					element.classList.add('d-none')
-				}
-			})
-		}
-
-		function mostrarItems(selector)  {
-			var elements = document.querySelectorAll(selector);
-			elements.forEach( (element,index) => {
-				element.classList.remove('d-none')
-			})
-		}
-
-		window.onscroll = function() {
-			var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-			for (i in sections) {
-				if (sections[i] <= scrollPosition + screen.height/2 ) {
-					document.querySelector('.itemScroll.active') && document.querySelector('.itemScroll.active').classList.remove('active')
-					document.querySelector('a[href="#' + i + '"]') && document.querySelector('a[href="#' + i + '"]').classList.add('active')
-				}
-			}
-		};
-
-		</script>
-	</body>
 </html>
