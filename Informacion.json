@@ -46,12 +46,12 @@
 	"about_cards" : [
 		{
 			"title" : "Amante de la tecnología",
-			"content" : "Senti el llamado de la tecnología cuando mi padre compro el primer computador de mi pueblo.",
+			"content" : "Sentí el llamado de la tecnología cuando mi padre compró el primer computador de mi pueblo.",
 			"image" : "about/techlover.jpg"
 		},
 		{
 			"title" : "Lifelong Learner",
-			"content" : "Cuando empece a utilizar internet, supe que nunca nunca mas tendría excusa por aprender algo.",
+			"content" : "Cuando empecé a utilizar internet supe que nunca más tendría excusa por aprender algo.",
 			"image" : "about/learner.jpg"
 		},
 		{
@@ -61,35 +61,35 @@
 		},
 		{
 			"title" : "Programador",
-			"content" : "La logica, la matematica, la casuistica, la consecuencia, etc. En el primer curso de la universidad supe que la programación es lo queria para mi.",
+			"content" : "La lógica, matemática, casuística, consecuencia, etc. En el primer curso de la universidad supe que la programación es lo que quería para mí.",
 			"image" : "about/programmer.jpg"
 		},
 		{
 			"title" : "Desarrollador de Software",
-			"content" : "Encontre en el software una forma efectiva de generar valor, especialista en Frontend, pero tambien hago Backend y Devops.",
+			"content" : "Encontré en el software una forma efectiva de generar valor, soy especialista en Frontend pero también hago Backend y Devops.",
 			"image" : "about/developer.jpg"
 		},
 		{
 			"title" : "Compartir conocimiento",
-			"content" : "Todo lo que aprendí fue gracias a personas que decidieron compartir sus conocimientos, con tutoriales y cursos es un placer devolver lo aprendido a la comunidad.",
+			"content" : "Todo lo que aprendí fue gracias a personas que decidieron compartir sus conocimientos con tutoriales y cursos, es un placer devolver lo aprendido a la comunidad.",
 			"image" : "about/shareknowlegge.jpg"
 		},
 		{
 			"title" : "Nuevas Tecnologías",
-			"content" : "Me encanta explorar nuevas tecnologías, y unirlas para generar productos disruptivos. Inteligencia Artificial, Robotica, IoT, etc.",
+			"content" : "Me encanta explorar nuevas tecnologías y unirlas para generar productos disruptivos. Inteligencia Artificial, Robótica, IoT, etc.",
 			"image" : "about/newtech.jpg"
 		}
 	],
 	"educacion" : [
 		{
-			"universidad": "Universidad Politecnica de Cataluña",
+			"universidad": "Universidad Politécnica de Cataluña",
 			"url" : "https://www.upc.edu/ca",
 			"img" : "institutions/upc.svg",
-			"grado" : "Master",
+			"grado" : "Máster",
 			"carrera" :  "Inteligencia Artificial",
 			"fecha_inicio" : "2020-06",
 			"fecha_fin" : "Actualidad",
-			"locacion" : "Remoto"
+			"locacion" : "Barcelona - España"
 		},
 		{
 			"universidad": "Universidad Nacional de Ingeniería",
@@ -109,10 +109,10 @@
 			"img" : "institutions/interbank.svg",
 			"cargo" : "Especialista en Nuevas Tecnologías",
 			"principal" : "True",
-			"descripcion" : "LaBentana es el centro de innovación del Interbank, uno de los principales bancos de Perú. He estado participando en dos proyectos tecnológicos, además de actividades multidisciplinarias",
+			"descripcion" : "LaBentana es el centro de innovación de Interbank, uno de los principales bancos de Perú. He estado participando en dos proyectos tecnológicos, además de actividades multidisciplinarias",
 			"funciones" : [
-				"🙋 Aplicación de metodologías como Design Thinking, Design Sprint, Grow Hacking, etc. para concebir productos para el banco.",
-				"🙋 Asesoría tecnologica a los proyectos del laboratorio de innovación.",	
+				"🙋 Aplicación de metodologías como Design Thinking, Design Sprint, Grow Hacking, etc, para concebir productos para el banco.",
+				"🙋 Asesoría tecnológica a los proyectos del laboratorio de innovación.",	
 				"🙋 Realización de talleres para los colaboradores del banco sobre metodologías de innovación."
 			],
 			"logros" : [
@@ -147,7 +147,7 @@
 			"url" : "https://www.falabella.com.pe/falabella-pe/",
 			"img" : "institutions/falabella.svg",
 			"cargo" : "Programador Web",
-			"descripcion" : "Falabella.com es una de las mayores tiendas de comercio electrónico de Sudamérica, encargada de desarrollar contenidos de frontend para la comercialización (home, landings, etc.)",
+			"descripcion" : "Falabella.com es una de las más grandes tiendas de comercio electrónico de Sudamérica, encargada de desarrollar contenidos frontend para la comercialización (home, landings, etc.)",
 			"funciones" : [
 				"💻 Desarrollo de un CMS para el rápido desarrollo de la página de inicio.",
 				"💻 Desarrollo de un framework CSS y JS (Falatricks) para el rápido desarrollo de las landings de marketing. Mejora de 4 días/landing a 1 día/landing.",
@@ -164,9 +164,9 @@
 			"url" : "https://softbutterfly.io/",
 			"img" : "institutions/softbutterbly.svg",
 			"cargo" : "Desarrollador Full Stack",
-			"descripcion" : "Soft Butterfly es una fábrica de software de equipos pequeños y ágiles",
+			"descripcion" : "SoftButterfly es una fábrica de software de equipos pequeños y ágiles",
 			"funciones" : [
-				"💻 Desarrollo del frontend con Vue JS en una plataforma para la gestión de encuestas en línea.",
+				"💻 Desarrollo frontend con Vue JS en una plataforma para la gestión de encuestas en línea.",
 				"💻 Desarrollo de componentes gráficos y funcionales con Vue JS.",
 				"💻 Implementación de REST API con DEnego Rest Framework.",
 				"💡 Gestión de equipos remotos."
@@ -185,7 +185,7 @@
 			"descripcion" : "Desarrollo de Yaku, un medidor de agua con tecnología IoT que busca un mejor seguimiento del consumo.",
 			"funciones" : [
 				"💻 Desarrollo frontend del dashboard para la presentación de datos usando React JS.",
-				"💻 Desarrollo de (IoT) en las capas de adquisición, comunicación y visualización utilizando NodeMCU y Arduino MKR GSM 1400.",
+				"💻 Desarrollo IoT en las capas de adquisición, comunicación y visualización utilizando NodeMCU y Arduino MKR GSM 1400.",
 				"💻 Diseño de la arquitectura para el nivel de hardware y software del proyecto."
 			],
 			"logros" : [
@@ -202,7 +202,7 @@
 			"cargo" : "Front End Developer",
 			"descripcion" : "La más moderna tecnología de administración centralizada para Almacenes de Compraventa con Pacto de Retroventa fundamentada en la seguridad, conectividad y usabilidad.",
 			"funciones" : [
-				"💻 Desarrollo del frontend con React JS en un ERP de gestión de compra-venta.",
+				"💻 Desarrollo frontend con React JS en un ERP de gestión de compra-venta.",
 				"💻 Desarrollo móvil con React Native, creando una aplicación móvil."
 			],
 			"logros" : [
@@ -216,7 +216,7 @@
 			"empresa": "DevCode.la",
 			"url" : "https://devcode.la/",
 			"img" : "institutions/devcode.svg",
-			"cargo" : "Soporte Academico",
+			"cargo" : "Soporte Académico",
 			"descripcion" : "Devcode.la es una plataforma de e-learning que brinda cursos de desarrollo web y mobile como HTML, CSS, Django, Android, entre otros, a países de habla hispana.",
 			"funciones" : [
 				"💻 Desarrollo y mantenimiento de la plataforma web de la empresa en el stack de Javascript.",
@@ -236,9 +236,9 @@
 			"url" : "https://www.facebook.com/roboticistsite/",
 			"img" : "institutions/roboticist.jpg",
 			"cargo" : "Programador Arduino",
-			"descripcion" : "Empresa especialiszada en Robótica. Pionera en la investigación y desarrollo de proyectos de Robótica Aplicada en el Perú.",
+			"descripcion" : "Empresa especializada en Robótica. Pionera en la investigación y desarrollo de proyectos de Robótica Aplicada en el Perú.",
 			"funciones" : [
-				"🤖 Realizar mejoras al diseño mecánico, electrónico, y de software de programación de un robot bípedo.",
+				"🤖 Realizar mejoras al diseño mecánico, electrónico y de software de programación de un robot bípedo.",
 				"🙋 Realizar talleres de introducción a la robótica, electrónica y programación con un robot bípedo (RoBi)."
 			],
 			"logros" : [
@@ -253,10 +253,10 @@
 			"url" : "http://www.ctic.uni.edu.pe",
 			"img" : "institutions/ctic.svg",
 			"cargo" : "Programador Matlab",
-			"descripcion" : "El Centro de Tecnologías de Información y Comunicaciones de la UNI, es un lugar especializado en la investigacón de nuevas tecnologías de vanguardia.",
+			"descripcion" : "El Centro de Tecnologías de Información y Comunicaciones de la UNI, es un lugar especializado en la investigación de nuevas tecnologías de vanguardia.",
 			"funciones" : [
 				"🤖 Diseñar el algoritmo de cinemática inversa para el robot de 6 GDL y su implementación en el software Matlab.", 
-				"💻 Crear una librería grafica en Matlab (Graphic Lenguage) para la simulación del robot manipulador."
+				"💻 Crear una librería gráfica en Matlab (Graphic Lenguage) para la simulación del robot manipulador."
 			],
 			"logros" : [
 				"✔️ Mejorar el HMI (Human Machine Interface) haciéndola mucho más agradable y sincronizada con el prototipo."
@@ -272,7 +272,7 @@
 			"url" : "https://trujillo.hackspace.la/",
 			"img" : "institutions/hackspace.svg",
 			"cargo" : "Coach en Electrónica y Backend",
-			"descripcion" : "Agrupación para generar un entorno de creación de tecnología basados en el trabajo en comunidad y auto-aprendizaje.",
+			"descripcion" : "Agrupación para generar un entorno de creación de tecnología basado en el trabajo en comunidad y auto-aprendizaje.",
 			"funciones" : [
 				"💡 Organizar y calendarizar retos de selección de participantes.",
 				"💻 Guía en el aprendizaje autodidacta de múltiples habilidades tecnológicas."
@@ -286,11 +286,11 @@
 			"url" : "https://www.netacad.com/es/",
 			"img" : "institutions/cisco.svg",
 			"cargo" : "Instructor de curso \"Get Connected\"",
-			"descripcion" : "Organizacion que ofrece conocimientos y habilidades en Tecnologías de Información y Comunicación (TICs) para jóvenes del 4 al quinto año de secundaria.",
+			"descripcion" : "Organización que ofrece conocimientos y habilidades en Tecnologías de la Información y Comunicación (TICs) para jóvenes de tercero a quinto año de secundaria.",
 			"funciones" : [
-				"💡 Organizar y calendarizar curso \"Get connected\".",
+				"💡 Organizar y calendarizar cursos \"Get connected\".",
 				"🎬 Crear contenido para cursos.",
-				"🙋 Instructor de curso dictado a jóvenes de 3°, 4° y 5° de secundaria."
+				"🙋 Instructor de cursos dictado a jóvenes de 3°, 4° y 5° de secundaria."
 			],
 			"fecha_inicio" : "2017/08/01",
 			"fecha_fin" : "2017/12/01",
@@ -320,7 +320,7 @@
 			"original" : "Rompecabezas con JS, CSS3 y HTML5",
 			"link" : "https://www.youtube.com/watch?v=dcIuh7JaxWw",
 			"nombre" : "Rompecabezas con Javascript",
-			"descripcion" : "Rompecabezas de 9 piezas usando solo javascript, css y html",
+			"descripcion" : "Rompecabezas de 9 piezas usando solo Javascript, CSS y HTML",
 			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
@@ -343,7 +343,7 @@
 			"original" : "Directorio de contactos con NodeJS",
 			"link" : "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
 			"nombre" : "Directorio de contactos",
-			"descripcion" : "Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo numero de telefono",
+			"descripcion" : "Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo número de teléfono",
 			"etiquetas" : ["icon-node-js"],
 			"externos" : [
 				{
@@ -366,7 +366,7 @@
 			"original" : "Crea tus propios Glyphicons",
 			"link" : "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
 			"nombre" : "Crea tus propios Glyphicons",
-			"descripcion" : "Crear tus propios GLYPHICONS, y mejorar las interfaces y usabilidad de tus sitios web, dejando de usar imágenes para los íconos.",
+			"descripcion" : "Crear tus propios GLYPHICONS, mejorar las interfaces y usabilidad de tus sitios web dejando de usar imágenes para los íconos.",
 			"etiquetas" : ["icon-illustrator"],
 			"externos" : [
 				{
@@ -402,7 +402,7 @@
 			"original" : "Animación con Canvas de HTML5",
 			"link" : "https://codepen.io/NestorPlasencia/pen/YWZWqq",
 			"nombre" : "Animación con canvas",
-			"descripcion" : "Animacion de ojos que siguen la posición del mouse.",
+			"descripcion" : "Animación de ojos que siguen la posición del mouse.",
 			"etiquetas" : ["icon-javascript-alt"],
 			"externos" : [
 				{
@@ -425,7 +425,7 @@
 			"original" : "Efectos Fantasmales con jQuery",
 			"link" : "https://codepen.io/NestorPlasencia/pen/LRaaPz",
 			"nombre" : "Efectos Fantasmales con jQuery",
-			"descripcion" : "Utilizaremos fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
+			"descripcion" : "Uso de fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
 			"etiquetas" : ["icon-jquery","icon-javascript-alt","icon-css3"],
 			"externos" : [
 				{
@@ -545,7 +545,7 @@
 			"original" : "Crear un xilófono musical con JavaScript",
 			"link" : "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
 			"nombre" : "Xilofono musical",
-			"descripcion" : "Creación de un Xilofono, y programación de melodía navideña.",
+			"descripcion" : "Creación de un xilófono y programación de melodía navideña.",
 			"etiquetas" : ["icon-javascript-alt","icon-css3","icon-html5"],
 			"externos" : [
 				{
