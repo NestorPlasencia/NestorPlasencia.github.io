@@ -70,11 +70,11 @@
 					{% endfor %}
 				</div>
 				<h2 class="font-bold text-darkBlue my-3 text-xl">Contacto:</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2">
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 xxxl:grid-cols-5 gap-6 mt-2 mb-4">
 					{% for red in info.contacto %}
-					<a href="{{red.link}}" target="_blank" class="bg-white p-4 shadow-md">
-						<i class="{{red.icon}}"></i>
-						<span class="">{{red.etiqueta}}</span>
+					<a href="{{red.link}}" target="_blank" class="bg-white p-4 shadow-md flex justify-center items-center">
+						<span class="text-blue text-3xl"><i class="{{red.icon}}"></i></span>
+						<span class="ml-2">{{red.etiqueta}}</span>
 					</a>
 					{% endfor %}
 				</div>

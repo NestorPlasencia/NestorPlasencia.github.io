@@ -57614,12 +57614,12 @@ video {
 @font-face {
   font-family: 'icomoon';
 
-  src:  url('../fonts/icomoon.eot?dgj502');
+  src:  url('../../fonts/icomoon.eot?dgj502');
 
-  src:  url('../fonts/icomoon.eot?dgj502#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?dgj502') format('truetype'),
-    url('../fonts/icomoon.woff?dgj502') format('woff'),
-    url('../fonts/icomoon.svg?dgj502#icomoon') format('svg');
+  src:  url('../../fonts/icomoon.eot?dgj502#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?dgj502') format('truetype'),
+    url('../../fonts/icomoon.woff?dgj502') format('woff'),
+    url('../../fonts/icomoon.svg?dgj502#icomoon') format('svg');
 
   font-weight: normal;
 
@@ -58166,6 +58166,10 @@ video {
 
 .icon-cross:before {
   content: "\ea0f";
+}
+
+.icon-whatsapp:before {
+  content: "\ea93";
 }
 
 .cuadricula {

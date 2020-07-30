@@ -39,7 +39,7 @@
 		},
 		{
 			"title": "Resume",
-			"href" : "#resume",
+			"href" : "https://nestorplasencia.github.io/static/pdf/CV_NestorPlasencia_Esp.pdf",
 			"icon" : "icon-tutorial"
 		}
 	],
@@ -1011,10 +1011,10 @@
 			"etiqueta" : "linkedin.com/in/nestorplasencia"
 		},
 		{
-			"red" : "dina",
-			"link" : "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=34044",
-			"icon" : "icon-contact-research",
-			"etiqueta" : "dina.concytec.gob.pe/nestor-plasencia-prado"
+			"red" : "whatsapp",
+			"link" : "https://wa.me/51996858016",
+			"icon" : "icon-whatsapp",
+			"etiqueta" : "+51 996858016"
 		}
 	]
 }
