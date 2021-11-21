@@ -131,7 +131,7 @@ class App extends Component {
             sharedBasicInfo={this.state.sharedData.basic_info}
           />
         </Screen>
-        <Screen id="projects">
+        <Screen id="portfolio">
           <Projects
             resumeProjects={this.state.resumeData.projects}
             resumeBasicInfo={this.state.resumeData.basic_info}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import GreetingLottie from "../components/DisplayLottie";
 
 class Projects extends Component {
   constructor(props) {
@@ -52,7 +53,19 @@ class Projects extends Component {
           <span>{sectionName}</span>
         </h1>
         <div className="col-md-12 mx-auto">
-          <div className="projects-grid px-0 col-lg-9">{projects}</div>
+          <div className="projects-grid px-0 col-lg-9">
+
+            <div className="foto">
+              <div>
+                <GreetingLottie animationPath="/lottie/build.json" />
+                <p className="project-title-settings mt-3">
+                Kepp coding
+                </p>
+              </div>
+            </div>
+            
+            {projects}
+          </div>
         </div>
         <ProjectDetailsModal
           show={this.state.detailsModalShow}

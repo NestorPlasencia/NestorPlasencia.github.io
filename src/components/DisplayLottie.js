@@ -9,8 +9,8 @@ const GreetingLottie = ({ animationPath }) => {
 	};
 
 	return (
-		<div onClick={() => null}>
-			<Lottie options={defaultOptions} />
+		<div >
+			<Lottie options={defaultOptions} isClickToPauseDisabled={true}/>
 		</div>
 	);
 };
