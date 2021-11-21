@@ -2,6 +2,7 @@
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -15,13 +16,29 @@ html {
 	justify-content: center;
 }
 
+.screen {
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#home.screen, #projects.screen {
+	background-color: #e9d5a1;
+}
+
+.typical-text {
+	min-height: 100px;
+}
+
 .title-container {
-	height: 50px;
+	min-height: 50px;
 }
 
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
+	margin-bottom: 0;
 }
 
 .header-icon {
@@ -31,8 +48,6 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -43,7 +58,6 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
 	padding-bottom: 0;
 }
 
@@ -73,10 +87,9 @@ header {
 }
 
 .language {
-	font-size: 25px;
+	font-size: 20px;
 	background-color: #e9d5a1;
-	padding-bottom: 10px;
-	padding-top: 80px;
+	padding-top: 20px;
 }
 
 header h1 {

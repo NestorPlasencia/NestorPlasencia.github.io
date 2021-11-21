@@ -32,7 +32,7 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
@@ -48,21 +48,19 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
+      <div className="col-md-12">
+        <h1 className="section-title" style={{ color: "black" }}>
+          <span>{sectionName}</span>
+        </h1>
+        <div className="col-md-12 mx-auto">
+          <div className="row mx-auto">{projects}</div>
         </div>
-      </section>
+        <ProjectDetailsModal
+          show={this.state.detailsModalShow}
+          onHide={detailsModalClose}
+          data={this.state.deps}
+        />
+      </div>
     );
   }
 }

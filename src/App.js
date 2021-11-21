@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
+
+import Screen from "./components/Screen";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -71,7 +74,7 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        document.title = `${this.state.sharedData.basic_info.tiltePage}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -82,57 +85,70 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
+        <Screen id="home">
+          <div className="col-md-12 mx-auto text-center language">
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$primaryLanguage,
+                  window.$secondaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon mr-5"
+                data-icon="twemoji-flag-for-flag-united-states"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$secondaryLanguage,
+                  window.$primaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-peru"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+              ></span>
+            </div>
           </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
-          </div>
-        </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+          <Header
+            sharedBasicInfo={this.state.sharedData.basic_info}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Screen>
+        <Screen id="about">
+          <About
+            resumeBasicInfo={this.state.resumeData.basic_info}
+            sharedBasicInfo={this.state.sharedData.basic_info}
+          />
+        </Screen>
+        <Screen id="projects">
+          <Projects
+            resumeProjects={this.state.resumeData.projects}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Screen>
+        <Screen id="skills">
+          <Skills
+            sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Screen>
+        <Screen id="resume">
+          <Experience
+            resumeExperience={this.state.resumeData.experience}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Screen>
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import GreetingLottie from "../components/DisplayLottie";
 
 class Header extends Component {
   titles = [];
@@ -25,40 +26,46 @@ class Header extends Component {
   }
 
   render() {
-    if (this.props.sharedData) {
-      var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+    if (this.props.sharedBasicInfo) {
+      this.titles = this.props.sharedBasicInfo.titles.map(x => [x.toUpperCase(), 1500]).flat();
+    }
+    if (this.props.resumeBasicInfo) {
+      var name = this.props.resumeBasicInfo.name;
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
+    const HeaderTitleTypeAnimation = React.memo(() => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+      <header>
+        <div className="row aligner">
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
+              <div className="col-sm-11 col-md-4 mx-auto ">
+                <GreetingLottie animationPath="/lottie/coding.json" />
+              </div>
+
+              <h1 className="mb-0 typical-text">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
+
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
                 onColor="#353535"
-                className="react-switch mx-auto"
+                className="react-switch mx-auto mb-4"
                 width={90}
                 height={40}
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="twemoji:new-moon-face"
                     data-inline="false"
                     style={{
                       display: "block",

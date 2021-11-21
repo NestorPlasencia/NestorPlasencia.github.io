@@ -1,12 +1,13 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "name": "Hola 👋, Soy  Nestor",
+      "description_header": "Hola",
+      "description": "👋 Soy Nestor Plasencia. Máster en Inteligencia Artificial y bachiller en Ingeniería Mecatrónica, apasionado en el desarrollo de la tecnología y la educación. Desarrollador web en JavaScript y Python con 5 años de experiencia. Interesado en desarrollarme como Tech Lead en proyectos de software e inteligencia artificial.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "skills": "Skills",
+        "experience": "Experiencia"
       }
     },
     "projects": [

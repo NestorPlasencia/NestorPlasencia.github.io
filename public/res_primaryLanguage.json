@@ -1,7 +1,8 @@
 {
     "basic_info": {
+      "name": "Hi all 👋, I'm  Nestor",
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Nestor Plasencia. Master in Artificial Intelligence and Bachelor in Mechatronics Engineering, passionate about technological development and education. Web developer in JavaScript and Python with 5 years of experience. Interested in developing me as a Tech Lead in software and artificial intelligence projects.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
