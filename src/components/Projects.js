@@ -21,7 +21,7 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-4"
+            className=""
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
@@ -31,7 +31,6 @@ class Projects extends Component {
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="230"
                     style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
                   />
                   <span className="project-date">{projects.startDate}</span>
@@ -53,7 +52,7 @@ class Projects extends Component {
           <span>{sectionName}</span>
         </h1>
         <div className="col-md-12 mx-auto">
-          <div className="row mx-auto">{projects}</div>
+          <div className="projects-grid px-0 col-lg-9">{projects}</div>
         </div>
         <ProjectDetailsModal
           show={this.state.detailsModalShow}

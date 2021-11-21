@@ -69,7 +69,7 @@ class About extends Component {
                   <span className="wave">{hello} :) </span>
                   <br />
                   <br />
-                  {about}
+                  <span className="about-text">{about}</span>
                 </div>
               </div>
             </div>

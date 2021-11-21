@@ -16,6 +16,8 @@ html {
 	justify-content: center;
 }
 
+
+
 .screen {
 	min-height: 100vh;
 	display: flex;
@@ -141,7 +143,6 @@ header h1 {
 .foto div {
 	background: #ffffff;
 	display: inline-block;
-	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
@@ -173,14 +174,7 @@ header h1 {
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
-.project-title-settings {
-	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: black;
-	text-align: center;
-}
+
 
 .polaroid img {
 	display: block;
@@ -210,6 +204,10 @@ header h1 {
 
 .wave {
 	font-size: 160%;
+}
+
+.about-text{
+	font-size: 120%;
 }
 
 .font-trebuchet {
@@ -357,10 +355,42 @@ header h1 {
 	padding-bottom: 5%;
 }
 
+.projects-grid {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap: 20px;
+	margin-bottom: 40px;
+}
+
+@media (min-width: 576px) { .projects-grid { grid-template-columns: repeat(1,1fr); } }
+
+@media (min-width: 768px) { .projects-grid { grid-template-columns: repeat(2,1fr); } }
+
+@media (min-width: 992px) { 
+	.projects-grid { 
+		grid-template-columns: repeat(3,1fr); 
+		grid-gap: 40px;
+		margin-bottom: 80px;
+	} 
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .projects-grid { grid-template-columns: repeat(4,1fr); } }
+
 .portfolio-item {
-	max-width: 100%;
-	margin-bottom: 15px;
+	min-width: 100%;
 	text-align: center;
+}
+
+.project-title-settings {
+	margin: 10px 20px ;
+	font: 12px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+	min-height: 40px;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
