@@ -49,7 +49,7 @@ class Projects extends Component {
 
     return (
       <div className="col-md-12">
-        <h1 className="section-title" style={{ color: "black" }}>
+        <h1 className="section-title my-4 my-md-5" style={{ color: "black" }}>
           <span>{sectionName}</span>
         </h1>
         <div className="col-md-12 mx-auto">

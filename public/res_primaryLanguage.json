@@ -8,7 +8,17 @@
         "projects": "Projects",
         "skills": "Skills",
         "experience": "Experience"
-      }
+      },
+      "passions": [{
+        "passion": "Tech Lover",
+        "image": "developer.jpg"
+      },{
+        "passion": "Roboticist",
+        "image": "newtech.jpg"
+      },{
+        "passion": "Educator",
+        "image": "techlover.jpg"
+      }]
     },
     "projects": [
       {

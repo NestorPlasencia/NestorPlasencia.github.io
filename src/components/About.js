@@ -6,8 +6,22 @@ import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+    if (this.props.resumeBasicInfo) {
+      var passions = this.props.resumeBasicInfo.passions.map(passion => {
+        return (<div className="col-md-4 center">
+          <div className="polaroid">
+            <span style={{ cursor: "auto" }}>
+              <img
+                src={'images/' + passion.image}
+                alt="Avatar placeholder"
+              />
+              <h2 className="mt-4">
+                {passion.passion}
+              </h2>
+            </span>
+          </div>
+        </div>)
+      });
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -17,11 +31,9 @@ class About extends Component {
 
     return (
       <div className="col-md-12">
-
-        <h1 style={{ color: "black" }} className="mb-5">
+        <h1 style={{ color: "black" }} className="section-title my-4 my-md-5">
           <span>{sectionName}</span>
         </h1>
-
         <div className="row center mx-auto mb-5">
           <div className="px-0 col-md-6 center">
             <div className="px-0 col-md-8">
@@ -62,92 +74,35 @@ class About extends Component {
               </div>
             </div>
           </div>
-
-
-
-
         </div>
-
         <div className="row center mx-auto mb-5">
-          <div className="px-0 col-md-6 center">
-
-          
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
+          <div className="row px-0 col-12 col-xl-8 center">
+            {passions}
           </div>
         </div>
-
-
-
+          {/* <div className="col-md-4 mb-5 center">
+            <div className="polaroid">
+              <span style={{ cursor: "auto" }}>
+                <img
+                  height="250px"
+                  src={profilepic}
+                  alt="Avatar placeholder"
+                />
+                <Icon
+                  icon={angularIcon}
+                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                />
+                <Icon
+                  icon={reactIcon}
+                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                />
+                <Icon
+                  icon={vueIcon}
+                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                />
+              </span>
+            </div>
+          </div> */}
       </div>
     );
   }
