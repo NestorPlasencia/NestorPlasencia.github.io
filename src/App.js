@@ -39,10 +39,10 @@ class App extends Component {
         : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(40%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .removeAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
@@ -62,7 +62,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -77,7 +77,7 @@ class App extends Component {
         document.title = `${this.state.sharedData.basic_info.tiltePage}`;
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }

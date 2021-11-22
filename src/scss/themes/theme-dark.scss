@@ -21,7 +21,7 @@ body[data-theme="dark"] {
    }
 
    .slider-image {
-      border: 5px solid #8C8C8C;
+      border: 1px solid #8C8C8C;
    }
 
    .language {
@@ -52,7 +52,7 @@ body[data-theme="dark"] {
       .polaroid span {
          background:  #6d6d6d;
       }
-      .card {
+      .window {
          background: #6d6d6d;
          color: white;
       }
@@ -63,7 +63,7 @@ body[data-theme="dark"] {
       .section-title {
          color: white !important;
       }
-      .foto > div {
+      .portfolio-item {
          background: #6d6d6d;
       }
       .project-title-settings {
@@ -107,6 +107,11 @@ body[data-theme="dark"] {
    }
 
    .close-icon {
+      color: white;
+   }
+
+
+   .passion-title {
       color: white;
    }
 }

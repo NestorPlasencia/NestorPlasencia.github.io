@@ -14,10 +14,7 @@ class Skills extends Component {
               <span>
                 <div className="text-center skills-tile">
                   <i className={skills.class} style={{ fontSize: "220%" }}>
-                    <p
-                      className="text-center"
-                      style={{ fontSize: "40%", marginTop: "4px" }}
-                    >
+                    <p className="skill-title">
                       {skills.name}
                     </p>
                   </i>
@@ -30,7 +27,7 @@ class Skills extends Component {
         return (
           <div  style={{ maxWidth: "500px", margin: "0 auto" }}>
             <h2 className="my-4 my-md-5">
-              <span className="text-white">{section.section}</span>
+              <span className="skill-section-title text-white">{section.section}</span>
             </h2>
             {skills}
           </div>

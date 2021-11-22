@@ -17,7 +17,7 @@ class ProjectDetailsModal extends Component {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
-                <div className="text-center">
+                <div className="skill-title text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
@@ -48,7 +48,7 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
+            <div className="window-header">
               <span
                 className="iconify slider-iconfiy"
                 data-icon="emojione:red-circle"

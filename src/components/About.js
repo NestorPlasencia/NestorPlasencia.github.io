@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+// import { Icon } from "@iconify/react";
+// import angularIcon from "@iconify/icons-logos/angular-icon";
+// import reactIcon from "@iconify/icons-logos/react";
+// import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
@@ -15,7 +15,7 @@ class About extends Component {
                 src={'images/' + passion.image}
                 alt="Avatar placeholder"
               />
-              <h2 className="mt-4">
+              <h2 className="passion-title mt-4">
                 {passion.passion}
               </h2>
             </span>
@@ -37,8 +37,8 @@ class About extends Component {
         <div className="row center mx-auto mb-5">
           <div className="px-0 col-md-6 center">
             <div className="px-0 col-md-8">
-              <div className="card">
-                <div className="card-header">
+              <div className="window">
+                <div className="window-header">
                   <span
                     className="iconify"
                     data-icon="emojione:red-circle"
@@ -58,7 +58,7 @@ class About extends Component {
                   ></span>
                 </div>
                 <div
-                  className="card-body font-trebuchet text-justify ml-3 mr-3"
+                  className="window-body font-trebuchet"
                   style={{
                     height: "auto",
                     fontSize: "132%",

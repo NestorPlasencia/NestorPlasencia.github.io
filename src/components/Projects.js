@@ -22,26 +22,18 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
-            className=""
+            className="portfolio-item"
             key={projects.title}
-            style={{ cursor: "pointer" }}
+            onClick={() => detailsModalShow(projects)}
           >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
-              </div>
-            </span>
+            <div>
+              <img
+                src={projects.images[0]}
+                alt={projects.title}
+              />
+              <span className="project-date">{projects.startDate}</span>
+            </div>
+            <p className="project-title-settings">{projects.title}</p>
           </div>
         );
       });
@@ -54,17 +46,15 @@ class Projects extends Component {
         </h1>
         <div className="col-md-12 mx-auto">
           <div className="projects-grid px-0 col-lg-9">
-
-            <div className="foto">
+            <div className="portfolio-item">
               <div>
                 <GreetingLottie animationPath="/lottie/build.json" />
                 <span class="project-date">Today</span>
-                <p className="project-title-settings mt-3">
-                I'm keep coding
-                </p>
               </div>
+              <p className="project-title-settings">
+                I'm keep coding
+              </p>
             </div>
-            
             {projects}
           </div>
         </div>

@@ -29,7 +29,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className={ work.mainTech + ' experience-icon'}></i>}
+            icon={<i className={work.mainTech + ' experience-icon'}></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -67,7 +67,9 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
+          <VerticalTimeline
+            animate={false}
+          >
             {work}
             <VerticalTimelineElement
               iconStyle={{
