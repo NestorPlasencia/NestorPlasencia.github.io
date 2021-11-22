@@ -1,0 +1,217 @@
+{
+    "basic_info": {
+      "tiltePage": "Nestor Plasencia",
+      "titles": [ "Front-end Developer", "Software Enginner", "Junior AI Enginner","Dev Team lead" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/NestorPlasencia",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/nestorplasencia/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": [{
+      "section": "Programming Languages",
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "95"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "80"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "90"
+        }
+      ]
+    },{
+      "section": "Frontend Development",
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "TailwindCSS",
+          "class": "devicon-tailwindcss-plain",
+          "level": "70"
+        },
+        {
+          "name": "Boostrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "70"
+        },
+        {
+          "name": "Vue",
+          "class": "devicon-vuejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain",
+          "level": "70"
+        },
+        {
+          "name": "SASS",
+          "class": "devicon-sass-plain",
+          "level": "70"
+        },
+        {
+          "name": "Webpack",
+          "class": "devicon-webpack-plain",
+          "level": "70"
+        },
+        {
+          "name": "Gulp",
+          "class": "devicon-gulp-plain",
+          "level": "70"
+        },
+        {
+          "name": "D3",
+          "class": "devicon-d3js-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Backend Development",
+      "icons":[
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "70"
+        },
+        {
+          "name": "SpringBoot",
+          "class": "devicon-spring-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Databases",
+      "icons":[
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "70"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "70"
+        },
+        {
+          "name": "PostgresSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Servers & Bakend Tools",
+      "icons":[
+        {
+          "name": "Nginx",
+          "class": "devicon-nginx-plain",
+          "level": "70"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Deployment and CI/CD",
+      "icons":[
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "70"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-plain",
+          "level": "70"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Cloud Platforms",
+      "icons":[
+        {
+          "name": "GCP",
+          "class": "devicon-googlecloud-plain",
+          "level": "70"
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-plain",
+          "level": "70"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "70"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "70"
+        }
+      ]
+    },{
+      "section": "Design & Tools",
+      "icons":[
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "70"
+        },
+        {
+          "name": "Illustrator",
+          "class": "devicon-illustrator-plain",
+          "level": "70"
+        }
+      ]
+    }] 
+  }

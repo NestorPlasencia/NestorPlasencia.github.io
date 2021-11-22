@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NestorPlasencia/NestorPlasencia.github.io/static/css/main.67a8f1be.chunk.css",
+    "main.js": "/NestorPlasencia/NestorPlasencia.github.io/static/js/main.f45aa059.chunk.js",
+    "main.js.map": "/NestorPlasencia/NestorPlasencia.github.io/static/js/main.f45aa059.chunk.js.map",
+    "runtime-main.js": "/NestorPlasencia/NestorPlasencia.github.io/static/js/runtime-main.def9ca14.js",
+    "runtime-main.js.map": "/NestorPlasencia/NestorPlasencia.github.io/static/js/runtime-main.def9ca14.js.map",
+    "static/css/2.f00116b5.chunk.css": "/NestorPlasencia/NestorPlasencia.github.io/static/css/2.f00116b5.chunk.css",
+    "static/js/2.83b41b0a.chunk.js": "/NestorPlasencia/NestorPlasencia.github.io/static/js/2.83b41b0a.chunk.js",
+    "static/js/2.83b41b0a.chunk.js.map": "/NestorPlasencia/NestorPlasencia.github.io/static/js/2.83b41b0a.chunk.js.map",
+    "index.html": "/NestorPlasencia/NestorPlasencia.github.io/index.html",
+    "precache-manifest.9abe402cf36c38078677be669c6c957c.js": "/NestorPlasencia/NestorPlasencia.github.io/precache-manifest.9abe402cf36c38078677be669c6c957c.js",
+    "service-worker.js": "/NestorPlasencia/NestorPlasencia.github.io/service-worker.js",
+    "static/css/2.f00116b5.chunk.css.map": "/NestorPlasencia/NestorPlasencia.github.io/static/css/2.f00116b5.chunk.css.map",
+    "static/css/main.67a8f1be.chunk.css.map": "/NestorPlasencia/NestorPlasencia.github.io/static/css/main.67a8f1be.chunk.css.map",
+    "static/js/2.83b41b0a.chunk.js.LICENSE.txt": "/NestorPlasencia/NestorPlasencia.github.io/static/js/2.83b41b0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.def9ca14.js",
+    "static/css/2.f00116b5.chunk.css",
+    "static/js/2.83b41b0a.chunk.js",
+    "static/css/main.67a8f1be.chunk.css",
+    "static/js/main.f45aa059.chunk.js"
+  ]
+}

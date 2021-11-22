@@ -1,0 +1,600 @@
+{
+  "basic_info": {
+    "name": "Hi all 👋, I'm  Nestor",
+    "description_header": "Hi",
+    "description": "👋 I'm Nestor Plasencia. Master in Artificial Intelligence and Bachelor in Mechatronics Engineering, passionate about technological development and education. Web developer in JavaScript and Python with 5 years of experience. Interested in developing me as a Tech Lead in software and artificial intelligence projects.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    },
+    "passions": [
+      {
+        "passion": "Tech Lover",
+        "image": "developer.jpg"
+      },
+      {
+        "passion": "Roboticist",
+        "image": "newtech.jpg"
+      },
+      {
+        "passion": "Educator",
+        "image": "techlover.jpg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Programming with Arduino",
+      "url": "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+      "description": "Basic electronics and arduino programming course.",
+      "technologies": [
+        {
+          "class": "devicon-arduino-plain",
+          "name": "Arduino"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "video",
+          "link": "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
+          "icon": "icon-videotutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/cursoArduino.png",
+        "images/portfolio/cursoArduino.gif"
+      ],
+      "categoria": "electronica",
+      "startDate": "Jun 2017"
+    },
+    {
+      "title": "Puzzle with JS, CSS3 and HTML5",
+      "url": "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+      "description": "9-piece puzzle using only Javascript, CSS and HTML5",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/PGEYQv",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "video",
+          "link": "https://www.youtube.com/watch?v=dcIuh7JaxWw",
+          "icon": "icon-videotutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/pikachu.PNG",
+        "images/portfolio/pikachu.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Nov 2016"
+    },
+    {
+      "title": "Contact directory with NodeJS",
+      "url": "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+      "description": "Directory able to add, read, list and delete a contact and its respective phone number.",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "repositorio",
+          "link": "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
+          "icon": "icon-github"
+        },
+        {
+          "tipo": "articulo",
+          "link": "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem2b_reto3.md",
+          "icon": "icon-article"
+        }
+      ],
+      "images": [
+        "images/portfolio/directorio.PNG",
+        "images/portfolio/directorio.gif"
+      ],
+      "categoria": "backend",
+      "startDate": "Feb 2018"
+    },
+    {
+      "title": "Create your own Glyphicons",
+      "url": "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+      "description": "Create your own GLYPHICONS, improve the interfaces and usability of your web sites and stop using images for icons.",
+      "technologies": [
+        {
+          "class": "devicon-illustrator-plain",
+          "name": "Illustrator"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/glyphicons.PNG",
+        "images/portfolio/glyphicons.gif"
+      ],
+      "categoria": "diseño",
+      "startDate": "Nov 2016"
+    },
+    {
+      "title": "Creating a jigsaw puzzle with Illustrator",
+      "url": "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+      "description": "Tutorial to create puzzle pieces in illustrator, from an image.",
+      "technologies": [
+        {
+          "class": "devicon-illustrator-plain",
+          "name": "Illustrator"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/piezas.png",
+        "images/portfolio/piezas.gif"
+      ],
+      "categoria": "diseño",
+      "startDate": "Nov 2016"
+    },
+    {
+      "title": "Animation with HTML5 Canvas",
+      "url": "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+      "description": "Animation of eyes following the mouse position.",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/YWZWqq",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/ojitos.PNG",
+        "images/portfolio/ojitos.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Nov 2016"
+    },
+    {
+      "title": "Ghostly effects with jQuery",
+      "url": "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+      "description": "Using jQuery's fadeIn and fadeOut to give effects to a ghost created with CSS.",
+      "technologies": [
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/LRaaPz",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/animacion-con-canvas-de-html5/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/fantasma.png",
+        "images/portfolio/fantasma.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Oct 2016"
+    },
+    {
+      "title": "Blog layout with Materialize",
+      "url": "https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/",
+      "description": "Layout of a blog for CoreUpgrade-Lima 2018",
+      "technologies": [
+        "icon-materialize",
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/",
+          "icon": "icon-web"
+        },
+        {
+          "tipo": "articulo",
+          "link": "https://github.com/HackSpacePeru/coreupgrade-2018-web/blob/master/sem3_reto4.md",
+          "icon": "icon-article"
+        },
+        {
+          "tipo": "repositorio",
+          "link": "https://github.com/NestorPlasencia/CUP-2018-Frontend-Semana-3",
+          "icon": "icon-github"
+        }
+      ],
+      "images": [
+        "images/portfolio/blogMaterialize.PNG",
+        "images/portfolio/blogMaterialize.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Feb 2018"
+    },
+    {
+      "title": "Coreupgrade Backend Training",
+      "url": "http://trujillo-hackspace.herokuapp.com/",
+      "description": "Backend training for Hackspace Trujillo with NodeJS, Express, Restfull API, MongoDB, Heroku and VueJS",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "app-backend",
+          "link": "http://trujillo-hackspace.herokuapp.com/",
+          "icon": "icon-app-heroku"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/wiki",
+          "icon": "icon-tutorial"
+        },
+        {
+          "tipo": "repositorio",
+          "link": "https://github.com/NestorPlasencia/hackspace-trujillo-backend-training/",
+          "icon": "icon-github"
+        }
+      ],
+      "images": [
+        "images/portfolio/backend-training.PNG",
+        "images/portfolio/backend-training.gif"
+      ],
+      "categoria": "backend",
+      "startDate": "Nov 2017"
+    },
+    {
+      "title": "GestionShop mobile application",
+      "url": "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+      "description": "App to check the status of your contracts, the startDate of expiration, etc. Developed in React Native.",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-android-plain",
+          "name": "Android"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion-movil",
+          "link": "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
+          "icon": "icon-mobile"
+        }
+      ],
+      "images": [
+        "images/portfolio/app-gestionshop.PNG",
+        "images/portfolio/app-gestionshop.gif"
+      ],
+      "categoria": "mobile",
+      "startDate": "Apr 2017"
+    },
+    {
+      "title": "Animated hearts with JavaScript",
+      "url": "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+      "description": "Game animating HTML elements in the shape of a heart with JavaScript.",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/WRgmXj",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/corazones-animados-con-javascript/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/corazones.PNG",
+        "images/portfolio/corazones.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Feb 2017"
+    },
+    {
+      "title": "Create a musical xylophone with JavaScript",
+      "url": "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+      "description": "Creation of a xylophone and programming of a Christmas melody.",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/gLXebG",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "video",
+          "link": "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
+          "icon": "icon-videotutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/xilofono.PNG",
+        "images/portfolio/xilofono.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Dec 2016"
+    },
+    {
+      "title": "Star Wars animation with CSS3 and JavaScript",
+      "url": "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+      "description": "Star Wars animation using CSS3 animation, perspective, rotate and KeyFrames properties.",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/yVxmRv",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/animacion-de-star-wars-con-css3/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/starwars.png",
+        "images/portfolio/starwars.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Dec 2016"
+    },
+    {
+      "title": "Animated snowflake background JavaScript",
+      "url": "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+      "description": "Animated snowflake background, with the graphic tools of the HTML5 canvas element.",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/YpYJNo",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/background-animado-de-copos-de-nieve/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/copos.PNG",
+        "images/portfolio/copos.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Dec 2016"
+    },
+    {
+      "title": "Create a 3D Cube with CSS CSS3",
+      "url": "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+      "description": "3D cube using CSS3 rotate and translate properties.",
+      "technologies": [
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ],
+      "links": [
+        {
+          "tipo": "aplicacion",
+          "link": "https://codepen.io/NestorPlasencia/pen/NbWZrd",
+          "icon": "icon-app-codepen"
+        },
+        {
+          "tipo": "tutorial",
+          "link": "https://devcode.la/tutoriales/crear-un-cubo-3d-con-css/",
+          "icon": "icon-tutorial"
+        }
+      ],
+      "images": [
+        "images/portfolio/cubo3d.PNG",
+        "images/portfolio/cubo3d.gif"
+      ],
+      "categoria": "frontend",
+      "startDate": "Nov 2016"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Interbank - Labentana (Innovation Lab)",
+      "title": "New Technologies' Specialist",
+      "years": "Aug 2019 - Sep 2021",
+      "mainTech": [
+        "devicon-django-plain"
+      ],
+      "technologies": [
+        "Django",
+        "TailwindCSS",
+        "Google Cloud",
+        "MySQL",
+        "Ripple",
+        "SpingBoot",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github"
+      ]
+    },
+    {
+      "company": "Falabella.com",
+      "title": "Senior Frontend Developer",
+      "years": "Aug 2018 - Aug 2019",
+      "mainTech": [
+        "devicon-javascript-plain"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "jQuery"
+      ]
+    },
+    {
+      "company": "SoftButterfly",
+      "title": "Semi Senior Frontend Developer",
+      "years": "Jun 2018 - Aug 2018",
+      "mainTech": [
+        "devicon-vuejs-plain"
+      ],
+      "technologies": [
+        "VueJS",
+        "Django",
+        "Bulma",
+        "Gitlab"
+      ]
+    },
+    {
+      "company": "CloudWater",
+      "title": "Co-founder / IoT Developer / Frontend Developer",
+      "years": "Dec 2017 - May 2018",
+      "mainTech": [
+        "devicon-arduino-plain"
+      ],
+      "technologies": [
+        "Arduino",
+        "ESP32",
+        "ReactJS"
+      ]
+    },
+    {
+      "company": "Gestion Shop",
+      "title": "Junior Frontend Developer",
+      "years": "Jan 2017 - May 2017",
+      "mainTech": [
+        "devicon-react-original"
+      ],
+      "technologies": [
+        "ReactJS",
+        "ReactNative"
+      ]
+    },
+    {
+      "company": "DevCode.la",
+      "title": "Academic Support",
+      "years": "Jun 2016 - Jun 2017",
+      "mainTech": [
+        "devicon-javascript-plain"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "jQuery"
+      ]
+    }
+  ]
+}
