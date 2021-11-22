@@ -491,37 +491,78 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": [
-        "Angular 8/9/10"
-      ],
+      "company": "Interbank - Labentana (Innovation Lab)",
+      "title": "New Technologies' Specialist",
+      "years": "Aug 2019 - Sep 2021",
+      "mainTech": ["devicon-django-plain"],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Django",
+        "TailwindCSS",
+        "Google Cloud",
+        "MySQL",
+        "Ripple",
+        "SpingBoot",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Github"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": [
-        "Angular 7/8"
-      ],
+      "company": "Falabella.com",
+      "title": "Senior Frontend Developer",
+      "years": "Aug 2018 - Aug 2019",
+      "mainTech": ["devicon-javascript-plain"],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
         "JavaScript",
-        "DHTMLX Gantt"
+        "HTML5",
+        "CSS3",
+        "jQuery"
+      ]
+    },
+    {
+      "company": "SoftButterfly",
+      "title": "Semi Senior Frontend Developer",
+      "years": "Jun 2018 - Aug 2018",
+      "mainTech": ["devicon-vuejs-plain"],
+      "technologies": [
+        "VueJS",
+        "Django",
+        "Bulma",
+        "Gitlab"
+      ]
+    },
+    {
+      "company": "CloudWater",
+      "title": "Co-founder / IoT Developer / Frontend Developer",
+      "years": "Dec 2017 - May 2018",
+      "mainTech": ["devicon-arduino-plain"],
+      "technologies": [
+        "Arduino",
+        "ESP32",
+        "ReactJS"
+      ]
+    },
+    {
+      "company": "Gestion Shop",
+      "title": "Junior Frontend Developer",
+      "years": "Jan 2017 - May 2017",
+      "mainTech": ["devicon-react-original"],
+      "technologies": [
+        "ReactJS",
+        "ReactNative"
+      ]
+    },
+    {
+      "company": "DevCode.la",
+      "title": "Academic Support",
+      "years": "Jun 2016 - Jun 2017",
+      "mainTech": ["devicon-javascript-plain"],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "jQuery"
       ]
     }
   ]

@@ -487,35 +487,78 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
+        "company": "Interbank - Labentana (Laboratorio de innovación)",
+        "title": "Especialista en Nuevas Tecnologías",
+        "years": "Ago 2019 - Sep 2021",
+        "mainTech": ["devicon-django-plain"],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Django",
+          "TailwindCSS",
+          "Google Cloud",
+          "MySQL",
+          "Ripple",
+          "SpingBoot",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Github"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
+        "company": "Falabella.com",
+        "title": "Desarrollador Frontend Senior",
+        "years": "Ago 2018 - Ago 2019",
+        "mainTech": ["devicon-javascript-plain"],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
           "JavaScript",
-          "DHTMLX Gantt"
+          "HTML5",
+          "CSS3",
+          "jQuery"
+        ]
+      },
+      {
+        "company": "SoftButterfly",
+        "title": "Desarrollador Frontend Semi Senior",
+        "years": "Jun 2018 - Ago 2018",
+        "mainTech": ["devicon-vuejs-plain"],
+        "technologies": [
+          "VueJS",
+          "Django",
+          "Bulma",
+          "Gitlab"
+        ]
+      },
+      {
+        "company": "CloudWater",
+        "title": "Co-founder / Desarrollador IoT / Desarrollador Frontend",
+        "years": "Dic 2017 - May 2018",
+        "mainTech": ["devicon-arduino-plain"],
+        "technologies": [
+          "Arduino",
+          "ESP32",
+          "ReactJS"
+        ]
+      },
+      {
+        "company": "Desarrollador Frontend Junior",
+        "title": "Desarrollador Frontend Junior",
+        "years": "Ene 2017 - May 2017",
+        "mainTech": ["devicon-react-original"],
+        "technologies": [
+          "ReactJS",
+          "ReactNative"
+        ]
+      },
+      {
+        "company": "DevCode.la",
+        "title": "Soporte Académico",
+        "years": "Jun 2016 - Jun 2017",
+        "mainTech": ["devicon-javascript-plain"],
+        "technologies": [
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "jQuery"
         ]
       }
     ]

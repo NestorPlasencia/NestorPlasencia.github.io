@@ -58,8 +58,9 @@ class Projects extends Component {
             <div className="foto">
               <div>
                 <GreetingLottie animationPath="/lottie/build.json" />
+                <span class="project-date">Today</span>
                 <p className="project-title-settings mt-3">
-                Kepp coding
+                I'm keep coding
                 </p>
               </div>
             </div>

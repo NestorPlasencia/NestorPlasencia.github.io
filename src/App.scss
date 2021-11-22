@@ -234,7 +234,6 @@ header h1 {
 
 .experience-icon {
 	font-size: 300%;
-	margin-top: 25%;
 	text-align: center;
 }
 
@@ -264,11 +263,14 @@ header h1 {
 	padding: 0 !important;
 	margin: 0 !important;
 }
+.vertical-timeline-element-icon {
+	display: grid;
+	place-items: center;
+}
 
 @media only screen and (max-width: 1170px) {
 	.experience-icon {
-		font-size: 170%;
-		margin-top: 27%;
+		font-size: 250%;
 		text-align: center;
 	}
 }
