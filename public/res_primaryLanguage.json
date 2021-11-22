@@ -26,10 +26,9 @@
   },
   "projects": [
     {
-      "title": "Curso de programación con Arduino",
+      "title": "Programming with Arduino",
       "url": "https://www.youtube.com/watch?v=J--3hdPsRtg&list=PLvwOIHDYVU2k9bxrXb_4n0FDnP1G6NUo6",
-      "nombre": "Curso de fundamentos de Arduino",
-      "description": "Curso de electrónica básica y programación de arduino.",
+      "description": "Basic electronics and arduino programming course.",
       "technologies": [
         {
           "class": "devicon-arduino-plain",
@@ -43,16 +42,17 @@
           "icon": "icon-videotutorial"
         }
       ],
-      
-      "images":["images/portfolio/cursoArduino.png","images/portfolio/cursoArduino.gif"],
+      "images": [
+        "images/portfolio/cursoArduino.png",
+        "images/portfolio/cursoArduino.gif"
+      ],
       "categoria": "electronica",
-      "startDate": "2017/06/01"
+      "startDate": "Jun 2017"
     },
     {
-      "title": "Rompecabezas con JS, CSS3 y HTML5",
+      "title": "Puzzle with JS, CSS3 and HTML5",
       "url": "https://www.youtube.com/watch?v=dcIuh7JaxWw",
-      "nombre": "Rompecabezas con Javascript",
-      "description": "Rompecabezas de 9 piezas usando solo Javascript, CSS y HTML",
+      "description": "9-piece puzzle using only Javascript, CSS and HTML5",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -79,16 +79,17 @@
           "icon": "icon-videotutorial"
         }
       ],
-      
-      "images":["images/portfolio/pikachu.PNG","images/portfolio/pikachu.gif"],
+      "images": [
+        "images/portfolio/pikachu.PNG",
+        "images/portfolio/pikachu.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/11/21"
+      "startDate": "Nov 2016"
     },
     {
-      "title": "Directorio de contactos con NodeJS",
+      "title": "Contact directory with NodeJS",
       "url": "https://github.com/NestorPlasencia/CUP-2018-Backend-Semana-2",
-      "nombre": "Directorio de contactos",
-      "description": "Directorio capaz de añadir, leer, listar y borrar un contacto y su respectivo número de teléfono",
+      "description": "Directory able to add, read, list and delete a contact and its respective phone number.",
       "technologies": [
         {
           "class": "devicon-nodejs-plain",
@@ -107,16 +108,17 @@
           "icon": "icon-article"
         }
       ],
-      
-      "images":["images/portfolio/directorio.PNG","images/portfolio/directorio.gif"],
+      "images": [
+        "images/portfolio/directorio.PNG",
+        "images/portfolio/directorio.gif"
+      ],
       "categoria": "backend",
-      "startDate": "2018/02/23"
+      "startDate": "Feb 2018"
     },
     {
-      "title": "Crea tus propios Glyphicons",
+      "title": "Create your own Glyphicons",
       "url": "https://devcode.la/tutoriales/crea-tus-propios-glyphicons/",
-      "nombre": "Crea tus propios Glyphicons",
-      "description": "Crear tus propios GLYPHICONS, mejorar las interfaces y usabilidad de tus sitios web dejando de usar imágenes para los íconos.",
+      "description": "Create your own GLYPHICONS, improve the interfaces and usability of your web sites and stop using images for icons.",
       "technologies": [
         {
           "class": "devicon-illustrator-plain",
@@ -130,15 +132,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      "images":["images/portfolio/glyphicons.PNG","images/portfolio/glyphicons.gif"],
+      "images": [
+        "images/portfolio/glyphicons.PNG",
+        "images/portfolio/glyphicons.gif"
+      ],
       "categoria": "diseño",
-      "startDate": "2016/11/30"
+      "startDate": "Nov 2016"
     },
     {
-      "title": "Crear un rompecabezas con Illustrator",
+      "title": "Creating a jigsaw puzzle with Illustrator",
       "url": "https://devcode.la/tutoriales/crear-un-rompecabezas-con-illustrator/",
-      "nombre": "Crear un rompecabezas con Illustrator",
-      "description": "Tutorial para crear piezas de rompecabezas en illustrator, a partir de una imagen.",
+      "description": "Tutorial to create puzzle pieces in illustrator, from an image.",
       "technologies": [
         {
           "class": "devicon-illustrator-plain",
@@ -152,15 +156,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      "images":["images/portfolio/piezas.png","images/portfolio/piezas.gif"],
+      "images": [
+        "images/portfolio/piezas.png",
+        "images/portfolio/piezas.gif"
+      ],
       "categoria": "diseño",
-      "startDate": "2016/11/30"
+      "startDate": "Nov 2016"
     },
     {
-      "title": "Animación con Canvas de HTML5",
+      "title": "Animation with HTML5 Canvas",
       "url": "https://codepen.io/NestorPlasencia/pen/YWZWqq",
-      "nombre": "Animación con canvas",
-      "description": "Animación de ojos que siguen la posición del mouse.",
+      "description": "Animation of eyes following the mouse position.",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -179,15 +185,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      "images":["images/portfolio/ojitos.PNG","images/portfolio/ojitos.gif"],
+      "images": [
+        "images/portfolio/ojitos.PNG",
+        "images/portfolio/ojitos.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/11/05"
+      "startDate": "Nov 2016"
     },
     {
-      "title": "Efectos Fantasmales con jQuery",
+      "title": "Ghostly effects with jQuery",
       "url": "https://codepen.io/NestorPlasencia/pen/LRaaPz",
-      "nombre": "Efectos Fantasmales con jQuery",
-      "description": "Uso de fadeIn y fadeOut de jQuery para dar efectos a un fantasma creado con CSS.",
+      "description": "Using jQuery's fadeIn and fadeOut to give effects to a ghost created with CSS.",
       "technologies": [
         {
           "class": "devicon-jquery-plain",
@@ -214,15 +222,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      "images":["images/portfolio/fantasma.png","images/portfolio/fantasma.gif"],
+      "images": [
+        "images/portfolio/fantasma.png",
+        "images/portfolio/fantasma.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/10/25"
+      "startDate": "Oct 2016"
     },
     {
-      "title": "Maquetación de un blog con Materialize",
+      "title": "Blog layout with Materialize",
       "url": "https://nestorplasencia.github.io/CUP-2018-Frontend-Semana-3/",
-      "nombre": "Blog con Materialize",
-      "description": "Maquetación de un blog para el CoreUpgrade-Lima 2018",
+      "description": "Layout of a blog for CoreUpgrade-Lima 2018",
       "technologies": [
         "icon-materialize",
         {
@@ -251,15 +261,17 @@
           "icon": "icon-github"
         }
       ],
-      "images":["images/portfolio/blogMaterialize.PNG","images/portfolio/blogMaterialize.gif"],
+      "images": [
+        "images/portfolio/blogMaterialize.PNG",
+        "images/portfolio/blogMaterialize.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2018/02/23"
+      "startDate": "Feb 2018"
     },
     {
-      "title": "Entrenamiento en <br> Backend de Coreupgrade",
+      "title": "Coreupgrade Backend Training",
       "url": "http://trujillo-hackspace.herokuapp.com/",
-      "nombre": "Training Backend <br> HackSpace Trujillo",
-      "description": "Entrenamiento en backend para Hackspace Trujillo con NodeJS, Express, API Restfull, MongoDB, Heroku y VueJS",
+      "description": "Backend training for Hackspace Trujillo with NodeJS, Express, Restfull API, MongoDB, Heroku and VueJS",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -295,16 +307,17 @@
           "icon": "icon-github"
         }
       ],
-      
-      "images":["images/portfolio/backend-training.PNG","images/portfolio/backend-training.gif"],
+      "images": [
+        "images/portfolio/backend-training.PNG",
+        "images/portfolio/backend-training.gif"
+      ],
       "categoria": "backend",
-      "startDate": "2017/11/24"
+      "startDate": "Nov 2017"
     },
     {
-      "title": "Aplicación móvil GestionShop",
+      "title": "GestionShop mobile application",
       "url": "https://play.google.com/store/apps/details?id=com.gestionpawnapp",
-      "nombre": "App Android GestionShop",
-      "description": "App para consultar el estado de tus contratos, la startDate de vencimiento, etc. Desarrollada en React Native.",
+      "description": "App to check the status of your contracts, the startDate of expiration, etc. Developed in React Native.",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -322,16 +335,17 @@
           "icon": "icon-mobile"
         }
       ],
-      
-      "images":["images/portfolio/app-gestionshop.PNG","images/portfolio/app-gestionshop.gif"],
+      "images": [
+        "images/portfolio/app-gestionshop.PNG",
+        "images/portfolio/app-gestionshop.gif"
+      ],
       "categoria": "mobile",
-      "startDate": "2017/04/01"
+      "startDate": "Apr 2017"
     },
     {
-      "title": "Corazones animados con JavaScript",
+      "title": "Animated hearts with JavaScript",
       "url": "https://codepen.io/NestorPlasencia/pen/WRgmXj",
-      "nombre": "Pinchar corazones",
-      "description": "Juego animando de elementos HTML en forma de corazón con JavaScript.",
+      "description": "Game animating HTML elements in the shape of a heart with JavaScript.",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -354,16 +368,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      
-      "images":["images/portfolio/corazones.PNG","images/portfolio/corazones.gif"],
+      "images": [
+        "images/portfolio/corazones.PNG",
+        "images/portfolio/corazones.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2017/02/08"
+      "startDate": "Feb 2017"
     },
     {
-      "title": "Crear un xilófono musical con JavaScript",
+      "title": "Create a musical xylophone with JavaScript",
       "url": "https://www.youtube.com/watch?v=EtuRJB6Gyyk",
-      "nombre": "Xilofono musical",
-      "description": "Creación de un xilófono y programación de melodía navideña.",
+      "description": "Creation of a xylophone and programming of a Christmas melody.",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -390,16 +405,17 @@
           "icon": "icon-videotutorial"
         }
       ],
-      
-      "images":["images/portfolio/xilofono.PNG","images/portfolio/xilofono.gif"],
+      "images": [
+        "images/portfolio/xilofono.PNG",
+        "images/portfolio/xilofono.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/12/24"
+      "startDate": "Dec 2016"
     },
     {
-      "title": "Animación de Star Wars con CSS3 y JavaScript ",
+      "title": "Star Wars animation with CSS3 and JavaScript",
       "url": "https://codepen.io/NestorPlasencia/pen/yVxmRv",
-      "nombre": "Animación de <br> Star Wars",
-      "description": "Animación de Star Wars usando las propiedades animation, perspective, rotate y los KeyFrames de CSS3.",
+      "description": "Star Wars animation using CSS3 animation, perspective, rotate and KeyFrames properties.",
       "technologies": [
         {
           "class": "devicon-html5-plain",
@@ -426,16 +442,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      
-      "images":["images/portfolio/starwars.png","images/portfolio/starwars.gif"],
+      "images": [
+        "images/portfolio/starwars.png",
+        "images/portfolio/starwars.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/12/13"
+      "startDate": "Dec 2016"
     },
     {
-      "title": "Background animado de copos de nieve JavaScript",
+      "title": "Animated snowflake background JavaScript",
       "url": "https://codepen.io/NestorPlasencia/pen/YpYJNo",
-      "nombre": "Copos de nieve",
-      "description": "Background animado de copos de nieve, con las herramientas gráficas del elemento canvas de HTML5.",
+      "description": "Animated snowflake background, with the graphic tools of the HTML5 canvas element.",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
@@ -454,16 +471,17 @@
           "icon": "icon-tutorial"
         }
       ],
-      
-      "images":["images/portfolio/copos.PNG","images/portfolio/copos.gif"],
+      "images": [
+        "images/portfolio/copos.PNG",
+        "images/portfolio/copos.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/12/02"
+      "startDate": "Dec 2016"
     },
     {
-      "title": "Crear un Cubo 3D con CSS CSS3",
+      "title": "Create a 3D Cube with CSS CSS3",
       "url": "https://codepen.io/NestorPlasencia/pen/NbWZrd",
-      "nombre": "Cubo 3D con CSS",
-      "description": "Cubo 3D usando las propiedades rotate y translate de CSS3.",
+      "description": "3D cube using CSS3 rotate and translate properties.",
       "technologies": [
         {
           "class": "devicon-css3-plain",
@@ -482,19 +500,22 @@
           "icon": "icon-tutorial"
         }
       ],
-      
-      "images":["images/portfolio/cubo3d.PNG","images/portfolio/cubo3d.gif"],
+      "images": [
+        "images/portfolio/cubo3d.PNG",
+        "images/portfolio/cubo3d.gif"
+      ],
       "categoria": "frontend",
-      "startDate": "2016/11/09"
+      "startDate": "Nov 2016"
     }
-    
   ],
   "experience": [
     {
       "company": "Interbank - Labentana (Innovation Lab)",
       "title": "New Technologies' Specialist",
       "years": "Aug 2019 - Sep 2021",
-      "mainTech": ["devicon-django-plain"],
+      "mainTech": [
+        "devicon-django-plain"
+      ],
       "technologies": [
         "Django",
         "TailwindCSS",
@@ -512,7 +533,9 @@
       "company": "Falabella.com",
       "title": "Senior Frontend Developer",
       "years": "Aug 2018 - Aug 2019",
-      "mainTech": ["devicon-javascript-plain"],
+      "mainTech": [
+        "devicon-javascript-plain"
+      ],
       "technologies": [
         "JavaScript",
         "HTML5",
@@ -524,7 +547,9 @@
       "company": "SoftButterfly",
       "title": "Semi Senior Frontend Developer",
       "years": "Jun 2018 - Aug 2018",
-      "mainTech": ["devicon-vuejs-plain"],
+      "mainTech": [
+        "devicon-vuejs-plain"
+      ],
       "technologies": [
         "VueJS",
         "Django",
@@ -536,7 +561,9 @@
       "company": "CloudWater",
       "title": "Co-founder / IoT Developer / Frontend Developer",
       "years": "Dec 2017 - May 2018",
-      "mainTech": ["devicon-arduino-plain"],
+      "mainTech": [
+        "devicon-arduino-plain"
+      ],
       "technologies": [
         "Arduino",
         "ESP32",
@@ -547,7 +574,9 @@
       "company": "Gestion Shop",
       "title": "Junior Frontend Developer",
       "years": "Jan 2017 - May 2017",
-      "mainTech": ["devicon-react-original"],
+      "mainTech": [
+        "devicon-react-original"
+      ],
       "technologies": [
         "ReactJS",
         "ReactNative"
@@ -557,7 +586,9 @@
       "company": "DevCode.la",
       "title": "Academic Support",
       "years": "Jun 2016 - Jun 2017",
-      "mainTech": ["devicon-javascript-plain"],
+      "mainTech": [
+        "devicon-javascript-plain"
+      ],
       "technologies": [
         "JavaScript",
         "HTML5",
